@@ -1,0 +1,59 @@
+"CARRIER GLOBAL CORPORATION (CARR), US$ millions unless stated; fiscal years as labelled by the company; source: SEC EDGAR XBRL (Form 10-K), CIK 0001783180"
+Item,FY2020,FY2021,FY2022,FY2023,FY2024,FY2025
+Fiscal year end,2020-12-31,2021-12-31,2022-12-31,2023-12-31,2024-12-31,2025-12-31
+Revenue,17456.0,20613.0,17288.0,18951.0,22486.0,21747.0
+Gross profit,,,4297.0,5162.0,5981.0,
+Research and development,419.0,503.0,416.0,493.0,686.0,625.0
+Operating income,3083.0,2645.0,3984.0,2160.0,2646.0,2172.0
+Interest expense,298.0,319.0,238.0,306.0,580.0,458.0
+Pretax income,2855.0,2400.0,3823.0,1999.0,2274.0,1798.0
+Income tax,849.0,699.0,616.0,521.0,1062.0,240.0
+Net income,2006.0,1701.0,3534.0,1349.0,5604.0,1484.0
+Diluted EPS,2.25,1.87,4.1,1.58,6.15,1.72
+Diluted shares,880.2,890.3,861.2,853.0,911.7,862.4
+Depreciation and amortization,336.0,338.0,328.0,491.0,1232.0,1274.0
+Cash from operations,1692.0,2237.0,1743.0,2607.0,563.0,2513.0
+Capital expenditure,312.0,344.0,317.0,439.0,519.0,392.0
+Share buybacks,0.0,527.0,1380.0,62.0,1944.0,2892.0
+Dividends paid,138.0,417.0,509.0,620.0,670.0,772.0
+Acquisitions,0.0,366.0,506.0,84.0,10890.0,107.0
+Stock-based compensation,77.0,92.0,77.0,81.0,98.0,74.0
+Cash and short-term investments,3115.0,2987.0,3298.0,9852.0,3969.0,1555.0
+Total debt,10227.0,9696.0,8842.0,14293.0,12278.0,11798.0
+Finance lease liabilities,0.0,0.0,0.0,0.0,0.0,0.0
+debt_and_leases,10227.0,9696.0,8842.0,14293.0,12278.0,11798.0
+Current assets,8524.0,11407.0,9879.0,19576.0,9891.0,8533.0
+Current liabilities,5110.0,6627.0,6032.0,6981.0,7892.0,7114.0
+Inventory,1629.0,1970.0,2640.0,1823.0,2299.0,2483.0
+Total assets,25093.0,26172.0,26086.0,32822.0,37403.0,37190.0
+Total liabilities,18515.0,19078.0,18010.0,23817.0,23008.0,23062.0
+Shareholders' equity,6578.0,7094.0,8076.0,9005.0,14395.0,14128.0
+"Property and equipment, net",1810.0,1826.0,2241.0,2160.0,2999.0,3165.0
+Gross margin (%),,,24.86,27.24,26.6,
+Operating margin (%),17.66,12.83,23.04,11.4,11.77,9.99
+EBITDA margin (%),19.59,14.47,24.94,13.99,17.25,15.85
+Net margin (%),11.49,8.25,20.44,7.12,24.92,6.82
+Free cash flow margin (%),7.91,9.18,8.25,11.44,0.2,9.75
+Return on invested capital (%),,13.64,24.37,11.8,7.8,8.0
+Return on capital employed (%),,13.38,20.12,9.41,9.56,7.29
+Return on equity (%),,24.88,46.59,15.8,47.9,10.41
+Return on assets (%),,6.64,13.53,4.58,15.96,3.98
+Revenue growth (%),,18.09,-16.13,9.62,18.65,-3.29
+Net income growth (%),,-15.2,107.76,-61.83,315.42,-73.52
+Diluted EPS growth (%),,-16.89,119.25,-61.46,289.24,-72.03
+Free cash flow growth (%),,37.17,-24.67,52.03,-97.97,4720.45
+Net debt to EBITDA (x),2.08,2.25,1.29,1.68,2.14,2.97
+Debt to equity (x),1.55,1.37,1.09,1.59,0.85,0.84
+Interest coverage (x),10.35,8.29,16.74,7.06,4.56,4.74
+Current ratio (x),1.67,1.72,1.64,2.8,1.25,1.2
+Quick ratio (x),1.35,1.42,1.2,2.54,0.96,0.85
+Free cash flow (US$m),1380.0,1893.0,1426.0,2168.0,44.0,2121.0
+Capital expenditure to revenue (%),1.79,1.67,1.83,2.32,2.31,1.8
+Buybacks plus dividends (US$m),138.0,944.0,1889.0,682.0,2614.0,3664.0
+Shareholder returns to free cash flow (%),10.0,49.87,132.47,31.46,5940.91,172.75
+Stock-based compensation to revenue (%),0.44,0.45,0.45,0.43,0.44,0.34
+Change in diluted shares (%),,1.15,-3.27,-0.95,6.88,-5.41
+Piotroski F-score (score),,,5.0,7.0,4.0,5.0
+Piotroski tests run (score),,,8,9,9,8
+Altman Z'' (score),2.3,2.62,3.2,4.01,2.48,2.35
+Accruals ratio (%),,-2.09,6.85,-4.27,14.36,-2.76

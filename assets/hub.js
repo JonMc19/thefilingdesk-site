@@ -1,0 +1,183 @@
+/* The Filing Desk: companies hub. Sector filter, company cards, a ranking chart and a scatter chart,
+   all drawn from window.HUB. The cards are plain links in the HTML; script only filters them. */
+(function () {
+  const ALL = window.HUB, base = document.currentScript.src.replace(/assets\/hub\.js.*$/, "");
+  const SHOWN = 9;
+  const METRICS = {
+    revenue: {label: "Revenue", money: true},
+    revenue_growth: {label: "Revenue growth", pct: true},
+    operating_margin: {label: "Operating margin", pct: true},
+    net_margin: {label: "Net margin", pct: true},
+    fcf_margin: {label: "Free cash flow margin", pct: true},
+    roic: {label: "Return on invested capital", pct: true},
+    roe: {label: "Return on equity", pct: true},
+    shareholder_returns: {label: "Dividends and buybacks", money: true},
+    net_debt_to_ebitda: {label: "Net debt to EBITDA", x: true},
+  };
+  const val = (c, k) => k === "revenue" ? c.rev : c.m[k];
+  const minus = s => String(s).replace(/^-/, "−");
+  const fmt = (k, v) => {
+    if (v == null) return "—";
+    const m = METRICS[k];
+    if (m.money) return minus((Math.abs(v) >= 1000 ? "$" + (v / 1000).toFixed(1) + "B" : "$" + v.toFixed(0) + "M").replace("$-", "-$"));
+    return minus(v.toFixed(1)) + (m.pct ? "%" : "x");
+  };
+  const esc = s => s.replace(/[&<>"]/g, ch => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[ch]));
+  const link = c => base + "companies/" + c.t.toLowerCase() + "/";
+  let sector = "", expanded = false, rankKey = "revenue_growth", rankDir = "high", xKey = "revenue_growth", yKey = "operating_margin";
+  const inSector = c => !sector || c.s === sector;
+
+  const tip = document.createElement("div");
+  tip.className = "tip"; tip.hidden = true;
+  document.body.appendChild(tip);
+  function showTip(e, html) {
+    tip.innerHTML = html; tip.hidden = false;
+    const w = tip.offsetWidth, h = tip.offsetHeight;
+    let x = e.clientX + 14, y = e.clientY - h - 10;
+    if (x + w > innerWidth - 8) x = e.clientX - w - 14;
+    if (y < 8) y = e.clientY + 16;
+    tip.style.left = Math.max(8, x) + "px"; tip.style.top = y + "px";
+  }
+  const hideTip = () => { tip.hidden = true; };
+
+  /* ----------------------------------------------------------- cards */
+  const cards = [...document.querySelectorAll(".card")], more = document.getElementById("more");
+  function filterCards() {
+    const visible = cards.filter(a => !sector || a.dataset.sector === sector);
+    cards.forEach(a => { a.hidden = true; });
+    visible.forEach((a, i) => { a.hidden = !sector && !expanded && i >= SHOWN; });
+    more.hidden = !!sector;
+    more.textContent = expanded ? "Show fewer" : `Show all ${cards.length} companies`;
+  }
+  more.addEventListener("click", () => { expanded = !expanded; filterCards(); });
+
+  document.querySelectorAll(".chips button").forEach(b => b.addEventListener("click", () => {
+    sector = b.dataset.sector;
+    document.querySelectorAll(".chips button").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
+    filterCards(); drawRank(); drawScatter();
+  }));
+
+  /* ----------------------------------------------------------- rankings */
+  function niceStep(span) {
+    const raw = Math.max(span, 1e-9) / 4, mag = Math.pow(10, Math.floor(Math.log10(raw)));
+    return [1, 2, 2.5, 5, 10].map(m => m * mag).find(s => s >= raw);
+  }
+  const rankHost = document.getElementById("rank");
+  function drawRank() {
+    const rows = ALL.filter(c => inSector(c) && val(c, rankKey) != null)
+      .sort((a, b) => (val(b, rankKey) - val(a, rankKey)) * (rankDir === "high" ? 1 : -1)).slice(0, 10);
+    const W = Math.max(300, Math.min(1160, rankHost.clientWidth || 860)), rowH = 30, T = 6;
+    const L = W < 480 ? 104 : 150, R = 64, H = T + rows.length * rowH + 4;
+    const vals = rows.map(c => val(c, rankKey));
+    const lo = Math.min(0, ...vals), hi = Math.max(0, ...vals);
+    const x = v => L + (v - lo) / ((hi - lo) || 1) * (W - L - R);
+    let s = `<line class="zero" x1="${x(0)}" x2="${x(0)}" y1="0" y2="${H}"/>`;
+    rows.forEach((c, i) => {
+      const v = val(c, rankKey), y = T + i * rowH, x0 = x(0), x1 = x(v), w = Math.abs(x1 - x0), r = Math.min(4, w / 2);
+      const left = Math.min(x0, x1);
+      // rounded only at the data end, square at the baseline
+      const d = v >= 0
+        ? `M${left},${y + 5}H${left + w - r}Q${left + w},${y + 5} ${left + w},${y + 5 + r}V${y + 21 - r}Q${left + w},${y + 21} ${left + w - r},${y + 21}H${left}Z`
+        : `M${x0},${y + 5}H${left + r}Q${left},${y + 5} ${left},${y + 5 + r}V${y + 21 - r}Q${left},${y + 21} ${left + r},${y + 21}H${x0}Z`;
+      const name = W < 480 && c.n.length > 13 ? c.n.slice(0, 12) + "…" : c.n;
+      const vx = v >= 0 ? x1 + 6 : Math.max(x1 - 6, L + 2);
+      s += `<g class="rank-row" data-i="${i}"><rect x="0" y="${y}" width="${W}" height="${rowH}" fill="transparent"/>`
+        + `<text class="name" x="${L - 10}" y="${y + 17}" text-anchor="end">${esc(name)}</text>`
+        + `<path class="rank-bar" d="${d}" fill="var(--s1)"/>`
+        + `<text class="val" x="${vx}" y="${y + 17}" text-anchor="${v >= 0 ? "start" : "end"}">${fmt(rankKey, v)}</text></g>`;
+    });
+    rankHost.innerHTML = rows.length
+      ? `<svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="Bar chart: ${rankDir === "high" ? "highest" : "lowest"} ${METRICS[rankKey].label.toLowerCase()}${sector ? " in " + sector : ""}, latest fiscal year">${s}</svg>`
+      : `<p class="src">No company in this group reports this figure.</p>`;
+    rankHost.querySelectorAll(".rank-row").forEach(g => {
+      const c = rows[+g.dataset.i];
+      g.addEventListener("click", () => { location.href = link(c); });
+      g.addEventListener("pointermove", e => showTip(e, `<b>${esc(c.n)}</b><div class="row"><span>${METRICS[rankKey].label}</span><span>${fmt(rankKey, val(c, rankKey))}</span></div><div class="row"><span>Fiscal year</span><span>${c.fy}</span></div>`));
+      g.addEventListener("pointerleave", hideTip);
+    });
+  }
+  document.querySelectorAll("#rank-metric button").forEach(b => b.addEventListener("click", () => {
+    rankKey = b.dataset.k;
+    document.querySelectorAll("#rank-metric button").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
+    drawRank();
+  }));
+  document.querySelectorAll("#rank-dir button").forEach(b => b.addEventListener("click", () => {
+    rankDir = b.dataset.k;
+    document.querySelectorAll("#rank-dir button").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
+    drawRank();
+  }));
+
+  /* ----------------------------------------------------------- scatter */
+  const scHost = document.getElementById("scatter");
+  function domain(vals) {
+    // 5th to 95th percentile, padded, so one extreme company doesn't flatten the rest
+    const v = [...vals].sort((a, b) => a - b), q = p => v[Math.min(v.length - 1, Math.max(0, Math.round(p * (v.length - 1))))];
+    let lo = q(0.04), hi = q(0.96);
+    const pad = (hi - lo || Math.abs(hi) || 1) * 0.12;
+    lo -= pad; hi += pad;
+    if (lo > 0 && lo < (hi - lo) * 0.6) lo = 0;
+    if (hi < 0 && -hi < (hi - lo) * 0.6) hi = 0;
+    const step = niceStep(hi - lo);
+    return {lo: Math.floor(lo / step) * step, hi: Math.ceil(hi / step) * step, step};
+  }
+  function drawScatter() {
+    const pts = ALL.filter(c => val(c, xKey) != null && val(c, yKey) != null);
+    const W = Math.max(300, Math.min(1160, scHost.clientWidth || 860)), H = W < 480 ? 300 : 380;
+    const L = 46, R = 14, T = 14, B = 38;
+    if (pts.length < 3) { scHost.innerHTML = `<p class="src">Too few companies report both figures.</p>`; return; }
+    const dx = domain(pts.map(c => val(c, xKey))), dy = domain(pts.map(c => val(c, yKey)));
+    const X = v => L + (Math.min(Math.max(v, dx.lo), dx.hi) - dx.lo) / (dx.hi - dx.lo) * (W - L - R);
+    const Y = v => T + (1 - (Math.min(Math.max(v, dy.lo), dy.hi) - dy.lo) / (dy.hi - dy.lo)) * (H - T - B);
+    const maxRev = Math.max(...pts.map(c => c.rev || 0));
+    const rad = c => 4 + 9 * Math.sqrt((c.rev || 0) / maxRev);
+    const tick = (k, v) => minus(+v.toFixed(dx.step < 1 || dy.step < 1 ? 1 : 0)) + (METRICS[k].pct ? "%" : METRICS[k].x ? "x" : "");
+    let s = "";
+    for (let k = Math.round(dy.lo / dy.step); k <= Math.round(dy.hi / dy.step); k++) {
+      const v = +(k * dy.step).toPrecision(12);
+      s += `<line class="${v === 0 ? "base" : "grid"}" x1="${L}" x2="${W - R}" y1="${Y(v)}" y2="${Y(v)}"/><text x="${L - 8}" y="${Y(v) + 4}" text-anchor="end">${tick(yKey, v)}</text>`;
+    }
+    for (let k = Math.round(dx.lo / dx.step); k <= Math.round(dx.hi / dx.step); k++) {
+      const v = +(k * dx.step).toPrecision(12);
+      s += `<line class="${v === 0 ? "base" : "grid"}" x1="${X(v)}" x2="${X(v)}" y1="${T}" y2="${H - B}"/><text x="${X(v)}" y="${H - B + 16}" text-anchor="middle">${tick(xKey, v)}</text>`;
+    }
+    s += `<text x="${W - R}" y="${H - 4}" text-anchor="end">${METRICS[xKey].label} →</text>`;
+    s += `<text x="${L + 4}" y="${T + 10}">↑ ${METRICS[yKey].label}</text>`;
+    // context first (other sectors, grey), then the highlighted group on top, biggest first
+    const order = [...pts].sort((a, b) => (inSector(a) - inSector(b)) || (b.rev - a.rev));
+    order.forEach(c => {
+      const vx = val(c, xKey), vy = val(c, yKey);
+      const off = vx < dx.lo || vx > dx.hi || vy < dy.lo || vy > dy.hi;
+      const on = inSector(c);
+      s += `<circle class="dot${on ? "" : " off"}" data-t="${c.t}" cx="${X(vx)}" cy="${Y(vy)}" r="${rad(c)}" fill="${on ? (off ? "var(--sheet)" : "var(--s1)") : ""}"${off && on ? ` style="stroke:var(--s1);stroke-width:2"` : ""}/>`;
+    });
+    // direct labels for the largest highlighted companies, skipping any that would collide
+    const placed = [];
+    pts.filter(inSector).sort((a, b) => b.rev - a.rev).slice(0, sector ? 9 : 10).forEach(c => {
+      const px = X(val(c, xKey)) + rad(c) + 3, py = Y(val(c, yKey)) + 4;
+      if (px > W - 40 || placed.some(([a, b]) => Math.abs(a - px) < 44 && Math.abs(b - py) < 13)) return;
+      placed.push([px, py]);
+      s += `<text class="lab" x="${px}" y="${py}" pointer-events="none">${c.t}</text>`;
+    });
+    scHost.innerHTML = `<svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="Scatter chart: ${METRICS[xKey].label} against ${METRICS[yKey].label}, one dot per company, sized by revenue">${s}</svg>`;
+    scHost.querySelectorAll(".dot").forEach(d => {
+      const c = ALL.find(x => x.t === d.dataset.t);
+      d.addEventListener("click", () => { location.href = link(c); });
+      d.addEventListener("pointermove", e => showTip(e, `<b>${esc(c.n)} · ${c.t}</b>`
+        + `<div class="row"><span>${METRICS[xKey].label}</span><span>${fmt(xKey, val(c, xKey))}</span></div>`
+        + `<div class="row"><span>${METRICS[yKey].label}</span><span>${fmt(yKey, val(c, yKey))}</span></div>`
+        + `<div class="row"><span>Revenue, FY${String(c.fy).slice(2)}</span><span>${fmt("revenue", c.rev)}</span></div>`));
+      d.addEventListener("pointerleave", hideTip);
+    });
+  }
+  const selX = document.getElementById("sc-x"), selY = document.getElementById("sc-y");
+  selX.value = xKey; selY.value = yKey;
+  selX.addEventListener("change", () => { xKey = selX.value; drawScatter(); });
+  selY.addEventListener("change", () => { yKey = selY.value; drawScatter(); });
+
+  filterCards(); drawRank(); drawScatter();
+  let w = innerWidth, t;
+  addEventListener("resize", () => {
+    clearTimeout(t);
+    t = setTimeout(() => { if (innerWidth !== w) { w = innerWidth; hideTip(); drawRank(); drawScatter(); } }, 150);
+  });
+})();
