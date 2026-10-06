@@ -289,16 +289,27 @@ td.fail { color: var(--muted); }
 .wk-tile .k { font-size: 12px; letter-spacing: 0.02em; color: color-mix(in srgb, var(--sheet) 70%, var(--ink)); }
 .wk-tile .v { font-size: clamp(26px, 3.4vw, 34px); font-weight: 800; letter-spacing: -0.02em; margin-top: 4px; font-variant-numeric: tabular-nums; }
 .wk-tile .d { font-size: 12.5px; margin-top: 2px; color: color-mix(in srgb, var(--sheet) 70%, var(--ink)); }
-.wk-body { padding-block: 8px 0; }
-.wk-sec { margin-top: 44px; }
-.wk-sec > h2 { display: flex; align-items: baseline; gap: 12px; font-size: clamp(24px, 3vw, 30px); margin: 0 0 6px; }
-.wk-sec > h2 .n { font-family: var(--mono); font-size: 13px; font-weight: 500; color: var(--accent); }
-.wk-sec .lede p { font-size: 17.5px; }
-.wk-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: 16px; margin-top: 14px; }
-.wk-panel { background: var(--sheet); border: 1px solid var(--rule); border-radius: 8px; padding: 16px 18px; }
-.wk-panel h3 { font-family: var(--sans); font-size: 14.5px; font-weight: 700; margin: 0 0 2px; }
-.wk-panel .n { font-family: var(--sans); font-size: 12.5px; color: var(--muted); margin: 0 0 10px; }
-.wk-panel .empty { font-family: var(--sans); font-size: 14px; color: var(--muted); }
+.wk-hero .byline { font-family: var(--sans); font-size: 13px; color: color-mix(in srgb, var(--sheet) 65%, var(--ink)); margin: 18px 0 0; }
+.wk-story { max-width: 720px; margin: 0 auto; padding-block: clamp(28px, 5vw, 48px) 8px; }
+.wk-story p, .wk-story li { font-size: clamp(17.5px, 2vw, 19.5px); line-height: 1.65; }
+.wk-story > p:first-child::first-letter { float: left; font-size: 3.5em; line-height: 0.85; font-weight: 800; margin: 7px 10px 0 0; color: var(--accent); }
+.wk-story h2 { font-size: clamp(22px, 3vw, 28px); line-height: 1.2; margin: 44px 0 12px; }
+.wk-story h3 { font-family: var(--sans); font-size: 17px; margin: 28px 0 8px; }
+.wk-story blockquote { margin: 28px 0; padding: 2px 0 2px 20px; border-left: 3px solid var(--accent); font-size: clamp(19px, 2.4vw, 23px); line-height: 1.45; font-style: italic; }
+.wk-story blockquote p { font-size: inherit; line-height: inherit; margin: 0 0 8px; }
+.wk-fig { background: var(--sheet); border: 1px solid var(--rule); border-radius: 8px; padding: 16px 18px 12px; margin: 32px 0; }
+.wk-fig figcaption .t { font-size: 15.5px; font-weight: 700; }
+.wk-fig .empty { font-family: var(--sans); font-size: 14px; color: var(--muted); }
+.wk-fig .themes, .wk-fig .earn-cards { margin-top: 6px; }
+.wk-also { background: var(--ink); color: var(--sheet); padding-block: 34px 38px; margin-top: 48px; }
+.wk-also h2 { font-family: var(--sans); font-size: 12px; font-weight: 600; letter-spacing: 0.09em; text-transform: uppercase; color: var(--s3); margin: 0; }
+.wk-also .wk-tiles { margin-top: 16px; }
+.wk-also-list { list-style: none; padding: 0; margin: 20px 0 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 12px 24px; font-family: var(--sans); font-size: 14.5px; line-height: 1.45; }
+.wk-also-list .k { display: block; font-size: 12px; color: color-mix(in srgb, var(--sheet) 65%, var(--ink)); margin-bottom: 2px; }
+.wk-also-list a { color: var(--sheet); }
+.wk-end { max-width: 752px; }
+.wk-sources ol { font-family: var(--sans); font-size: 14px; line-height: 1.55; color: var(--ink-2); padding-left: 20px; }
+.wk-sources li { margin-bottom: 6px; overflow-wrap: anywhere; }
 .chart .bar-label { fill: var(--ink); font-size: 12px; font-weight: 600; }
 .chart .bar-sub { fill: var(--muted); font-size: 11px; }
 .chart .bar-val { fill: var(--ink-2); font-size: 12px; font-weight: 700; }
