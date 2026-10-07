@@ -9,7 +9,7 @@
     operating_margin: {label: "Operating margin", pct: true},
     net_margin: {label: "Net margin", pct: true},
     fcf_margin: {label: "Free cash flow margin", pct: true},
-    roic: {label: "Return on invested capital", pct: true},
+    roic: {label: "Return on capital", pct: true},
     roe: {label: "Return on equity", pct: true},
     shareholder_returns: {label: "Dividends and buybacks", money: true},
     net_debt_to_ebitda: {label: "Net debt to EBITDA", x: true},

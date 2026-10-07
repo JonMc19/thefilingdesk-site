@@ -82,8 +82,8 @@
 
     if (C.profile === "bank") {
       lines(A, "c-returns", [
-        line("roe", "ROE", "var(--s1)", A.M.roe),
-        line("rote", "ROTE", "var(--s2)", A.M.rote),
+        line("roe", "On equity", "var(--s1)", A.M.roe),
+        line("rote", "On tangible equity", "var(--s2)", A.M.rote),
       ], {
         aria: "Line chart: return on equity and return on tangible common equity by fiscal year",
         rows: i => [["var(--s1)", "Return on equity", pctf(A.M.roe[i])], ["var(--s2)", "Return on tangible equity", pctf(A.M.rote[i])]],
@@ -112,11 +112,11 @@
         ],
       });
       lines(A, "c-returns", [
-        line("roic", "ROIC", "var(--s1)", A.M.roic),
-        line("roe", "ROE", "var(--s2)", A.M.roe),
+        line("roic", "On capital", "var(--s1)", A.M.roic),
+        line("roe", "On equity", "var(--s2)", A.M.roe),
       ], {
-        aria: "Line chart: return on invested capital and return on equity by fiscal year",
-        rows: i => [["var(--s1)", "Return on invested capital", pctf(A.M.roic[i])], ["var(--s2)", "Return on equity", pctf(A.M.roe[i])]],
+        aria: "Line chart: return on capital and return on equity by fiscal year",
+        rows: i => [["var(--s1)", "Return on capital", pctf(A.M.roic[i])], ["var(--s2)", "Return on equity", pctf(A.M.roe[i])]],
       });
       columns(P, "c-fcf", bnv(M.fcf), {
         aria: `Column chart: free cash flow by ${per}; negative values in red`,
@@ -172,11 +172,9 @@
       if (n.dataset.a == null) n.dataset.a = n.textContent;
       n.textContent = quarters ? n.dataset.q : n.dataset.a;
     });
-    if (toggle) {
-      toggle.querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.period === mode)));
-      const note = toggle.querySelector(".period-note");
-      note.textContent = quarters ? note.dataset.quarterly : note.dataset.annual;
-    }
+    if (toggle) toggle.querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.period === mode)));
+    const note = document.querySelector(".period-note");
+    if (note) note.textContent = quarters ? note.dataset.quarterly : note.dataset.annual;
     document.querySelectorAll(".period-notes").forEach(n => { n.hidden = !quarters; });
     render(quarters ? QUARTERS : ANNUAL);
   }
@@ -189,4 +187,31 @@
     apply();
   });
   FD.draw(apply);
+
+  // the page bar: the period switch shows only while the charts are on screen, and the link to the
+  // section being read is marked
+  const bar = document.querySelector(".page-bar");
+  const block = document.querySelector(".chart-block");
+  if (bar && toggle && block && "IntersectionObserver" in window) {
+    new IntersectionObserver(([e]) => { toggle.hidden = !e.isIntersecting; },
+                             {rootMargin: `-${bar.offsetHeight}px 0px 0px 0px`}).observe(block);
+  }
+  const links = [...document.querySelectorAll(".page-links a")];
+  const heads = links.map(a => document.getElementById(a.hash.slice(1))).filter(Boolean);
+  let current = null, queued = false;
+  function spy() {
+    queued = false;
+    const top = Math.max((bar ? bar.offsetHeight : 0) + 16, 72);   // a jump lands a heading 64px down (scroll-margin-top)
+    let cur = null;
+    for (const h of heads) if (h.getBoundingClientRect().top <= top) cur = h;
+    if (cur === current) return;
+    current = cur;
+    links.forEach(a => a.setAttribute("aria-current", String(!!cur && a.hash === "#" + cur.id)));
+    const a = cur && links.find(l => l.hash === "#" + cur.id);
+    if (a) a.parentElement.scrollTo({left: a.offsetLeft - 24, behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth"});
+  }
+  if (links.length) {
+    addEventListener("scroll", () => { if (!queued) { queued = true; requestAnimationFrame(spy); } }, {passive: true});
+    spy();
+  }
 })();

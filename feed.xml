@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>The Filing Desk</title>
+  <subtitle>Company results, read from the SEC filings</subtitle>
+  <link href="https://thefilingdesk.net/"/>
+  <link rel="self" href="https://thefilingdesk.net/feed.xml"/>
+  <id>https://thefilingdesk.net/</id>
+  <updated>2026-10-06T00:00:00Z</updated>
+  <author><name>Jon Mc Gowan</name></author>
+  <entry>
+    <title>A $2 trillion price tag, a model too risky to ship and insiders cashing out: is AI a bubble?</title>
+    <link href="https://thefilingdesk.net/weekly/2026-w40/"/>
+    <id>https://thefilingdesk.net/weekly/2026-w40/</id>
+    <published>2026-10-06T00:00:00Z</published>
+    <updated>2026-10-06T00:00:00Z</updated>
+    <summary>In one week, Anthropic&#x27;s leaked IPO filing showed $518 billion of computing commitments, OpenAI shelved a model it judged unsafe, and Cerebras fell below its IPO price on the day its lockup ended. Here is what the money, and the filings, say.</summary>
+  </entry>
+  <entry>
+    <title>Nvidia revenue rises 65.5% to $215.9 billion as gross margin slips to 71.1%</title>
+    <link href="https://thefilingdesk.net/reports/nvidia-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/nvidia-fy2026/</id>
+    <published>2026-10-05T00:00:00Z</published>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <summary>Revenue grew 65.5% to $215.9 billion, led by Data Center sales of $193.7 billion. Gross margin fell 3.9 points to 71.1%, partly because of a $4.5 billion charge on H20 chips for China.</summary>
+  </entry>
+  <entry>
+    <title>Record profit at Microsoft, as data-center spending cuts free cash flow</title>
+    <link href="https://thefilingdesk.net/reports/microsoft-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/microsoft-fy2026/</id>
+    <published>2026-09-26T00:00:00Z</published>
+    <updated>2026-10-06T00:00:00Z</updated>
+    <summary>Revenue grew 17.8% to $331.8 billion and operating margin hit 46.8%. Capital spending rose 80% to $115.9 billion, so free cash flow fell for a second year.</summary>
+  </entry>
+</feed>

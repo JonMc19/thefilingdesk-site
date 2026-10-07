@@ -18,7 +18,8 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" href="/assets/fonts/noto-serif-display-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/newsreader-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/site.css">
+<link rel="stylesheet" href="/assets/site.css?v=54c6a594">
+<link rel="alternate" type="application/atom+xml" title="The Filing Desk" href="/feed.xml">
 </head>
 <body>
 <header class="masthead">
@@ -28,11 +29,12 @@
       <form class="search " role="search" action="/companies/" data-search><label class="vh" for="q-head">Search companies</label><input id="q-head" name="q" type="search" placeholder="Search companies" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="q-head-list"><ul id="q-head-list" class="search-list" role="listbox" hidden></ul></form>
     </div>
     <a class="nameplate" href="/">The Filing Desk</a>
-    <nav class="mast-nav" aria-label="Main"><a href="/" aria-current="page">Reports</a><a href="/weekly/">Weekly</a><a href="/companies/">Companies</a><a href="/about/">About</a></nav>
+    <nav class="mast-nav" aria-label="Main"><a href="/reports/">Reports</a><a href="/weekly/">Weekly</a><a href="/companies/">Companies</a><a href="/about/">About</a></nav>
   </div>
 </header>
 <main>
 <div class="wrap front">
+  <h1 class="vh">The Filing Desk: company results, read from the SEC filings</h1>
   <div class="front-grid">
     <article class="lead-story">
       <p class="kicker">Artificial intelligence</p>
@@ -59,14 +61,20 @@
       </ol>
     </aside>
   </div>
+  <section class="lookup">
+    <h2 class="section-label">Look up a company</h2>
+    <p>Ten years of results and the last 12 quarters for 163 US companies, from their SEC filings, with a model to value each one yourself.</p>
+    <form class="search search-lg" role="search" action="/companies/" data-search><label class="vh" for="q-front">Search companies</label><input id="q-front" name="q" type="search" placeholder="Search by company name or ticker" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="q-front-list"><ul id="q-front-list" class="search-list" role="listbox" hidden></ul></form>
+    <p class="popular"><span>Popular:</span> <a href="/companies/nvda/">Nvidia</a> <a href="/companies/aapl/">Apple</a> <a href="/companies/msft/">Microsoft</a> <a href="/companies/amzn/">Amazon</a> <a href="/companies/googl/">Alphabet</a> <a href="/companies/meta/">Meta Platforms</a> <a href="/companies/tsla/">Tesla</a> <a href="/companies/jpm/">JPMorgan Chase</a> <a class="all" href="/companies/">All 163 companies</a></p>
+  </section>
   <div class="front-row">
-    <section>
-      <h2 class="section-label">Company financials</h2>
-      <p>Ten years of margins, returns, cash flow and debt for 163 US companies, from their SEC filings. <a href="/companies/">Browse and sort all 163 companies</a>.</p>
-    </section>
     <section>
       <h2 class="section-label">How the reports work</h2>
       <p>Every figure comes from a company's own SEC filings and releases, and nothing is estimated. Each report names the filing, links its sources and offers its figures as a download. We describe what changed. We don't set price targets, rate stocks or make recommendations.</p>
+    </section>
+    <section>
+      <h2 class="section-label">Follow The Filing Desk</h2>
+      <p>A report on one company's results every Friday, and a story on the week's biggest business topic every Sunday, by Jon Mc Gowan. <a href="/feed.xml">Follow by RSS</a> or see <a href="/reports/">all reports</a>.</p>
     </section>
   </div>
 </div>
@@ -74,9 +82,9 @@
 <footer class="site-foot">
   <div class="wrap">
     <div><b>The Filing Desk</b> · Company results, read from the filings.</div>
-    <div>Figures come from filings with the US Securities and Exchange Commission and from company releases. Information only, not investment advice. <a href="/about/">About and method</a></div>
+    <div>Figures come from filings with the US Securities and Exchange Commission and from company releases. Information only, not investment advice. <a href="/about/">About and method</a> · <a href="/feed.xml">RSS feed</a></div>
   </div>
 </footer>
-<script src="/assets/search.js"></script>
+<script src="/assets/search.js?v=dfad3182"></script>
 </body>
 </html>

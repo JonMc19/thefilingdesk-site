@@ -1,5 +1,5 @@
 Latest fiscal year figures from SEC EDGAR XBRL (Form 10-K); US$ millions unless stated
-Ticker,Company,Sector,Fiscal year,Fiscal year end,Revenue,Net income,Revenue growth (%),Gross margin (%),Operating margin (%),Net margin (%),Free cash flow margin (%),Return on invested capital (%),Return on equity (%),Return on assets (%),Net debt to EBITDA (x),Interest coverage (x),Current ratio (x),Buybacks plus dividends (US$m),Piotroski F-score (score)
+Ticker,Company,Sector,Fiscal year,Fiscal year end,Revenue,Net income,Revenue growth (%),Gross margin (%),Operating margin (%),Net margin (%),Free cash flow margin (%),Return on capital (%),Return on equity (%),Return on assets (%),Net debt to EBITDA (x),Interest coverage (x),Current ratio (x),Buybacks plus dividends (US$m),Piotroski F-score (score)
 AMZN,Amazon,Consumer Discretionary,2025,2025-12-31,716924.0,77670.0,12.38,50.29,11.16,10.83,1.07,20.63,22.29,10.77,-0.28,35.17,1.05,0.0,6.0
 WMT,Walmart,Consumer Staples,2026,2026-01-31,713163.0,21893.0,4.73,24.93,4.18,3.07,2.09,16.05,22.97,8.03,0.93,12.87,0.79,15595.0,7.0
 UNH,UnitedHealth,Health Care,2025,2025-12-31,447567.0,12056.0,11.81,88.68,4.24,2.69,3.59,11.15,12.16,3.97,2.16,4.74,0.79,13461.0,7.0
