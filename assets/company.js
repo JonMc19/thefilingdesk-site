@@ -201,7 +201,8 @@
   let current = null, queued = false;
   function spy() {
     queued = false;
-    const top = Math.max((bar ? bar.offsetHeight : 0) + 16, 72);   // a jump lands a heading 64px down (scroll-margin-top)
+    // a jump lands a heading at its scroll margin, below the floating bar
+    const top = (parseFloat(getComputedStyle(heads[0]).scrollMarginTop) || 72) + 12;
     let cur = null;
     for (const h of heads) if (h.getBoundingClientRect().top <= top) cur = h;
     if (cur === current) return;
