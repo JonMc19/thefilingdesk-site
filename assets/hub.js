@@ -1,8 +1,9 @@
-/* The Filing Desk: companies hub. Sector filter, company cards, a ranking chart and a scatter chart,
-   all drawn from window.HUB. The cards are plain links in the HTML; script only filters them. */
+/* The Filing Desk: companies hub. A sector and industry filter, cards for the largest companies, a sortable
+   table of them all, a ranking chart and a scatter chart, all drawn from window.HUB. The page's HTML already
+   holds the first cards and every table row as plain links; script filters, sorts and pages them. */
 (function () {
   const ALL = window.HUB, base = document.currentScript.src.replace(/assets\/hub\.js.*$/, "");
-  const SHOWN = 9;
+  const CARDS = 9, ROWS = 25;
   const METRICS = {
     revenue: {label: "Revenue", money: true},
     revenue_growth: {label: "Revenue growth", pct: true},
@@ -24,8 +25,9 @@
   };
   const esc = s => s.replace(/[&<>"]/g, ch => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;"}[ch]));
   const link = c => base + "companies/" + c.t.toLowerCase() + "/";
-  let sector = "", expanded = false, rankKey = "revenue_growth", rankDir = "high", xKey = "revenue_growth", yKey = "operating_margin";
-  const inSector = c => !sector || c.s === sector;
+  let sector = "", industry = "", rankKey = "revenue_growth", rankDir = "high", xKey = "revenue_growth", yKey = "operating_margin";
+  const inSector = c => (!sector || c.s === sector) && (!industry || c.si === industry);
+  const group = () => industry || sector;
 
   const tip = document.createElement("div");
   tip.className = "tip"; tip.hidden = true;
@@ -40,22 +42,77 @@
   }
   const hideTip = () => { tip.hidden = true; };
 
-  /* ----------------------------------------------------------- cards */
-  const cards = [...document.querySelectorAll(".card")], more = document.getElementById("more");
-  function filterCards() {
-    const visible = cards.filter(a => !sector || a.dataset.sector === sector);
-    cards.forEach(a => { a.hidden = true; });
-    visible.forEach((a, i) => { a.hidden = !sector && !expanded && i >= SHOWN; });
-    more.hidden = !!sector;
-    more.textContent = expanded ? "Show fewer" : `Show all ${cards.length} companies`;
+  /* ----------------------------------------------------------- filter */
+  const industryBox = document.querySelector(".industry"), industrySel = document.getElementById("industry");
+  function industries() {
+    const n = {};
+    ALL.filter(c => c.s === sector && c.si).forEach(c => { n[c.si] = (n[c.si] || 0) + 1; });
+    const total = ALL.filter(c => c.s === sector).length;
+    industrySel.innerHTML = `<option value="">All industries (${total})</option>`
+      + Object.keys(n).sort().map(k => `<option value="${esc(k)}">${esc(k)} (${n[k]})</option>`).join("");
+    industryBox.hidden = !sector || Object.keys(n).length < 2;
   }
-  more.addEventListener("click", () => { expanded = !expanded; filterCards(); });
-
+  function refilter() { drawCards(); shown = ROWS; drawTable(); drawRank(); drawScatter(); }
   document.querySelectorAll(".chips button").forEach(b => b.addEventListener("click", () => {
-    sector = b.dataset.sector;
+    sector = b.dataset.sector; industry = "";
     document.querySelectorAll(".chips button").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
-    filterCards(); drawRank(); drawScatter();
+    industries(); refilter();
   }));
+  industrySel.addEventListener("change", () => { industry = industrySel.value; refilter(); });
+
+  /* ----------------------------------------------------------- cards: the largest companies in the group */
+  const cardsHost = document.querySelector(".cards");
+  const pct = v => v == null ? "—" : minus(v.toFixed(1)) + "%";
+  const chip = v => v == null ? "" : Math.abs(v) < 0.05 ? `<span class="chg flat">flat</span>`
+    : `<span class="chg ${v >= 0 ? "up" : "down"}">${Math.abs(v).toFixed(1)}%</span>`;
+  function spark(vs) {
+    const pts = vs.map((v, i) => [i, v]).filter(p => p[1] != null);
+    if (pts.length < 2) return "";
+    const lo = Math.min(...pts.map(p => p[1])), hi = Math.max(...pts.map(p => p[1])), n = vs.length - 1;
+    const xy = pts.map(([i, v]) => `${(i / n * 100).toFixed(1)},${(28 - (v - lo) / ((hi - lo) || 1) * 24).toFixed(1)}`).join(" ");
+    return `<svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" role="img" aria-label="Revenue trend over ${vs.length} years">`
+      + `<polyline points="${xy}" fill="none" stroke="var(--s1)" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round" stroke-linecap="round"/></svg>`;
+  }
+  function card(c) {
+    const m = c.m, rev = ["Revenue", fmt("revenue", c.rev) + chip(m.revenue_growth)];
+    const stats = c.bank ? [rev, ["ROE", pct(m.roe)], ["Efficiency", pct(m.efficiency_ratio)]]
+      : [rev, m.operating_margin != null ? ["Op. margin", pct(m.operating_margin)] : ["Net margin", pct(m.net_margin)], ["FCF margin", pct(m.fcf_margin)]];
+    return `<a class="card" href="${link(c)}"><div class="card-top"><span class="card-name">${esc(c.n)}</span><span class="card-tk">${c.t}</span></div>`
+      + `<div class="card-sector">${esc(c.si || c.s)}</div>${spark(c.rs)}<dl class="card-stats">`
+      + stats.map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join("") + `</dl></a>`;
+  }
+  function drawCards() { cardsHost.innerHTML = ALL.filter(inSector).slice(0, CARDS).map(card).join(""); }
+
+  /* ----------------------------------------------------------- the table of every company */
+  const table = document.getElementById("all"), tbody = table.tBodies[0];
+  const rowOf = Object.fromEntries([...tbody.rows].map(r => [r.dataset.t, r]));
+  const countEl = document.getElementById("all-count"), moreBtn = document.getElementById("all-more");
+  const titleEl = document.getElementById("all-title");
+  let sortKey = "rev", sortDir = -1, shown = ROWS;
+  const sortVal = (c, k) => k === "n" ? c.n : k === "si" ? (c.si || c.s) : k === "rev" ? c.rev : c.m[k];
+  function drawTable() {
+    const rows = ALL.filter(inSector).sort((a, b) => {
+      const x = sortVal(a, sortKey), y = sortVal(b, sortKey);
+      if (x == null || y == null) return (x == null) - (y == null);    // blanks last, whichever way round
+      return (typeof x === "string" ? x.localeCompare(y) : x - y) * sortDir || b.rev - a.rev;
+    });
+    const keep = new Set(rows.map(c => c.t));
+    Object.entries(rowOf).forEach(([t, r]) => { if (!keep.has(t)) r.hidden = true; });
+    rows.forEach((c, i) => { const r = rowOf[c.t]; r.hidden = i >= shown; tbody.appendChild(r); });
+    titleEl.textContent = group() ? `All ${rows.length} companies in ${group()}` : `All ${rows.length} companies`;
+    countEl.textContent = rows.length > shown ? `Showing ${shown} of ${rows.length}` : `Showing all ${rows.length}`;
+    moreBtn.hidden = rows.length <= shown;
+    moreBtn.textContent = `Show ${Math.min(ROWS, rows.length - shown)} more`;
+  }
+  table.querySelectorAll("th button").forEach(b => b.addEventListener("click", () => {
+    const k = b.dataset.k;
+    sortDir = k === sortKey ? -sortDir : (k === "n" || k === "si" ? 1 : -1);   // names A to Z first, figures largest first
+    sortKey = k;
+    table.querySelectorAll("th").forEach(th => th.removeAttribute("aria-sort"));
+    b.parentElement.setAttribute("aria-sort", sortDir > 0 ? "ascending" : "descending");
+    drawTable();
+  }));
+  moreBtn.addEventListener("click", () => { shown += ROWS; drawTable(); });
 
   /* ----------------------------------------------------------- rankings */
   function niceStep(span) {
@@ -87,7 +144,7 @@
         + `<text class="val" x="${vx}" y="${y + 17}" text-anchor="${v >= 0 ? "start" : "end"}">${fmt(rankKey, v)}</text></g>`;
     });
     rankHost.innerHTML = rows.length
-      ? `<svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="Bar chart: ${rankDir === "high" ? "highest" : "lowest"} ${METRICS[rankKey].label.toLowerCase()}${sector ? " in " + sector : ""}, latest fiscal year">${s}</svg>`
+      ? `<svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="Bar chart: ${rankDir === "high" ? "highest" : "lowest"} ${METRICS[rankKey].label.toLowerCase()}${group() ? " in " + group() : ""}, latest fiscal year">${s}</svg>`
       : `<p class="src">No company in this group reports this figure.</p>`;
     rankHost.querySelectorAll(".rank-row").forEach(g => {
       const c = rows[+g.dataset.i];
@@ -174,7 +231,7 @@
   selX.addEventListener("change", () => { xKey = selX.value; drawScatter(); });
   selY.addEventListener("change", () => { yKey = selY.value; drawScatter(); });
 
-  filterCards(); drawRank(); drawScatter();
+  drawTable(); drawRank(); drawScatter();
   let w = innerWidth, t;
   addEventListener("resize", () => {
     clearTimeout(t);
