@@ -1,6 +1,8 @@
 /* The Filing Desk: chart and table helpers for report pages.
    Charts are inline SVG drawn to the width of their container, with a
-   per-year hover/tap tooltip. Colors come from CSS tokens. */
+   per-period hover/tap tooltip. Colors come from CSS tokens. `years` are fiscal years unless a chart
+   passes `xlab` (axis label for period i; `short` when space is tight, `tiny` when very tight) and `title`
+   (tooltip heading). */
 (function () {
   const FD = {};
   const tip = document.createElement("div");
@@ -18,7 +20,10 @@
   }
   const widthOf = host => Math.round(Math.max(340, Math.min(1100, host.clientWidth || 640)));
 
-  function frame(years, {W, H = 250, L = 44, R = 14, T = 16, B = 28, max, min = 0, step, fmt}) {
+  const fyLab = years => (i, short) => (short ? "’" : "FY") + String(years[i]).slice(2);
+  const barW = band => Math.min(24, Math.max(6, band * 0.62));
+
+  function frame(years, {W, H = 250, L = 44, R = 14, T = 16, B = 28, max, min = 0, step, fmt, xlab}) {
     const N = years.length;
     const top = Math.max(step, Math.ceil(max / step) * step);
     const bottom = Math.min(0, Math.floor(min / step) * step);
@@ -32,21 +37,21 @@
       s += `<line class="${v === 0 ? "base" : "grid"}" x1="${L}" x2="${W - R}" y1="${y(v)}" y2="${y(v)}"/>`;
       s += `<text x="${L - 8}" y="${y(v) + 4}" text-anchor="end">${fmt(v)}</text>`;
     }
-    years.forEach((f, i) => {
-      const lab = short ? "’" + String(f).slice(2) : "FY" + String(f).slice(2);
-      s += `<text x="${cx(i)}" y="${H - B + 18}" text-anchor="middle">${lab}</text>`;
+    const lab = xlab || fyLab(years);
+    years.forEach((_, i) => {
+      s += `<text x="${cx(i)}" y="${H - B + 18}" text-anchor="middle">${lab(i, short, band < 22)}</text>`;
     });
     const bands = years.map((_, i) => `<rect class="band" data-i="${i}" x="${L + band * i + 2}" y="${T}" width="${band - 4}" height="${H - T - B}"/>`).join("");
     const hits = years.map((_, i) => `<rect class="hit" data-i="${i}" x="${L + band * i}" y="0" width="${band}" height="${H}"/>`).join("");
     return {W, H, L, R, T, B, N, y, band, cx, grid: s, bands, hits};
   }
 
-  function wire(host, years, rowsFor) {
+  function wire(host, years, rowsFor, title) {
     const svg = host.querySelector("svg");
     const show = (e, i) => {
       svg.querySelectorAll(".band").forEach(b => b.classList.toggle("on", +b.dataset.i === i));
       svg.querySelectorAll(".xhair").forEach(x => { x.classList.add("on"); x.setAttribute("x1", x.dataset["x" + i]); x.setAttribute("x2", x.dataset["x" + i]); });
-      tip.innerHTML = `<b>Fiscal ${years[i]}</b>` + rowsFor(i).map(([c, k, v]) =>
+      tip.innerHTML = `<b>${title ? title(i) : "Fiscal " + years[i]}</b>` + rowsFor(i).map(([c, k, v]) =>
         `<div class="row"><span>${c ? `<i style="background:${c}"></i>` : ""}${k}</span><span>${v}</span></div>`).join("");
       tip.hidden = false;
       const w = tip.offsetWidth, h = tip.offsetHeight;
@@ -68,24 +73,25 @@
   }
 
   /* single-series columns; values already in display units */
-  FD.columns = (host, {years, values, step, fmt = v => v, color = "var(--s1)", negColor = "var(--down)", labels = [], labelFmt = i => values[i], aria, rows}) => {
+  FD.columns = (host, {years, values, step, fmt = v => v, color = "var(--s1)", negColor = "var(--down)", labels = [], labelFmt = i => values[i], aria, rows, xlab, title}) => {
     const known = values.filter(v => v != null);
-    const f = frame(years, {W: widthOf(host), max: Math.max(0, ...known), min: Math.min(0, ...known), step, fmt});
+    const f = frame(years, {W: widthOf(host), max: Math.max(0, ...known), min: Math.min(0, ...known), step, fmt, xlab});
+    const w = barW(f.band);
     let marks = "";
     values.forEach((v, i) => {
       if (v == null) return;
-      const x0 = f.cx(i) - 12;
-      marks += v >= 0 ? `<path d="${topPath(x0, x0 + 24, f.y(v), f.y(0), 4)}" fill="${color}"/>`
-                      : `<rect x="${x0}" y="${f.y(0)}" width="24" height="${f.y(v) - f.y(0)}" fill="${negColor}"/>`;
+      const x0 = f.cx(i) - w / 2;
+      marks += v >= 0 ? `<path d="${topPath(x0, x0 + w, f.y(v), f.y(0), 4)}" fill="${color}"/>`
+                      : `<rect x="${x0}" y="${f.y(0)}" width="${w}" height="${f.y(v) - f.y(0)}" fill="${negColor}"/>`;
     });
     labels.forEach(i => { marks += `<text class="lab" x="${f.cx(i)}" y="${f.y(values[i]) - 7}" text-anchor="middle">${labelFmt(i)}</text>`; });
     host.innerHTML = `<svg class="chart" viewBox="0 0 ${f.W} ${f.H}" role="img" aria-label="${aria}">${f.bands}${f.grid}${marks}${f.hits}</svg>`;
-    wire(host, years, rows);
+    wire(host, years, rows, title);
   };
 
   /* line series on one axis, end dot and end label per series */
-  FD.lines = (host, {years, series, max, min = 0, step, fmt, aria, rows}) => {
-    const f = frame(years, {W: widthOf(host), max, min, step, fmt, R: 104});
+  FD.lines = (host, {years, series, max, min = 0, step, fmt, aria, rows, xlab, title}) => {
+    const f = frame(years, {W: widthOf(host), max, min, step, fmt, R: 104, xlab});
     let marks = `<line class="xhair" y1="${f.T}" y2="${f.H - f.B}" ${years.map((_, i) => `data-x${i}="${f.cx(i)}"`).join(" ")}/>`;
     const ends = [];
     series.forEach(s => {
@@ -107,22 +113,23 @@
     for (let k = 1; k < ends.length; k++) ends[k].y = Math.max(ends[k].y, ends[k - 1].y + 13);
     ends.forEach(e => { marks += `<text class="lab" x="${e.x}" y="${e.y}">${e.text}</text>`; });
     host.innerHTML = `<svg class="chart" viewBox="0 0 ${f.W} ${f.H}" role="img" aria-label="${aria}">${f.grid}${marks}${f.hits}</svg>`;
-    wire(host, years, rows);
+    wire(host, years, rows, title);
   };
 
   /* two-part stacked columns: bottom + top = total */
-  FD.stacked = (host, {years, bottom, top, step, fmt = v => v, endLabel, aria, rows}) => {
+  FD.stacked = (host, {years, bottom, top, step, fmt = v => v, endLabel, aria, rows, xlab, title}) => {
     const totals = bottom.values.map((b, i) => b + top.values[i]);
-    const f = frame(years, {W: widthOf(host), max: Math.max(...totals), step, fmt});
+    const f = frame(years, {W: widthOf(host), max: Math.max(...totals), step, fmt, xlab});
+    const w = barW(f.band);
     let marks = "";
     years.forEach((_, i) => {
-      const x0 = f.cx(i) - 12, x1 = x0 + 24, yb = f.y(0), yM = f.y(bottom.values[i]), yT = f.y(totals[i]);
-      marks += `<rect x="${x0}" y="${yM}" width="24" height="${yb - yM}" fill="${bottom.color}"/>`;
+      const x0 = f.cx(i) - w / 2, x1 = x0 + w, yb = f.y(0), yM = f.y(bottom.values[i]), yT = f.y(totals[i]);
+      marks += `<rect x="${x0}" y="${yM}" width="${w}" height="${yb - yM}" fill="${bottom.color}"/>`;
       marks += `<path d="${topPath(x0, x1, yT, yM - 2, 4)}" fill="${top.color}"/>`;
     });
     if (endLabel) { const li = years.length - 1; marks += `<text class="lab" x="${f.cx(li)}" y="${f.y(totals[li]) - 7}" text-anchor="middle">${endLabel}</text>`; }
     host.innerHTML = `<svg class="chart" viewBox="0 0 ${f.W} ${f.H}" role="img" aria-label="${aria}">${f.bands}${f.grid}${marks}${f.hits}</svg>`;
-    wire(host, years, rows);
+    wire(host, years, rows, title);
   };
 
   FD.table = (el, cols, rows) => {
