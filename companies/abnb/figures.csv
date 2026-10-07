@@ -1,0 +1,59 @@
+"Airbnb, Inc. (ABNB), US$ millions unless stated; fiscal years as labelled by the company; source: SEC EDGAR XBRL (Form 10-K), CIK 0001559720"
+Item,FY2019,FY2020,FY2021,FY2022,FY2023,FY2024,FY2025
+Fiscal year end,2019-12-31,2020-12-31,2021-12-31,2022-12-31,2023-12-31,2024-12-31,2025-12-31
+Revenue,4805.2,3378.0,5992.0,8399.0,9917.0,11102.0,12241.0
+Gross profit,3608.9,2502.0,4836.0,6900.0,8214.0,9224.0,10155.0
+Research and development,976.7,2753.0,1425.0,1502.0,1722.0,2056.0,2354.0
+Operating income,-501.5,-3590.0,429.0,1802.0,1518.0,2553.0,2544.0
+Interest expense,5.2,130.0,50.0,8.0,55.0,2.0,2.0
+Pretax income,-411.7,-4682.0,-300.0,1989.0,2102.0,3331.0,3137.0
+Income tax,262.6,-97.0,52.0,96.0,-2690.0,683.0,626.0
+Net income,-674.3,-4585.0,-352.0,1893.0,4792.0,2648.0,2511.0
+Diluted EPS,,-16.12,-0.57,2.79,7.24,4.11,4.03
+Diluted shares,260.6,284.0,616.0,680.0,662.0,645.0,623.0
+Depreciation and amortization,57.2,67.2,85.6,42.6,31.0,16.0,17.0
+Cash from operations,222.7,-740.0,2313.0,3430.0,3884.0,4518.0,4646.0
+Capital expenditure,125.5,37.0,25.0,25.0,,,
+Share buybacks,0.0,0.0,0.0,1500.0,2252.0,3430.0,3789.0
+Dividends paid,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Acquisitions,192.1,0.0,0.0,0.0,0.0,0.0,0.0
+Stock-based compensation,97.5,3003.0,899.0,930.0,1120.0,1407.0,1592.0
+Cash and short-term investments,2013.5,6391.3,8322.0,9622.0,10071.0,10611.0,11014.0
+Total debt,,1825.6,2000.0,1987.0,1991.0,1995.0,1999.0
+Finance lease liabilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+debt_and_leases,,1825.6,2000.0,1987.0,1991.0,1995.0,1999.0
+Current assets,,8916.4,12386.0,14861.0,16509.0,17180.0,18797.0
+Current liabilities,,5139.8,6359.0,7978.0,9950.0,10161.0,13649.0
+Inventory,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Total assets,,10491.5,13708.0,16038.0,20645.0,20959.0,22208.0
+Total liabilities,,7589.7,8933.0,10478.0,12480.0,12547.0,14009.0
+Shareholders' equity,-808.0,2901.0,4775.0,5560.0,8165.0,8412.0,8199.0
+"Property and equipment, net",,270.2,157.0,121.0,160.0,147.0,107.0
+Gross margin (%),75.1,74.07,80.71,82.15,82.83,83.08,82.96
+Operating margin (%),-10.44,-106.28,7.16,21.45,15.31,23.0,20.78
+EBITDA margin (%),-9.25,-104.29,8.59,21.96,15.62,23.14,20.92
+Net margin (%),-14.03,-135.73,-5.87,22.54,48.32,23.85,20.51
+Free cash flow margin (%),2.02,-23.0,38.18,40.54,,,
+Return on capital (%),,,,,,,
+Return on capital employed (%),,,6.76,23.39,16.19,23.76,26.29
+Return on equity (%),,,-9.17,36.63,69.83,31.95,30.23
+Return on assets (%),,,-2.91,12.73,26.13,12.73,11.63
+Revenue growth (%),,-29.7,77.38,40.17,18.07,11.95,10.26
+Net income growth (%),,,,,153.14,-44.74,-5.17
+Diluted EPS growth (%),,,,,159.5,-43.23,-1.95
+Free cash flow growth (%),,-898.77,,48.82,,,
+Net debt to EBITDA (x),,,-12.29,-4.14,-5.22,-3.35,-3.52
+Debt to equity (x),,0.63,0.42,0.36,0.24,0.24,0.24
+Interest coverage (x),-96.86,-27.62,8.58,225.25,27.6,1276.5,1272.0
+Current ratio (x),,1.73,1.95,1.86,1.66,1.69,1.38
+Quick ratio (x),,1.73,1.95,1.86,1.66,1.69,1.38
+Free cash flow (US$m),97.28,-777.0,2288.0,3405.0,,,
+Capital expenditure to revenue (%),2.61,1.1,0.42,0.3,,,
+Buybacks plus dividends (US$m),0.0,0.0,0.0,1500.0,2252.0,3430.0,3789.0
+Shareholder returns to free cash flow (%),0.0,,0.0,44.05,,,
+Stock-based compensation to revenue (%),2.03,88.9,15.0,11.07,11.29,12.67,13.01
+Change in diluted shares (%),,9.0,116.9,10.39,-2.65,-2.57,-3.41
+Piotroski F-score (score),,,,7.0,7.0,7.0,6.0
+Piotroski tests run (score),,,,9,9,9,9
+Altman Z'' (score),,-1.4,2.14,2.92,2.72,3.06,2.1
+Accruals ratio (%),,,-22.03,-10.33,4.95,-8.99,-9.89
