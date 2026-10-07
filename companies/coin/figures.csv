@@ -1,59 +1,59 @@
 "Coinbase Global, Inc. (COIN), US$ millions unless stated; fiscal years as labelled by the company; source: SEC EDGAR XBRL (Form 10-K), CIK 0001679788"
-Item,FY2021,FY2022,FY2023,FY2024,FY2025
-Fiscal year end,2021-12-31,2022-12-31,2023-12-31,2024-12-31,2025-12-31
-Revenue,7839.4,3194.2,3108.4,6564.0,7181.3
-Gross profit,,,,,
-Research and development,1291.6,2326.4,1324.5,1468.3,1670.6
-Operating income,3076.6,-2710.2,-161.7,2307.2,1435.4
-Interest expense,29.2,88.9,82.8,80.6,85.4
-Pretax income,3026.9,-3064.6,-76.8,2942.6,1522.1
-Income tax,-597.2,-439.6,-171.7,363.6,261.7
-Net income,3624.1,-2624.9,94.9,2579.1,1260.3
-Diluted EPS,14.5,-11.83,0.37,9.48,4.45
-Diluted shares,220.0,222.3,254.4,273.4,287.2
-Depreciation and amortization,63.7,154.1,139.6,127.5,188.4
-Cash from operations,4038.2,-1585.4,673.4,3103.9,2426.4
-Capital expenditure,2.9,2.9,0.0,110.5,138.3
-Share buybacks,0.0,0.0,0.0,0.0,790.2
-Dividends paid,0.0,0.0,0.0,0.0,0.0
-Acquisitions,70.9,186.2,30.7,0.0,742.0
-Stock-based compensation,820.7,1565.8,780.7,912.8,839.4
-Cash and short-term investments,7123.5,4425.0,5489.1,9308.3,11595.2
-Total debt,3404.9,3414.0,2980.0,4608.3,7658.7
-Finance lease liabilities,0.0,0.0,0.0,0.0,0.0
-debt_and_leases,3404.9,3414.0,2980.0,4608.3,7658.7
-Current assets,18373.9,86448.2,11356.8,18112.7,20388.4
-Current liabilities,11419.0,80815.3,5485.1,7941.3,8701.3
-Inventory,0.0,0.0,0.0,0.0,0.0
-Total assets,21274.4,89724.9,14753.9,22542.0,29671.8
-Total liabilities,14892.7,84270.3,8472.3,12265.1,14878.8
-Shareholders' equity,6381.7,5454.6,6281.6,10276.8,14793.1
-"Property and equipment, net",59.2,171.9,192.5,200.1,264.6
-Gross margin (%),,,,,
-Operating margin (%),39.24,-84.85,-5.2,35.15,19.99
-EBITDA margin (%),40.06,-80.02,-0.71,37.09,22.61
-Net margin (%),46.23,-82.18,3.05,39.29,17.55
-Free cash flow margin (%),51.47,-49.73,21.66,45.6,31.86
-Return on invested capital (%),,,,43.26,14.47
-Return on capital employed (%),,-28.89,-1.78,19.33,8.07
-Return on equity (%),,-44.35,1.62,31.15,10.05
-Return on assets (%),,-4.73,0.18,13.83,4.83
-Revenue growth (%),,-59.25,-2.69,111.17,9.4
-Net income growth (%),,-172.43,,2618.5,-51.13
-Diluted EPS growth (%),,-181.59,,2462.16,-53.06
-Free cash flow growth (%),,-139.36,,344.54,-23.56
-Net debt to EBITDA (x),-1.18,,,-1.93,-2.42
-Debt to equity (x),0.53,0.63,0.47,0.45,0.52
-Interest coverage (x),105.51,-30.49,-1.95,28.61,16.81
-Current ratio (x),1.61,1.07,2.07,2.28,2.34
-Quick ratio (x),1.61,1.07,2.07,2.28,2.34
-Free cash flow (US$m),4035.26,-1588.35,673.38,2993.43,2288.08
-Capital expenditure to revenue (%),0.04,0.09,0.0,1.68,1.93
-Buybacks plus dividends (US$m),0.0,0.0,0.0,0.0,790.19
-Shareholder returns to free cash flow (%),0.0,,0.0,0.0,34.54
-Stock-based compensation to revenue (%),10.47,49.02,25.11,13.91,11.69
-Change in diluted shares (%),,1.08,14.42,7.46,5.06
-Piotroski F-score (score),,,6.0,6.0,4.0
-Piotroski tests run (score),,,8,8,8
-Altman Z'' (score),4.23,0.34,3.72,5.25,4.64
-Accruals ratio (%),,-1.87,-1.11,-2.81,-4.47
+Item,FY2019,FY2020,FY2021,FY2022,FY2023,FY2024,FY2025
+Fiscal year end,2019-12-31,2020-12-31,2021-12-31,2022-12-31,2023-12-31,2024-12-31,2025-12-31
+Revenue,533.7,1277.5,7839.4,3194.2,3108.4,6564.0,7181.3
+Gross profit,,,,,,,
+Research and development,185.0,271.7,1291.6,2326.4,1324.5,1468.3,1670.6
+Operating income,-45.8,409.0,3076.6,-2710.2,-161.7,2307.2,1435.4
+Interest expense,0.0,0.0,29.2,88.9,82.8,80.6,85.4
+Pretax income,-45.4,409.2,3026.9,-3064.6,-76.8,2942.6,1522.1
+Income tax,-15.0,86.9,-597.2,-439.6,-171.7,363.6,261.7
+Net income,-30.4,322.3,3624.1,-2624.9,94.9,2579.1,1260.3
+Diluted EPS,-0.5,1.4,14.5,-11.83,0.37,9.48,4.45
+Diluted shares,61.3,91.2,220.0,222.3,254.4,273.4,287.2
+Depreciation and amortization,16.9,31.0,63.7,154.1,139.6,127.5,188.4
+Cash from operations,-80.6,293.5,4038.2,-1585.4,673.4,3103.9,2426.4
+Capital expenditure,33.5,9.9,2.9,2.9,0.0,110.5,138.3
+Share buybacks,21.0,1.9,0.0,0.0,0.0,0.0,790.2
+Dividends paid,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Acquisitions,5.7,33.6,70.9,186.2,30.7,0.0,742.0
+Stock-based compensation,31.1,70.5,820.7,1565.8,780.7,912.8,839.4
+Cash and short-term investments,548.9,1061.8,7123.5,4425.0,5489.1,9308.3,11595.2
+Total debt,,0.0,3404.9,3414.0,2980.0,4608.3,7658.7
+Finance lease liabilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+debt_and_leases,,0.0,3404.9,3414.0,2980.0,4608.3,7658.7
+Current assets,,5133.9,18373.9,86448.2,11356.8,18112.7,20388.4
+Current liabilities,,4246.9,11419.0,80815.3,5485.1,7941.3,8701.3
+Inventory,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Total assets,,5855.4,21274.4,89724.9,14753.9,22542.0,29671.8
+Total liabilities,,4329.4,14892.7,84270.3,8472.3,12265.1,14878.8
+Shareholders' equity,497.1,963.6,6381.7,5454.6,6281.6,10276.8,14793.1
+"Property and equipment, net",,49.2,59.2,171.9,192.5,200.1,264.6
+Gross margin (%),,,,,,,
+Operating margin (%),-8.58,32.01,39.24,-84.85,-5.2,35.15,19.99
+EBITDA margin (%),-5.42,34.44,40.06,-80.02,-0.71,37.09,22.61
+Net margin (%),-5.69,25.23,46.23,-82.18,3.05,39.29,17.55
+Free cash flow margin (%),-21.38,22.2,51.47,-49.73,21.66,45.6,31.86
+Return on invested capital (%),,,,,,43.26,14.47
+Return on capital employed (%),,,53.67,-28.89,-1.78,19.33,8.07
+Return on equity (%),,,98.68,-44.35,1.62,31.15,10.05
+Return on assets (%),,,26.72,-4.73,0.18,13.83,4.83
+Revenue growth (%),,139.35,513.66,-59.25,-2.69,111.17,9.4
+Net income growth (%),,,1024.4,-172.43,,2618.5,-51.13
+Diluted EPS growth (%),,,935.71,-181.59,,2462.16,-53.06
+Free cash flow growth (%),,,1322.7,-139.36,,344.54,-23.56
+Net debt to EBITDA (x),,-2.41,-1.18,,,-1.93,-2.42
+Debt to equity (x),,0.0,0.53,0.63,0.47,0.45,0.52
+Interest coverage (x),,,105.51,-30.49,-1.95,28.61,16.81
+Current ratio (x),,1.21,1.61,1.07,2.07,2.28,2.34
+Quick ratio (x),,1.21,1.61,1.07,2.07,2.28,2.34
+Free cash flow (US$m),-114.11,283.63,4035.26,-1588.35,673.38,2993.43,2288.08
+Capital expenditure to revenue (%),6.28,0.78,0.04,0.09,0.0,1.68,1.93
+Buybacks plus dividends (US$m),20.96,1.93,0.0,0.0,0.0,0.0,790.19
+Shareholder returns to free cash flow (%),,0.68,0.0,,0.0,0.0,34.54
+Stock-based compensation to revenue (%),5.84,5.52,10.47,49.02,25.11,13.91,11.69
+Change in diluted shares (%),,48.75,141.17,1.08,14.42,7.46,5.06
+Piotroski F-score (score),,,,2.0,6.0,6.0,4.0
+Piotroski tests run (score),,,,8,8,8,8
+Altman Z'' (score),,2.1,4.23,0.34,3.72,5.25,4.64
+Accruals ratio (%),,,-3.05,-1.87,-1.11,-2.81,-4.47

@@ -1,59 +1,59 @@
 "Sandisk Corporation (SNDK), US$ millions unless stated; fiscal years as labelled by the company; source: SEC EDGAR XBRL (Form 10-K), CIK 0002023554"
-Item,FY2025,FY2026
-Fiscal year end,2025-06-27,2026-07-03
-Revenue,7355.0,20248.0
-Gross profit,2212.0,14472.0
-Research and development,1132.0,1328.0
-Operating income,-1377.0,12389.0
-Interest expense,63.0,73.0
-Pretax income,-1479.0,13017.0
-Income tax,162.0,1584.0
-Net income,-1641.0,11433.0
-Diluted EPS,-11.32,73.76
-Diluted shares,145.0,155.0
-Depreciation and amortization,163.0,149.0
-Cash from operations,84.0,11671.0
-Capital expenditure,204.0,177.0
-Share buybacks,0.0,4524.0
-Dividends paid,0.0,0.0
-Acquisitions,0.0,0.0
-Stock-based compensation,182.0,232.0
-Cash and short-term investments,1481.0,4762.0
-Total debt,1849.0,0.0
-Finance lease liabilities,0.0,0.0
-debt_and_leases,1849.0,0.0
-Current assets,5086.0,12780.0
-Current liabilities,1427.0,5581.0
-Inventory,2079.0,2698.0
-Total assets,12985.0,22507.0
-Total liabilities,3769.0,6771.0
-Shareholders' equity,9216.0,15736.0
-"Property and equipment, net",619.0,674.0
-Gross margin (%),30.07,71.47
-Operating margin (%),-18.72,61.19
-EBITDA margin (%),-16.51,61.92
-Net margin (%),-22.31,56.46
-Free cash flow margin (%),-1.63,56.77
-Return on invested capital (%),,105.86
-Return on capital employed (%),,86.99
-Return on equity (%),,91.64
-Return on assets (%),,64.43
-Revenue growth (%),,175.3
-Net income growth (%),,
-Diluted EPS growth (%),,
-Free cash flow growth (%),,
-Net debt to EBITDA (x),,-0.38
-Debt to equity (x),0.2,0.0
-Interest coverage (x),-21.86,169.71
-Current ratio (x),3.56,2.29
-Quick ratio (x),2.11,1.81
-Free cash flow (US$m),-120.0,11494.0
-Capital expenditure to revenue (%),2.77,0.87
-Buybacks plus dividends (US$m),0.0,4524.0
-Shareholder returns to free cash flow (%),,39.36
-Stock-based compensation to revenue (%),2.47,1.15
-Change in diluted shares (%),,6.9
-Piotroski F-score (score),,
-Piotroski tests run (score),,
-Altman Z'' (score),3.26,9.64
-Accruals ratio (%),,-1.34
+Item,FY2023,FY2024,FY2025,FY2026
+Fiscal year end,2023-06-30,2024-06-28,2025-06-27,2026-07-03
+Revenue,6086.0,6663.0,7355.0,20248.0
+Gross profit,430.0,1072.0,2212.0,14472.0
+Research and development,1167.0,1061.0,1132.0,1328.0
+Operating income,-2035.0,-468.0,-1377.0,12389.0
+Interest expense,31.0,40.0,63.0,73.0
+Pretax income,-2002.0,-503.0,-1479.0,13017.0
+Income tax,141.0,169.0,162.0,1584.0
+Net income,-2143.0,-672.0,-1641.0,11433.0
+Diluted EPS,-14.78,-4.63,-11.32,73.76
+Diluted shares,145.0,145.0,145.0,155.0
+Depreciation and amortization,448.0,224.0,163.0,149.0
+Cash from operations,-713.0,-309.0,84.0,11671.0
+Capital expenditure,219.0,166.0,204.0,177.0
+Share buybacks,0.0,0.0,0.0,4524.0
+Dividends paid,0.0,0.0,0.0,0.0
+Acquisitions,0.0,0.0,0.0,0.0
+Stock-based compensation,165.0,149.0,182.0,232.0
+Cash and short-term investments,292.0,328.0,1481.0,4762.0
+Total debt,,0.0,1849.0,0.0
+Finance lease liabilities,0.0,0.0,0.0,0.0
+debt_and_leases,,0.0,1849.0,0.0
+Current assets,,3548.0,5086.0,12780.0
+Current liabilities,,2123.0,1427.0,5581.0
+Inventory,0.0,1955.0,2079.0,2698.0
+Total assets,,13506.0,12985.0,22507.0
+Total liabilities,,2424.0,3769.0,6771.0
+Shareholders' equity,11439.0,11082.0,9216.0,15736.0
+"Property and equipment, net",,791.0,619.0,674.0
+Gross margin (%),7.07,16.09,30.07,71.47
+Operating margin (%),-33.44,-7.02,-18.72,61.19
+EBITDA margin (%),-26.08,-3.66,-16.51,61.92
+Net margin (%),-35.21,-10.09,-22.31,56.46
+Free cash flow margin (%),-15.31,-7.13,-1.63,56.77
+Return on invested capital (%),,,-10.7,105.86
+Return on capital employed (%),,,-12.0,86.99
+Return on equity (%),,,-16.17,91.64
+Return on assets (%),,,-12.39,64.43
+Revenue growth (%),,9.48,10.39,175.3
+Net income growth (%),,,,
+Diluted EPS growth (%),,,,
+Free cash flow growth (%),,,,
+Net debt to EBITDA (x),,,,-0.38
+Debt to equity (x),,0.0,0.2,0.0
+Interest coverage (x),-65.65,-11.7,-21.86,169.71
+Current ratio (x),,1.67,3.56,2.29
+Quick ratio (x),,0.75,2.11,1.81
+Free cash flow (US$m),-932.0,-475.0,-120.0,11494.0
+Capital expenditure to revenue (%),3.6,2.49,2.77,0.87
+Buybacks plus dividends (US$m),0.0,0.0,0.0,4524.0
+Shareholder returns to free cash flow (%),,,,39.36
+Stock-based compensation to revenue (%),2.71,2.24,2.47,1.15
+Change in diluted shares (%),,0.0,0.0,6.9
+Piotroski F-score (score),,,,7.0
+Piotroski tests run (score),,,,9
+Altman Z'' (score),,5.26,3.26,9.64
+Accruals ratio (%),,,-13.02,-1.34
