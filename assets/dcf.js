@@ -1,10 +1,17 @@
 /* The Filing Desk: discounted cash flow calculator on company pages.
-   Starting figures come from the company's 10-K (window.DCF); the assumptions start at the same
-   example values for every company and are the reader's to change. Uses FD helpers from report.js. */
+   Starting figures come from the company's 10-K (window.DCF); the assumptions start from one of three
+   example scenarios, the same for every company, and are the reader's to change. With a last close
+   (window.DCF.price) it compares the value with the share price and works out the growth the price
+   implies. Uses FD helpers from report.js. */
 (function () {
   const F = window.DCF, root = document.getElementById("dcf");
   if (!F || !root) return;
-  const EXAMPLE = {g1: 5, g2: 3, gt: 2.5, r: 10};
+  const PRESETS = {
+    cautious: {g1: 2, g2: 1, gt: 2, r: 11},
+    base: {g1: 5, g2: 3, gt: 2.5, r: 10},
+    optimistic: {g1: 10, g2: 6, gt: 3, r: 9},
+  };
+  const EXAMPLE = PRESETS.base;
   const $ = id => document.getElementById(id);
   const minus = s => String(s).replace(/^-/, "−");
   const usd = v => (v < 0 ? "−" : "") + "$" + Math.abs(v).toLocaleString("en-US", {minimumFractionDigits: 2, maximumFractionDigits: 2});
@@ -35,6 +42,15 @@
     if (id === "dcf-fcf") root.querySelectorAll(".basis button").forEach(x => x.setAttribute("aria-pressed", "false"));
     run();
   }));
+  // scenarios: a button sets all four assumptions; it shows as pressed while they still match
+  const presetButtons = [...root.querySelectorAll(".dcf-presets button")];
+  presetButtons.forEach(b => b.addEventListener("click", () => { setAssumptions(PRESETS[b.dataset.p]); run(); }));
+  function markPreset() {
+    const now = Object.fromEntries(sliders.map(k => [k, num("dcf-" + k + "-n")]));
+    presetButtons.forEach(b => b.setAttribute("aria-pressed",
+      String(sliders.every(k => PRESETS[b.dataset.p][k] === now[k]))));
+  }
+
   $("dcf-reset").addEventListener("click", () => {
     setAssumptions(EXAMPLE); setBasis(F.fcf != null && F.fcf > 0 ? "latest" : "avg");
     $("dcf-cash").value = F.net_cash != null ? Math.round(F.net_cash) : "";
@@ -59,6 +75,7 @@
   function run() {
     const fcf0 = num("dcf-fcf"), cash = num("dcf-cash") || 0, shares = num("dcf-shares");
     const [g1, g2, gt, r] = sliders.map(k => num("dcf-" + k + "-n"));
+    markPreset();
     const warn = $("dcf-warn");
     const problem = fcf0 == null || fcf0 <= 0 ? "Enter a positive starting free cash flow to see a value."
       : !shares || shares <= 0 ? "Enter the number of shares to see a value per share."
@@ -70,6 +87,7 @@
       $("dcf-ps").textContent = "—";
       ["dcf-eq", "dcf-pv", "dcf-tv", "dcf-nc", "dcf-share"].forEach(id => { $(id).textContent = "—"; });
       $("c-dcf").innerHTML = ""; $("dcf-grid").innerHTML = "";
+      if ($("dcf-gap")) { $("dcf-gap").textContent = "—"; $("dcf-implied").textContent = ""; }
       return;
     }
     const v = value(fcf0, cash, shares, g1, g2, gt, r);
@@ -79,6 +97,24 @@
     $("dcf-tv").textContent = big(v.pvTv);
     $("dcf-nc").textContent = big(cash);
     $("dcf-share").textContent = (v.pvTv / (v.pv + v.pvTv) * 100).toFixed(0) + "%";
+
+    // against the last close: how far apart they are, and the growth in years 1 to 5 that would give the
+    // price, with the reader's other assumptions (a reverse DCF)
+    const P = F.price && F.price.close;
+    if (P && $("dcf-gap")) {
+      const gap = (v.perShare / P - 1) * 100;
+      $("dcf-gap").textContent = Math.abs(gap) < 0.5 ? "about the same"
+        : `${Math.abs(gap).toFixed(0)}% ${gap > 0 ? "above" : "below"}`;
+      const at = g => value(fcf0, cash, shares, g, g2, gt, r).perShare;
+      let lo = -50, hi = 100, implied = null;
+      if (at(lo) <= P && at(hi) >= P) {
+        for (let i = 0; i < 60; i++) { const mid = (lo + hi) / 2; if (at(mid) < P) lo = mid; else hi = mid; }
+        implied = (lo + hi) / 2;
+      }
+      $("dcf-implied").textContent = implied == null
+        ? `No growth rate between −50% and 100% a year in years 1 to 5 gives the last close of ${usd(P)} with these other assumptions.`
+        : `The last close of ${usd(P)} matches free cash flow growth of ${minus(implied.toFixed(1))}% a year in years 1 to 5, with your other assumptions unchanged.`;
+    }
 
     const years = v.flows.map((_, i) => F.fy + 1 + i);
     const maxF = Math.max(...v.flows.map(x => x.f)) / 1000;
