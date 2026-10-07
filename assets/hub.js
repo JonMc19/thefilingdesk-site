@@ -3,7 +3,7 @@
    holds the first cards and every table row as plain links; script filters, sorts and pages them. */
 (function () {
   const ALL = window.HUB, base = document.currentScript.src.replace(/assets\/hub\.js.*$/, "");
-  const CARDS = 9, ROWS = 25;
+  const CARDS = 12, ROWS = 25;
   const METRICS = {
     revenue: {label: "Revenue", money: true},
     revenue_growth: {label: "Revenue growth", pct: true},
@@ -52,7 +52,7 @@
       + Object.keys(n).sort().map(k => `<option value="${esc(k)}">${esc(k)} (${n[k]})</option>`).join("");
     industryBox.hidden = !sector || Object.keys(n).length < 2;
   }
-  function refilter() { drawCards(); shown = ROWS; drawTable(); drawRank(); drawScatter(); }
+  function refilter() { cardPage = 0; drawCards(); shown = ROWS; drawTable(); drawRank(); drawScatter(); }
   document.querySelectorAll(".chips button").forEach(b => b.addEventListener("click", () => {
     sector = b.dataset.sector; industry = "";
     document.querySelectorAll(".chips button").forEach(x => x.setAttribute("aria-pressed", String(x === b)));
@@ -60,8 +60,9 @@
   }));
   industrySel.addEventListener("change", () => { industry = industrySel.value; refilter(); });
 
-  /* ----------------------------------------------------------- cards: the largest companies in the group */
-  const cardsHost = document.querySelector(".cards");
+  /* ----------------------------------------------------------- cards: the group's companies, largest first, a page at a time */
+  const cardsHost = document.querySelector(".cards"), pager = document.getElementById("card-pager");
+  let cardPage = 0;
   const pct = v => v == null ? "—" : minus(v.toFixed(1)) + "%";
   const chip = v => v == null ? "" : Math.abs(v) < 0.05 ? `<span class="chg flat">flat</span>`
     : `<span class="chg ${v >= 0 ? "up" : "down"}">${Math.abs(v).toFixed(1)}%</span>`;
@@ -81,7 +82,34 @@
       + `<div class="card-sector">${esc(c.si || c.s)}</div>${spark(c.rs)}<dl class="card-stats">`
       + stats.map(([k, v]) => `<div><dt>${k}</dt><dd>${v}</dd></div>`).join("") + `</dl></a>`;
   }
-  function drawCards() { cardsHost.innerHTML = ALL.filter(inSector).slice(0, CARDS).map(card).join(""); }
+  function drawCards() {
+    const list = ALL.filter(inSector), pages = Math.ceil(list.length / CARDS);
+    cardPage = Math.min(cardPage, Math.max(0, pages - 1));
+    const from = cardPage * CARDS, to = Math.min(from + CARDS, list.length);
+    cardsHost.innerHTML = list.slice(from, to).map(card).join("");
+    pager.hidden = pages < 2;
+    if (pages < 2) { pager.innerHTML = ""; return; }
+    // the first and last pages, and those either side of this one; gaps shown as an ellipsis
+    const nums = [...new Set([0, cardPage - 1, cardPage, cardPage + 1, pages - 1])].filter(p => p >= 0 && p < pages).sort((a, b) => a - b);
+    let html = `<button type="button" data-p="prev"${cardPage === 0 ? " disabled" : ""}>Previous</button><span class="pg-nums">`;
+    nums.forEach((p, i) => {
+      if (i && p - nums[i - 1] > 1) html += `<span class="gap" aria-hidden="true">…</span>`;
+      html += `<button type="button" data-p="${p}" aria-label="Page ${p + 1}"${p === cardPage ? ' aria-current="page"' : ""}>${p + 1}</button>`;
+    });
+    html += `</span><button type="button" data-p="next"${cardPage === pages - 1 ? " disabled" : ""}>Next</button>`;
+    pager.innerHTML = html + `<span class="range">${from + 1}–${to} of ${list.length}</span>`;
+  }
+  pager.addEventListener("click", e => {
+    const b = e.target.closest("button");
+    if (!b || b.disabled) return;
+    const p = b.dataset.p;
+    cardPage = p === "prev" ? cardPage - 1 : p === "next" ? cardPage + 1 : +p;
+    drawCards();
+    // keep the keyboard where it was, and bring the new cards into view if the page had scrolled past them
+    (pager.querySelector(`button[data-p="${p}"]:not([disabled])`) || pager.querySelector('[aria-current="page"]')).focus({preventScroll: true});
+    if (cardsHost.getBoundingClientRect().top < 0)
+      cardsHost.scrollIntoView({block: "start", behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth"});
+  });
 
   /* ----------------------------------------------------------- the table of every company */
   const table = document.getElementById("all"), tbody = table.tBodies[0];
@@ -231,7 +259,7 @@
   selX.addEventListener("change", () => { xKey = selX.value; drawScatter(); });
   selY.addEventListener("change", () => { yKey = selY.value; drawScatter(); });
 
-  drawTable(); drawRank(); drawScatter();
+  drawCards(); drawTable(); drawRank(); drawScatter();
   let w = innerWidth, t;
   addEventListener("resize", () => {
     clearTimeout(t);

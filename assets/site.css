@@ -511,7 +511,24 @@ a.earn:hover .nm { color: var(--accent); }
   .hub-all th:first-child, .hub-all td:first-child { position: sticky; left: 0; z-index: 1; background: var(--sheet); border-right: 1px solid var(--rule-strong); }
   .hub-all thead th:first-child { background: var(--sheet-2); }
 }
-@media (max-width: 600px) { .hub-browse .cards .card:nth-child(n+4) { display: none; } }   /* the table below lists the rest */
+.pager { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 16px 4px 0; }
+.pager[hidden] { display: none; }
+.pager button { font: inherit; font-size: 13px; font-weight: 700; color: var(--muted); background: var(--sheet); border: 0; border-radius: 999px; min-width: 38px; min-height: 38px; padding: 6px 14px; cursor: pointer; transition: transform 160ms cubic-bezier(0.23, 1, 0.32, 1); }
+.pager button[data-p]:not([data-p="prev"]):not([data-p="next"]) { font-family: var(--mono); font-weight: 500; padding: 6px 10px; }
+@media (hover: hover) and (pointer: fine) { .pager button:not([disabled]):not([aria-current]):hover { color: var(--ink); } }
+.pager button[aria-current="page"] { color: var(--sheet); background: var(--ink); }
+.pager button[disabled] { opacity: 0.45; cursor: default; }
+.pager button:not([disabled]):active { transform: scale(0.97); }
+.pager .pg-nums { display: flex; align-items: center; gap: 6px; }
+.pager .gap { color: var(--muted); padding: 0 2px; }
+.pager .range { font-family: var(--mono); font-size: 12.5px; color: var(--muted); margin-left: auto; }
+@media (max-width: 600px) {   /* page numbers on top; Previous, the range and Next underneath */
+  .pager { display: grid; grid-template-columns: auto 1fr auto; gap: 10px 6px; margin-inline: 0; }
+  .pager .pg-nums { grid-row: 1; grid-column: 1 / -1; justify-content: center; gap: 4px; }
+  .pager [data-p="prev"] { grid-row: 2; grid-column: 1; }
+  .pager .range { grid-row: 2; grid-column: 2; margin: 0; text-align: center; }
+  .pager [data-p="next"] { grid-row: 2; grid-column: 3; }
+}
 .all-foot { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; margin-top: 14px; }
 .all-foot span { font-family: var(--mono); font-size: 12.5px; color: var(--muted); }
 .all-foot .more { margin-top: 0; }
