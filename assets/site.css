@@ -330,11 +330,10 @@ td.fail { color: var(--muted); }
 .k-text th:first-child, .k-text td:first-child { padding-left: 0; }
 .k-text thead th { color: var(--ink-2); border-bottom: 1px solid var(--ink); }
 .k-text tr.sec td { border-bottom: 1px solid var(--ink); }
-.method { border-top: 1px solid var(--rule-strong); margin-top: 40px; padding-top: 4px; }
-.method p, .method li { font-family: var(--sans); font-size: 14px; line-height: 1.6; color: var(--ink-2); }
-.k-text .sheet .method p, .k-text .sheet .method li { font-family: var(--sans); font-size: 14px; }
-.method ul { padding-left: 18px; margin: 0 0 16px; }
-.method li { margin-bottom: 6px; }
+/* the end of a report: notes on blanks and corrections, the sources, the disclaimer; small print, no heading */
+.sources { border-top: 1px solid var(--rule-strong); margin-top: 40px; padding-top: 14px; }
+.sources p { font-family: var(--sans); font-size: 13.5px; line-height: 1.6; color: var(--ink-2); margin: 0 0 10px; }
+.k-text .sheet .sources p { font-family: var(--sans); font-size: 13.5px; max-width: 54em; }
 .disclaimer { font-family: var(--serif); font-style: italic; font-size: 15px; line-height: 1.55; color: var(--muted); border-top: 1px solid var(--rule); padding-top: 10px; margin-top: 18px; }
 .k-text .sheet .disclaimer { font-size: 15px; max-width: none; }
 
