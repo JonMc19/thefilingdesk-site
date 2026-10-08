@@ -193,6 +193,36 @@ td.fail { color: var(--muted); }
 
 /* ---------------------------------------------------------------- front page */
 .front { padding-block: 24px 0; }
+/* the front page's market strip: the last close, scrolling sideways; pauses on hover, focus or its button */
+.ticker { display: flex; align-items: stretch; margin: 16px 0; background: var(--sheet); border-radius: var(--radius-sm); overflow: hidden; font-size: 13.5px; }
+.tk-cap { flex: none; display: grid; align-content: center; gap: 1px; padding: 8px 16px; border-right: 1px solid var(--rule); }
+.tk-cap span { font-size: 11px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: var(--muted); }
+.tk-cap time { font-family: var(--mono); font-size: 13px; font-weight: 500; color: var(--ink); }
+.tk-viewport { flex: 1; min-width: 0; overflow: hidden; -webkit-mask-image: linear-gradient(90deg, transparent, #000 20px, #000 calc(100% - 20px), transparent); mask-image: linear-gradient(90deg, transparent, #000 20px, #000 calc(100% - 20px), transparent); }
+.tk-track { display: flex; width: max-content; animation: tk-scroll var(--tk-dur, 60s) linear infinite; }
+@keyframes tk-scroll { to { transform: translateX(-50%); } }
+.ticker:hover .tk-track, .ticker:focus-within .tk-track, .ticker.paused .tk-track { animation-play-state: paused; }
+.tk-list { display: flex; list-style: none; margin: 0; padding: 0; }
+.tk-list li { display: flex; align-items: center; gap: 8px; padding: 12px 18px; border-right: 1px solid var(--rule); white-space: nowrap; }
+.tk-list a { display: flex; align-items: center; gap: 8px; color: inherit; text-decoration: none; }
+@media (hover: hover) and (pointer: fine) { .tk-list a:hover .tk-name { color: var(--accent); } }
+.tk-name { font-weight: 700; color: var(--ink); }
+.tk-sym { font-family: var(--mono); font-size: 12px; color: var(--muted); }
+.tk-v { font-family: var(--mono); color: var(--ink); }
+.tk-list .chg { font-size: 12px; }
+.tk-list .tk-sep { font-size: 11px; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; color: var(--muted); }
+.tk-pause { flex: none; width: 44px; border: 0; border-left: 1px solid var(--rule); background: none; color: var(--muted); cursor: pointer; display: grid; place-items: center; }
+.tk-pause::before { content: ""; width: 10px; height: 12px; border-left: 3px solid currentColor; border-right: 3px solid currentColor; box-sizing: border-box; }
+.tk-pause[aria-pressed="true"]::before { width: 11px; height: 12px; border: 0; background: currentColor; clip-path: polygon(0 0, 100% 50%, 0 100%); }
+@media (hover: hover) and (pointer: fine) { .tk-pause:hover { color: var(--ink); } }
+.tk-pause:focus-visible { outline: 2px solid var(--accent); outline-offset: -4px; }
+@media (prefers-reduced-motion: reduce) {
+  .tk-track { animation: none; }
+  .tk-viewport { overflow-x: auto; scrollbar-width: thin; -webkit-mask-image: none; mask-image: none; }
+  .tk-list[aria-hidden] { display: none; }
+  .tk-pause { display: none; }
+}
+@media (max-width: 600px) { .tk-cap { padding: 8px 12px; } .tk-list li { padding: 11px 14px; } }
 .front-grid { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 16px; align-items: start; }
 @media (max-width: 860px) { .front-grid { grid-template-columns: 1fr; } }
 .lead-story { background: var(--sheet); border-radius: var(--radius); padding: clamp(20px, 3.4vw, 34px); }
