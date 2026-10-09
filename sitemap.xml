@@ -5,7 +5,7 @@
   <url><loc>https://thefilingdesk.net/about/</loc></url>
   <url><loc>https://thefilingdesk.net/reports/nvidia-fy2026/</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://thefilingdesk.net/reports/microsoft-fy2026/</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://thefilingdesk.net/companies/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/a/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/aapl/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/abbv/</loc><lastmod>2026-10-07</lastmod></url>
@@ -30,6 +30,7 @@
   <url><loc>https://thefilingdesk.net/companies/algn/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/all/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/alle/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/alv/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/amat/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/amcr/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/amd/</loc><lastmod>2026-10-07</lastmod></url>
@@ -38,7 +39,9 @@
   <url><loc>https://thefilingdesk.net/companies/amp/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/amt/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/amzn/</loc><lastmod>2026-10-07</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/an/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/anet/</loc><lastmod>2026-10-07</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/anf/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/aon/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/aos/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/apd/</loc><lastmod>2026-10-08</lastmod></url>
@@ -48,6 +51,7 @@
   <url><loc>https://thefilingdesk.net/companies/aptv/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/are/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ares/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/armk/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ato/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/avgo/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/avy/</loc><lastmod>2026-10-08</lastmod></url>
@@ -59,7 +63,9 @@
   <url><loc>https://thefilingdesk.net/companies/bac/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ball/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/bax/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/bbwi/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/bby/</loc><lastmod>2026-10-07</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/bc/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/bdx/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/be/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ben/</loc><lastmod>2026-10-08</lastmod></url>
@@ -74,14 +80,19 @@
   <url><loc>https://thefilingdesk.net/companies/br/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/brk-b/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/bro/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/bros/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/bsx/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/burl/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/bwa/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/bx/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/bxp/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/byd/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/c/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/cah/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/carr/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/casy/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/cat/</loc><lastmod>2026-10-07</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/cava/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/cb/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/cboe/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/cbre/</loc><lastmod>2026-10-08</lastmod></url>
@@ -93,8 +104,11 @@
   <url><loc>https://thefilingdesk.net/companies/cf/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/cfg/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/chd/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/chdn/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/chh/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/chrw/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/chtr/</loc><lastmod>2026-10-07</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/chwy/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ci/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/cien/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/cinf/</loc><lastmod>2026-10-08</lastmod></url>
@@ -109,6 +123,7 @@
   <url><loc>https://thefilingdesk.net/companies/cof/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/cohr/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/coin/</loc><lastmod>2026-10-07</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/colm/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/coo/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/cop/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/cor/</loc><lastmod>2026-10-08</lastmod></url>
@@ -119,6 +134,7 @@
   <url><loc>https://thefilingdesk.net/companies/crh/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/crl/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/crm/</loc><lastmod>2026-10-07</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/crox/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/crwd/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/csco/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/csgp/</loc><lastmod>2026-10-08</lastmod></url>
@@ -142,6 +158,7 @@
   <url><loc>https://thefilingdesk.net/companies/dhi/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/dhr/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/dis/</loc><lastmod>2026-10-07</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/dks/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/dlr/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/dltr/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/doc/</loc><lastmod>2026-10-08</lastmod></url>
@@ -151,9 +168,11 @@
   <url><loc>https://thefilingdesk.net/companies/dri/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/dte/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/duk/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/duol/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/dva/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/dvn/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/dxcm/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/eat/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ebay/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/echo/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ecl/</loc><lastmod>2026-10-08</lastmod></url>
@@ -193,43 +212,53 @@
   <url><loc>https://thefilingdesk.net/companies/fis/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/fisv/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/fitb/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/five/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/fix/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/flex/</loc><lastmod>2026-10-07</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/fnd/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/foxa/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/frt/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/fslr/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ftnt/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ftv/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/gap/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/gd/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/gddy/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ge/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/gehc/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/gen/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/gev/</loc><lastmod>2026-10-07</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/ghc/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/gild/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/gis/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/gl/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/glw/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/gm/</loc><lastmod>2026-10-07</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/gme/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/gnrc/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/gntx/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/googl/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/gpc/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/gpn/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/grmn/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/gs/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/gww/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/h/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/hal/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/has/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/hban/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/hca/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/hd/</loc><lastmod>2026-10-07</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/hgv/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/hig/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/hii/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/hlt/</loc><lastmod>2026-10-07</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/hog/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/hon/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/hood/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/hpe/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/hpq/</loc><lastmod>2026-10-07</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/hrb/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/hrl/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/hsic/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/hst/</loc><lastmod>2026-10-08</lastmod></url>
@@ -263,6 +292,7 @@
   <url><loc>https://thefilingdesk.net/companies/jkhy/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/jnj/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/jpm/</loc><lastmod>2026-10-07</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/kbh/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/kdp/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/key/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/keys/</loc><lastmod>2026-10-07</lastmod></url>
@@ -276,7 +306,9 @@
   <url><loc>https://thefilingdesk.net/companies/kr/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/kvue/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/l/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/lad/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ldos/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/lea/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/len/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/lh/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/lhx/</loc><lastmod>2026-10-08</lastmod></url>
@@ -286,6 +318,7 @@
   <url><loc>https://thefilingdesk.net/companies/lly/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/lmt/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/lnt/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/lope/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/low/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/lrcx/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/lulu/</loc><lastmod>2026-10-07</lastmod></url>
@@ -293,10 +326,12 @@
   <url><loc>https://thefilingdesk.net/companies/lvs/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/lyb/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/lyv/</loc><lastmod>2026-10-07</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/m/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ma/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/maa/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/mar/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/mas/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/mat/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/mcd/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/mchp/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/mck/</loc><lastmod>2026-10-08</lastmod></url>
@@ -324,7 +359,9 @@
   <url><loc>https://thefilingdesk.net/companies/msi/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/mtb/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/mtd/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/mtn/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/mu/</loc><lastmod>2026-10-07</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/musa/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/nclh/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ndaq/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ndsn/</loc><lastmod>2026-10-08</lastmod></url>
@@ -344,9 +381,12 @@
   <url><loc>https://thefilingdesk.net/companies/nvr/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/nwsa/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/nxpi/</loc><lastmod>2026-10-07</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/nxst/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/nyt/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/o/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/odfl/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/oke/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/olli/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/omc/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/on/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/orcl/</loc><lastmod>2026-10-07</lastmod></url>
@@ -354,6 +394,7 @@
   <url><loc>https://thefilingdesk.net/companies/otis/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/oxy/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/p/</loc><lastmod>2026-10-07</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/pag/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/panw/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/payx/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/pcar/</loc><lastmod>2026-10-08</lastmod></url>
@@ -366,8 +407,11 @@
   <url><loc>https://thefilingdesk.net/companies/pgr/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ph/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/phm/</loc><lastmod>2026-10-07</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/pii/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/pins/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/pkg/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/pld/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/plnt/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/pltr/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/pm/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/pnc/</loc><lastmod>2026-10-08</lastmod></url>
@@ -380,6 +424,7 @@
   <url><loc>https://thefilingdesk.net/companies/psa/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/psx/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ptc/</loc><lastmod>2026-10-07</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/pvh/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/pwr/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/pypl/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/q/</loc><lastmod>2026-10-07</lastmod></url>
@@ -389,10 +434,12 @@
   <url><loc>https://thefilingdesk.net/companies/reg/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/regn/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/rf/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/rh/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/rjf/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/rl/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/rmd/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/rok/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/roku/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/rol/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/rop/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/rost/</loc><lastmod>2026-10-07</lastmod></url>
@@ -402,7 +449,9 @@
   <url><loc>https://thefilingdesk.net/companies/sbac/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/sbux/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/schw/</loc><lastmod>2026-10-07</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/sci/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/shw/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/siri/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/sjm/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/slb/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/smci/</loc><lastmod>2026-10-07</lastmod></url>
@@ -487,6 +536,7 @@
   <url><loc>https://thefilingdesk.net/companies/wfc/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/wm/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/wmb/</loc><lastmod>2026-10-08</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/wmg/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/wmt/</loc><lastmod>2026-10-07</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/wrb/</loc><lastmod>2026-10-08</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/wsm/</loc><lastmod>2026-10-07</lastmod></url>
