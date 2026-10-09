@@ -38,13 +38,13 @@
   const el = id => document.getElementById(id);
   const show = (id, on) => { const f = el(id); if (f) f.closest("figure").hidden = !on; };
 
-  function columns(P, id, values, {fmtAxis, rows, aria}) {
+  function columns(P, id, values, {fmtAxis, rows, aria, color}) {
     if (!el(id)) return;
     show(id, has(values));
     if (!has(values)) return;
     const [lo, hi] = range([{values}]);
     const step = niceStep(lo, hi);
-    FD.columns(el(id), {years: P.X, values, step, fmt: fmtAxis || axis(step), aria, rows, xlab: P.xlab, title: P.title});
+    FD.columns(el(id), {years: P.X, values, step, fmt: fmtAxis || axis(step), color, aria, rows, xlab: P.xlab, title: P.title});
   }
 
   function lines(P, id, series, {suffix = "%", rows, aria}) {
@@ -77,6 +77,24 @@
         ["var(--s1)", "Revenue", money(D.revenue[i])],
         [null, P.unit === "year" ? "Growth" : "Growth on a year earlier", pctf(M.revenue_growth[i])],
         ...workedOut(P, "revenue", i),
+      ],
+    });
+
+    const eps = D.eps_diluted || [];
+    columns(P, "c-earnings", bnv(D.net_income || []), {
+      aria: `Column chart: net income by ${per}; losses in red`,
+      rows: i => [
+        ["var(--s1)", "Net income", money(D.net_income[i])],
+        ...(M.net_margin ? [[null, "Net margin", pctf(M.net_margin[i])]] : []),
+        ...workedOut(P, "net_income", i),
+      ],
+    });
+    columns(P, "c-eps", eps, {
+      color: "var(--s2)",
+      aria: `Column chart: diluted earnings per share by ${per}; losses in red`,
+      rows: i => [
+        ["var(--s2)", "Diluted earnings per share", eps[i] == null ? dash : (eps[i] < 0 ? "−$" : "$") + num(Math.abs(eps[i]), 2)],
+        ...workedOut(P, "eps_diluted", i),
       ],
     });
 
