@@ -1,12 +1,12 @@
 /* The Filing Desk: discounted cash flow calculator on company pages.
-   Starting figures come from the company's 10-K (window.DCF); the assumptions start from one of three
-   example scenarios, the same for every company, and are the reader's to change. With a last close
+   Starting figures come from the company's 10-K, or for net cash and shares its latest 10-Q (window.DCF);
+   the assumptions start from one of three example scenarios, the same for every company, and are the reader's to change. With a last close
    (window.DCF.price) it compares the value with the share price and works out the growth the price
    implies. Uses FD helpers from report.js. */
 (function () {
   const F = window.DCF, root = document.getElementById("dcf");
   if (!F || !root) return;
-  const PRESETS = {
+  const PRESETS = F.presets || {   // defined once in sitebuild/companies.py, which also works out the scenario row
     cautious: {g1: 2, g2: 1, gt: 2, r: 11},
     base: {g1: 5, g2: 3, gt: 2.5, r: 10},
     optimistic: {g1: 10, g2: 6, gt: 3, r: 9},
@@ -28,35 +28,57 @@
     box.addEventListener("input", () => { if (box.value !== "") range.value = box.value; run(); });
   });
 
-  // starting free cash flow: latest year, or the average of the last three
-  function basisValue(b) { return b === "avg" ? F.fcf_avg3 : F.fcf; }
-  let basis = F.fcf != null && F.fcf > 0 ? "latest" : (F.fcf_avg3 != null && F.fcf_avg3 > 0 ? "avg" : "latest");
-  function setBasis(b) {
-    basis = b;
-    root.querySelectorAll(".basis button").forEach(x => x.setAttribute("aria-pressed", String(x.dataset.b === b)));
-    const v = basisValue(b);
-    $("dcf-fcf").value = v != null && v > 0 ? Math.round(v) : "";
+  // the starting figures, each with a choice of where it comes from: free cash flow from the latest year, the
+  // average of the last three, or before growth spending (cash from operations minus depreciation); net cash
+  // and diluted shares from the 10-K or the latest 10-Q
+  const N = F.notes || {};
+  const BASES = {
+    fcf: {input: "dcf-fcf", values: {fy: F.fcf, avg: F.fcf_avg3, norm: F.fcf_norm}, notes: N.fcf, positive: true},
+    cash: {input: "dcf-cash", values: {fy: F.net_cash, q: F.net_cash_q}, notes: N.cash},
+    shares: {input: "dcf-shares", values: {fy: F.shares, q: F.shares_q}, notes: N.shares},
+  };
+  const usable = (g, b) => { const v = BASES[g].values[b]; return v != null && (!BASES[g].positive || v > 0); };
+  // the page says which figure each starts from (window.DCF.defaults, worked out with the scenario row in
+  // sitebuild/companies.py); otherwise the 10-K's, or the next one where it's missing
+  const defaultBasis = g => (F.defaults && usable(g, F.defaults[g])) ? F.defaults[g]
+    : usable(g, "fy") ? "fy" : (["avg", "norm", "q"].find(b => usable(g, b)) || "fy");
+  function setBasis(g, b) {
+    const B = BASES[g], v = B.values[b];
+    root.querySelectorAll(`.basis[data-for="${g}"] button`).forEach(x => x.setAttribute("aria-pressed", String(x.dataset.b === b)));
+    $(B.input).value = usable(g, b) ? Math.round(v) : "";
+    const note = $(B.input + "-note");
+    if (note && B.notes && B.notes[b]) note.textContent = B.notes[b];
   }
-  root.querySelectorAll(".basis button").forEach(b => b.addEventListener("click", () => { setBasis(b.dataset.b); run(); }));
-  ["dcf-fcf", "dcf-cash", "dcf-shares"].forEach(id => $(id).addEventListener("input", () => {
-    if (id === "dcf-fcf") root.querySelectorAll(".basis button").forEach(x => x.setAttribute("aria-pressed", "false"));
+  root.querySelectorAll(".basis button").forEach(b => b.addEventListener("click", () => { setBasis(b.parentElement.dataset.for, b.dataset.b); run(); }));
+  Object.entries(BASES).forEach(([g, B]) => $(B.input).addEventListener("input", () => {
+    // a figure typed by hand comes from neither filing
+    root.querySelectorAll(`.basis[data-for="${g}"] button`).forEach(x => x.setAttribute("aria-pressed", "false"));
     run();
   }));
+  const setAllBases = () => Object.keys(BASES).forEach(g => setBasis(g, defaultBasis(g)));
   // scenarios: a button sets all four assumptions; it shows as pressed while they still match
   const presetButtons = [...root.querySelectorAll(".dcf-presets button")];
   presetButtons.forEach(b => b.addEventListener("click", () => { setAssumptions(PRESETS[b.dataset.p]); run(); }));
+  // the row of scenario values above the calculator: each loads its scenario with the default starting figures,
+  // which are the figures its value was worked out from
+  const scenButtons = [...document.querySelectorAll(".scen")];
+  scenButtons.forEach(b => b.addEventListener("click", () => {
+    setAssumptions(PRESETS[b.dataset.p]); setAllBases(); run();
+    if (root.getBoundingClientRect().top > innerHeight * 0.6)   // on a phone the row is tall: bring the calculator up
+      root.scrollIntoView({block: "start", behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth"});
+  }));
   function markPreset() {
     const now = Object.fromEntries(sliders.map(k => [k, num("dcf-" + k + "-n")]));
-    presetButtons.forEach(b => b.setAttribute("aria-pressed",
-      String(sliders.every(k => PRESETS[b.dataset.p][k] === now[k]))));
+    const matches = p => sliders.every(k => PRESETS[p][k] === now[k]);
+    presetButtons.forEach(b => b.setAttribute("aria-pressed", String(matches(b.dataset.p))));
+    const defaults = Object.keys(BASES).every(g => {
+      const b = defaultBasis(g);
+      return num(BASES[g].input) === (usable(g, b) ? Math.round(BASES[g].values[b]) : null);
+    });
+    scenButtons.forEach(b => b.setAttribute("aria-pressed", String(defaults && matches(b.dataset.p))));
   }
 
-  $("dcf-reset").addEventListener("click", () => {
-    setAssumptions(EXAMPLE); setBasis(F.fcf != null && F.fcf > 0 ? "latest" : "avg");
-    $("dcf-cash").value = F.net_cash != null ? Math.round(F.net_cash) : "";
-    $("dcf-shares").value = F.shares != null ? Math.round(F.shares) : "";
-    run();
-  });
+  $("dcf-reset").addEventListener("click", () => { setAssumptions(EXAMPLE); setAllBases(); run(); });
 
   function value(fcf0, cash, shares, g1, g2, gt, r) {
     const flows = [];
@@ -146,9 +168,7 @@
   }
 
   setAssumptions(EXAMPLE);
-  setBasis(basis);
-  $("dcf-cash").value = F.net_cash != null ? Math.round(F.net_cash) : "";
-  $("dcf-shares").value = F.shares != null ? Math.round(F.shares) : "";
+  setAllBases();
   run();
   let w = innerWidth, t;
   addEventListener("resize", () => { clearTimeout(t); t = setTimeout(() => { if (innerWidth !== w) { w = innerWidth; run(); } }, 150); });

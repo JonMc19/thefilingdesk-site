@@ -565,6 +565,29 @@ a.earn:hover .nm { color: var(--accent); }
 
 /* valuation */
 .value-card { scroll-margin-top: 84px; }
+/* the example scenarios' values, above the calculator: the base one in the dark panel colours, as the result is */
+.scen-row { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin: 18px 0 8px; }
+.scen { font: inherit; text-align: left; display: grid; align-content: start; gap: 4px; padding: 14px 16px; border: 1px solid var(--rule); border-radius: 14px; background: var(--sheet); color: var(--ink); cursor: pointer; transition: transform 160ms cubic-bezier(0.23, 1, 0.32, 1); }
+.scen:active { transform: scale(0.98); }
+@media (hover: hover) and (pointer: fine) { .scen:hover { border-color: var(--rule-strong); } }
+.scen:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.scen[aria-pressed="true"] { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+.scen .k { font-size: 13px; font-weight: 700; color: var(--muted); }
+.scen .v { font-family: var(--mono); font-size: 24px; font-weight: 600; letter-spacing: -0.01em; }
+.scen .a, .scen .gap { font-size: 12.5px; line-height: 1.4; color: var(--muted); }
+.scen .gap { font-family: var(--mono); font-size: 12px; }
+.scen.base { background: var(--dark); border-color: var(--dark); color: var(--dark-ink); }
+.scen.base .k, .scen.base .a, .scen.base .gap { color: var(--dark-muted); }
+.scen.base .v { font-size: 30px; }
+.scen.base[aria-pressed="true"] { box-shadow: 0 0 0 2px var(--accent); }
+.k-data .value-card p.scen-note { font-size: 13px; line-height: 1.55; color: var(--muted); margin: 0 4px 6px; max-width: 60em; }
+@media (max-width: 640px) {
+  .scen-row { grid-template-columns: 1fr; }
+  .scen { grid-template-columns: 1fr auto; column-gap: 12px; }
+  .scen .k { grid-column: 1; } .scen .v { grid-column: 2; grid-row: 1 / span 2; align-self: center; }
+  .scen .a, .scen .gap { grid-column: 1; }
+  .scen.base .v { font-size: 26px; }
+}
 .dcf { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 24px; margin: 18px 0 8px; }
 @media (max-width: 760px) { .dcf { grid-template-columns: 1fr; } }
 .dcf fieldset { border: 0; padding: 0; margin: 0 0 16px; }
@@ -575,7 +598,20 @@ a.earn:hover .nm { color: var(--accent); }
 .dcf input[type=number] { width: 100%; font-family: var(--mono); font-size: 14px; text-align: right; color: var(--ink); background: var(--ground); border: 1px solid transparent; border-radius: 10px; padding: 6px 9px; }
 .dcf input[type=number]:focus { border-color: var(--accent); background: var(--sheet); outline: none; }
 .dcf input[type=range] { grid-column: 1 / -1; width: 100%; accent-color: var(--accent); margin: 4px 0 0; }
-.dcf .basis { display: flex; gap: 4px; grid-column: 1 / -1; }
+.dcf .basis { display: flex; flex-wrap: wrap; gap: 4px; grid-column: 1 / -1; }
+/* the P/E method's comparison with peers: the company's own row picked out, as in the peer table */
+.pe-peers td:first-child a { color: var(--ink); font-weight: 700; text-decoration: none; }
+@media (hover: hover) and (pointer: fine) { .pe-peers td:first-child a:hover { color: var(--accent); } }
+.pe-peers tr.self td:first-child { font-weight: 700; }
+.pe-peers td .tk { font-family: var(--mono); color: var(--muted); font-weight: 400; margin-left: 6px; font-size: 12px; }
+.value-card h3#pe { margin-top: 36px; scroll-margin-top: 84px; }
+/* the P/E method's earnings for the years ahead: five small boxes in a row (three on a phone) */
+.dcf .row.pe-years { grid-template-columns: 1fr; }
+.pe-years .lbl { font-size: 14px; color: var(--ink); }
+.eps-years { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 6px; }
+.eps-years label { display: grid; gap: 3px; font-family: var(--mono); font-size: 11px; color: var(--muted); }
+.dcf .eps-years input[type=number] { font-size: 13px; padding: 5px 7px; }
+@media (max-width: 520px) { .eps-years { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 .dcf .basis button { font-family: var(--mono); font-size: 12px; font-weight: 500; background: var(--ground); padding: 4px 10px; }
 .dcf .basis button[aria-pressed="true"] { color: var(--sheet); background: var(--ink); }
 .dcf-presets { display: flex; flex-wrap: wrap; align-items: center; gap: 2px; padding: 3px; margin: 2px 0 8px; background: var(--ground); border-radius: 999px; width: fit-content; }
