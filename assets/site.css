@@ -604,7 +604,16 @@ a.earn:hover .nm { color: var(--accent); }
 @media (hover: hover) and (pointer: fine) { .pe-peers td:first-child a:hover { color: var(--accent); } }
 .pe-peers tr.self td:first-child { font-weight: 700; }
 .pe-peers td .tk { font-family: var(--mono); color: var(--muted); font-weight: 400; margin-left: 6px; font-size: 12px; }
-.value-card h3#pe { margin-top: 36px; scroll-margin-top: 84px; }
+/* the valuation card: one heading, then numbered subsections (the DCF, the P/E method), each under a rule */
+.val-sub { margin-top: 40px; padding-top: 28px; border-top: 2px solid var(--rule-strong); scroll-margin-top: 84px; }
+.val-nav + .val-sub { margin-top: 24px; }
+.val-h { display: flex; align-items: center; gap: 12px; font-size: clamp(20px, 2.4vw, 24px); margin: 0 0 8px; }
+.val-n { flex: none; display: inline-flex; align-items: center; justify-content: center; width: 30px; height: 30px; border-radius: 50%; background: var(--accent); color: var(--on-accent); font-family: var(--mono); font-size: 14px; font-weight: 600; }
+.val-nav { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 0; }
+.val-nav a { display: inline-flex; align-items: center; gap: 8px; padding: 5px 16px 5px 5px; border-radius: 999px; background: var(--ground); color: var(--ink); font-size: 13.5px; font-weight: 700; text-decoration: none; transition: transform 160ms cubic-bezier(0.23, 1, 0.32, 1); }
+.val-nav a:active { transform: scale(0.97); }
+@media (hover: hover) and (pointer: fine) { .val-nav a:hover { background: var(--sheet-2); color: var(--accent); } }
+.val-nav .val-n { width: 24px; height: 24px; font-size: 12px; }
 /* the P/E method's earnings for the years ahead: five small boxes in a row (three on a phone) */
 .dcf .row.pe-years { grid-template-columns: 1fr; }
 .pe-years .lbl { font-size: 14px; color: var(--ink); }

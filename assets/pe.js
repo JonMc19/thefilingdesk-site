@@ -48,7 +48,30 @@
   for (let i = 1; i <= YEARS; i++) $("pe-y" + i).addEventListener("input", () => { project(i); run(); });
   root.querySelectorAll('.basis[data-for="yr"] button').forEach(b => b.addEventListener("click", () => { years = +b.dataset.b; press("yr", years); run(); }));
 
+  // the example scenarios above the calculator: each loads its earnings growth, multiple and discount rate on the
+  // default earnings per share, applied to next year's earnings; it stays pressed while the calculator matches it
+  const scen = [...document.querySelectorAll("#pe .scen")];
+  scen.forEach(b => b.addEventListener("click", () => {
+    const a = F.presets[b.dataset.p];
+    setPair("pe-g", a.g); setEps(F.eps_default);
+    setPair("pe-m", a.m); press("pe", Object.keys(F.multiples).find(k => F.multiples[k] === a.m) || null);
+    setPair("pe-r", a.r); years = a.n; press("yr", years);
+    run();
+    if (root.getBoundingClientRect().top > innerHeight * 0.6)
+      root.scrollIntoView({block: "start", behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth"});
+  }));
+  function markScen() {
+    const e = F.eps[F.eps_default] != null ? +F.eps[F.eps_default].toFixed(2) : null, g = num("pe-g-n");
+    const onDefaults = e != null && $("pe-eps").value === e.toFixed(2) && g != null
+      && $("pe-y1").value === (e * (1 + g / 100)).toFixed(2);   // and Year 1 not typed over (cents, as the boxes show)
+    scen.forEach(b => {
+      const a = F.presets[b.dataset.p];
+      b.setAttribute("aria-pressed", String(onDefaults && a.g === g && a.m === num("pe-m-n") && a.r === num("pe-r-n") && a.n === years));
+    });
+  }
+
   function run() {
+    markScen();
     const m = num("pe-m-n"), r = num("pe-r-n") ?? 10;
     const eps = years === 0 ? num("pe-eps") : num("pe-y" + years);
     const ok = eps != null && eps > 0 && m != null && m > 0;

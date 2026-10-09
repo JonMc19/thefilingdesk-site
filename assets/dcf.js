@@ -61,7 +61,7 @@
   presetButtons.forEach(b => b.addEventListener("click", () => { setAssumptions(PRESETS[b.dataset.p]); run(); }));
   // the row of scenario values above the calculator: each loads its scenario with the default starting figures,
   // which are the figures its value was worked out from
-  const scenButtons = [...document.querySelectorAll(".scen")];
+  const scenButtons = [...document.querySelectorAll("#dcf-sec .scen")];   // the P/E method has its own
   scenButtons.forEach(b => b.addEventListener("click", () => {
     setAssumptions(PRESETS[b.dataset.p]); setAllBases(); run();
     if (root.getBoundingClientRect().top > innerHeight * 0.6)   // on a phone the row is tall: bring the calculator up
