@@ -8,7 +8,7 @@
   const dash = "—";
   const num = (v, d = 1) => v == null ? dash : FD.minus(v.toLocaleString("en-US", {minimumFractionDigits: d, maximumFractionDigits: d}));
   const pctf = v => v == null ? dash : num(v) + "%";
-  const money = v => v == null ? dash : Math.abs(v) >= 1000 ? "$" + num(v / 1000) + "B" : "$" + num(v, 0) + "M";
+  const money = v => v == null ? dash : (v < 0 ? "−" : "") + (Math.abs(v) >= 1000 ? "$" + num(Math.abs(v) / 1000) + "B" : "$" + num(Math.abs(v), 0) + "M");
   const bnv = a => a.map(v => v == null ? null : v / 1000);
   const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
   const longDate = iso => { const [y, m, d] = iso.split("-").map(Number); return `${MONTHS[m - 1]} ${d}, ${y}`; };
@@ -85,6 +85,7 @@
       aria: `Column chart: net income by ${per}; losses in red`,
       rows: i => [
         ["var(--s1)", "Net income", money(D.net_income[i])],
+        [null, P.unit === "year" ? "Growth" : "Growth on a year earlier", pctf((M.net_income_growth || [])[i])],
         ...(M.net_margin ? [[null, "Net margin", pctf(M.net_margin[i])]] : []),
         ...workedOut(P, "net_income", i),
       ],
@@ -94,6 +95,7 @@
       aria: `Column chart: diluted earnings per share by ${per}; losses in red`,
       rows: i => [
         ["var(--s2)", "Diluted earnings per share", eps[i] == null ? dash : (eps[i] < 0 ? "−$" : "$") + num(Math.abs(eps[i]), 2)],
+        [null, P.unit === "year" ? "Growth" : "Growth on a year earlier", pctf((M.eps_growth || [])[i])],
         ...workedOut(P, "eps_diluted", i),
       ],
     });
