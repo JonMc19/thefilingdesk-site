@@ -1,4 +1,4 @@
-/* The Filing Desk: the filter on /stories/. "#results" or "#week" in the address opens on one kind, which is how
+/* The Filing Desk: the filter on /stories/. "#results", "#quarterly" or "#week" in the address opens on one kind, which is how
    the old /reports/ and /weekly/ lists forward here. Without scripts every story shows. */
 (() => {
   const buttons = [...document.querySelectorAll(".chips button[data-kind]")];
