@@ -300,7 +300,15 @@ td.fail { color: var(--muted); }
 .plain h1 { margin: 0 0 18px; }
 .plain ul { padding-left: 20px; }
 .plain li { margin-bottom: 6px; }
-.reports-index { max-width: 900px; }
+.reports-index { max-width: 1000px; }
+/* the story cards take the column's full width: the plain pages' 32em reading measure is for running text */
+.plain.reports-index .reports > li, .plain.reports-index .rep p { max-width: none; }
+.reports-index .rep.has-thumb { grid-template-columns: minmax(0, 1fr) 200px; column-gap: 24px; }
+.reports-index .rep.has-thumb > .thumb { width: 200px; height: 130px; }
+@media (max-width: 600px) {
+  .reports-index .rep.has-thumb { grid-template-columns: minmax(0, 1fr) 96px; column-gap: 14px; }
+  .reports-index .rep.has-thumb > .thumb { width: 96px; height: 72px; }
+}
 .reports-index .lede { font-size: 19px; color: var(--ink-2); margin: 0 0 22px; }
 
 /* ---------------------------------------------------------------- text pages: reports, stories, About */
