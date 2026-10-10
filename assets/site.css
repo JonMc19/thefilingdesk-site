@@ -272,9 +272,16 @@ td.fail { color: var(--muted); }
 .stories > li[hidden] { display: none; }
 /* comparisons: /compare/ and /compare/<a>-vs-<b>/ */
 .cmp-tbl td:first-child { color: var(--ink-2); }
+.cmp-tbl td, .cmp-tbl th { white-space: normal; }
+.cmp-tbl td:first-child { min-width: 11em; }
 .cmp-tbl td, .cmp-tbl th { text-align: left; }
 .cmp-page .co-hero h1 { margin: 0 0 6px; }
 .cmp-hub { margin-top: 22px; }
+.cmp-add { margin: 18px 0 0; }
+.cmp-x { margin-left: 6px; font-size: 15px; font-weight: 700; color: var(--muted); text-decoration: none; }
+.cmp-x:hover { color: var(--down); }
+.cmp-full { font-size: 14px; color: var(--muted); margin: 14px 0 0; }
+.cmp-new { margin: 18px 4px 6px; font-size: 14.5px; }
 .cmp-hub .section-label { margin: 0 0 8px; }
 .cmp-go { font-size: 13px; font-weight: 700; white-space: nowrap; }
 .cmp-start { padding-block: 32px 8px; max-width: 900px; }
