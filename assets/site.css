@@ -270,6 +270,15 @@ td.fail { color: var(--muted); }
 .rail .rep.has-thumb > .thumb { grid-column: 1; grid-row: auto; width: 100%; height: auto; aspect-ratio: 16 / 9; margin: 0 0 4px; }
 .reports-index .reports { display: grid; gap: 12px; }
 .stories > li[hidden] { display: none; }
+/* "What <company> does": company pages */
+.about-card p { font-size: 16.5px; line-height: 1.65; color: var(--ink-2); margin: 0 0 12px; }
+.about-grid { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: 8px 44px; margin-top: 4px; }
+.about-risks { border-left: 1px solid var(--rule); padding-left: 28px; }
+.sheet .about-card p, .sheet .about-card li { max-width: none; }   /* the grid sets the measure here */
+@media (max-width: 860px) { .about-grid { grid-template-columns: minmax(0, 1fr); } .about-risks { border-left: 0; padding-left: 0; } }
+.about-card h3 { font-size: 15px; margin: 4px 0 10px; }
+.about-card .risks { margin: 0; padding-left: 20px; max-width: 46em; color: var(--ink-2); font-size: 15.5px; line-height: 1.55; }
+.about-card .risks li { margin-bottom: 6px; }
 /* insider trades: company pages and /insiders/ */
 .ins { display: inline-block; font-size: 12px; font-weight: 700; border-radius: 999px; padding: 1px 9px; }
 .ins.buy { color: var(--up); background: var(--up-bg); }
