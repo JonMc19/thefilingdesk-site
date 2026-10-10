@@ -270,6 +270,16 @@ td.fail { color: var(--muted); }
 .rail .rep.has-thumb > .thumb { grid-column: 1; grid-row: auto; width: 100%; height: auto; aspect-ratio: 16 / 9; margin: 0 0 4px; }
 .reports-index .reports { display: grid; gap: 12px; }
 .stories > li[hidden] { display: none; }
+/* insider trades: company pages and /insiders/ */
+.ins { display: inline-block; font-size: 12px; font-weight: 700; border-radius: 999px; padding: 1px 9px; }
+.ins.buy { color: var(--up); background: var(--up-bg); }
+.ins.sell { color: var(--down); background: var(--down-bg); }
+.plan { font-size: 11.5px; color: var(--muted); text-decoration: none; border-bottom: 1px dotted currentColor; margin-left: 6px; cursor: help; }
+.ins-tbl td .role { display: block; font-size: 12px; color: var(--muted); max-width: 26ch; white-space: normal; }
+.ins-tbl td .tk { margin-left: 6px; font-size: 11.5px; color: var(--muted); }
+.ins-tbl td, .ins-tbl th { text-align: left; }
+.insiders-page .card { margin-top: 16px; }
+.insiders-page .card > h2:first-child { margin-top: 0; }
 .reports-index .chips { margin: 0 0 18px; }
 .rep-meta .tag { margin-right: 0; }
 .more-from { margin: 34px 0 10px; }
