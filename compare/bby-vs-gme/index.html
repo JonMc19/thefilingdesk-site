@@ -18,7 +18,7 @@
 <meta name="twitter:card" content="summary">
 <link rel="preload" href="/assets/fonts/plus-jakarta-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/ibm-plex-mono-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/site.css?v=ad8f1510">
+<link rel="stylesheet" href="/assets/site.css?v=8480cbd9">
 <link rel="alternate" type="application/atom+xml" title="The Filing Desk" href="/feed.xml">
 </head>
 <body class="k-data">
@@ -30,8 +30,7 @@
   </div>
 </header>
 <main>
-<div class="wrap report-page co-page cmp-page">
-<nav class="crumbs" aria-label="Breadcrumb"><a href="/compare/">Compare</a><span aria-hidden="true">/</span><span>Consumer Discretionary</span></nav>
+<div class="wrap report-page co-page cmp-page"><nav class="crumbs" aria-label="Breadcrumb"><a href="/companies/">Companies</a><span aria-hidden="true">/</span><a href="/compare/">Compare</a></nav>
 <article class="sheet">
   <header class="card co-hero">
     <h1>Best Buy vs GameStop</h1>
@@ -40,13 +39,12 @@
   </header>
   <section class="card"><h2 id="figures">Side by side</h2>
     <div class="tbl cmp-tbl"><table><thead><tr><th scope="col"></th><th scope="col">Best Buy</th><th scope="col">GameStop</th></tr></thead><tbody><tr><td>Latest fiscal year</td><td>FY2026, to January 31, 2026</td><td>FY2025, to January 31, 2026</td></tr><tr><td>Revenue</td><td>$41.7B</td><td>$3.6B</td></tr><tr><td>Revenue growth</td><td>0.4%</td><td>−5.0%</td></tr><tr><td>Revenue growth a year, last 5 years</td><td>−2.5%</td><td>−6.5%</td></tr><tr><td>Gross margin</td><td>22.5%</td><td>33.0%</td></tr><tr><td>Operating margin</td><td>3.3%</td><td>6.4%</td></tr><tr><td>Net margin</td><td>2.6%</td><td>11.5%</td></tr><tr><td>Free cash flow</td><td>$1.3B</td><td>$597M</td></tr><tr><td>Free cash flow margin</td><td>3.0%</td><td>16.4%</td></tr><tr><td>Return on capital</td><td>43.9%</td><td>—</td></tr><tr><td>Net debt to EBITDA</td><td>−0.2x</td><td>−19.3x</td></tr><tr><td>Dividends and buybacks</td><td>$1.1B</td><td>$0M</td></tr><tr><td>Change in diluted share count</td><td>−2.1%</td><td>39.1%</td></tr><tr><td>Last close</td><td>$87.01</td><td>$26.56</td></tr><tr><td>P/E at the last close</td><td>14.5×</td><td>17.5×</td></tr><tr><td>Insider trades, last 12 months</td><td>sold $321.3 million</td><td>bought $98.4 million, sold $1.8 million</td></tr><tr><td>Piotroski F-score</td><td>7 of 9</td><td>6 of 9</td></tr></tbody></table></div>
-    <div class="src">US$ unless stated, each company's latest fiscal year from its 10-K. Growth rates compare with the year before; the five-year rate is the average a year. Free cash flow is cash from operations minus capital spending; return on capital is after-tax operating income over the money invested in the business; P/E is the last close over the latest earnings per share. The F-score counts nine tests of profitability, funding and efficiency.</div>
+    <div class="src">US$ unless stated, each company's latest fiscal year from its 10-K. Growth rates compare with the year before; the five-year rate is the average a year. Free cash flow is cash from operations minus capital spending; return on capital is after-tax operating income over the money invested in the business; P/E is the last close over the latest earnings per share. Banks are measured differently (return on equity, efficiency ratio), so some rows apply to one company only.</div>
   </section>
   <section class="card"><h2 id="charts">Ten years</h2><figure><figcaption><div class="t">Revenue</div><div class="n">US$ billions, fiscal years</div></figcaption><div id="cmp-rev"></div><div class="legend"><span data-key="a"><i class="line c1"></i>Best Buy</span><span data-key="b"><i class="line c2"></i>GameStop</span></div></figure><figure><figcaption><div class="t">Operating margin</div><div class="n">Percent of revenue</div></figcaption><div id="cmp-m"></div><div class="legend"><span data-key="a"><i class="line c1"></i>Best Buy</span><span data-key="b"><i class="line c2"></i>GameStop</span></div></figure><figure><figcaption><div class="t">Free cash flow</div><div class="n">US$ billions. Cash from operations minus capital expenditure.</div></figcaption><div id="cmp-cash"></div><div class="legend"><span data-key="a"><i class="line c1"></i>Best Buy</span><span data-key="b"><i class="line c2"></i>GameStop</span></div></figure></section>
-  
+  <section class="card"><h2 id="another">Compare with another company</h2><form class="cmp-pick" action="/compare/" method="get" data-compare><label for="cmp-a">Compare</label><input id="cmp-a" name="a" list="cmp-list" placeholder="Company or ticker" autocomplete="off" required><label for="cmp-b">with</label><input id="cmp-b" name="b" list="cmp-list" placeholder="Any company or ticker" autocomplete="off" required><button type="submit">Compare</button><datalist id="cmp-list"></datalist><p class="cmp-msg" aria-live="polite"></p></form></section>
   <div class="src">Source: the companies' Form 10-K filings, from SEC EDGAR, and the last close. For information only, not investment advice: the figures describe results, not which company is the better investment. The Filing Desk is not affiliated with either company. Full figures on the <a href="/companies/bby/">Best Buy</a> and <a href="/companies/gme/">GameStop</a> pages.</div>
-</article>
-</div>
+</article></div>
 </main>
 <footer class="site-foot">
   <div class="wrap">
@@ -54,9 +52,9 @@
     <div>Figures come from filings with the US Securities and Exchange Commission and from company releases. Information only, not investment advice. <a href="/about/">About and method</a> · <a href="/privacy/">Privacy</a> · <a href="/feed.xml">RSS feed</a></div>
   </div>
 </footer>
-<script>window.CMP = {"years":[2017,2018,2019,2020,2021,2022,2023,2024,2025,2026],"bank":false,"a":{"name":"Best Buy","rev":[39403.0,42151.0,42879.0,43638.0,47262.0,51761.0,46298.0,43452.0,41528.0,41691.0],"m":[4.71,4.37,4.43,4.6,5.06,5.87,3.88,3.62,3.04,3.33],"cash":[1977.0,1453.0,1589.0,1822.0,4214.0,2515.0,894.0,675.0,1392.0,1258.0]},"b":{"name":"GameStop","rev":[8547.1,8285.3,6466.0,5089.8,6010.7,5927.2,5272.8,3823.0,3629.9,null],"m":[5.14,-8.47,-6.18,-4.67,-6.13,-5.26,-0.65,-0.69,6.39,null],"cash":[321.5,231.4,-493.0,63.7,-496.3,52.3,-238.6,129.6,597.3,null]}};</script>
+<script>window.CMP = [{"t":"BBY","name":"Best Buy","sector":"Consumer Discretionary","sub":"Computer & Electronics Retail","bank":false,"fy":2026,"end":"2026-01-31","cells":{"Latest fiscal year":"FY2026, to January 31, 2026","Revenue":"$41.7B","Revenue growth":"0.4%","Revenue growth a year, last 5 years":"\u22122.5%","Gross margin":"22.5%","Operating margin":"3.3%","Net margin":"2.6%","Free cash flow":"$1.3B","Free cash flow margin":"3.0%","Return on capital":"43.9%","Net debt to EBITDA":"\u22120.2x","Piotroski F-score":"7 of 9","Dividends and buybacks":"$1.1B","Change in diluted share count":"\u22122.1%","Last close":"$87.01","P/E at the last close":"14.5\u00d7","Insider trades, last 12 months":"sold $321.3 million"},"lead":{"rev":41691.0,"rev_w":"$41.7 billion","g":0.39,"om":3.33,"roe":37.04,"fcf_w":"$1.3 billion"},"years":[2017,2018,2019,2020,2021,2022,2023,2024,2025,2026],"rev":[39403.0,42151.0,42879.0,43638.0,47262.0,51761.0,46298.0,43452.0,41528.0,41691.0],"om":[4.71,4.37,4.43,4.6,5.06,5.87,3.88,3.62,3.04,3.33],"roe":[27.03,24.04,42.32,45.42,44.58,64.52,48.8,42.44,31.63,37.04],"fcf":[1977.0,1453.0,1589.0,1822.0,4214.0,2515.0,894.0,675.0,1392.0,1258.0],"ni":[1228.0,1000.0,1464.0,1541.0,1798.0,2454.0,1419.0,1241.0,927.0,1069.0]},{"t":"GME","name":"GameStop","sector":"Consumer Discretionary","sub":"Computer & Electronics Retail","bank":false,"fy":2025,"end":"2026-01-31","cells":{"Latest fiscal year":"FY2025, to January 31, 2026","Revenue":"$3.6B","Revenue growth":"\u22125.0%","Revenue growth a year, last 5 years":"\u22126.5%","Gross margin":"33.0%","Operating margin":"6.4%","Net margin":"11.5%","Free cash flow":"$597M","Free cash flow margin":"16.4%","Return on capital":"\u2014","Net debt to EBITDA":"\u221219.3x","Piotroski F-score":"6 of 9","Dividends and buybacks":"$0M","Change in diluted share count":"39.1%","Last close":"$26.56","P/E at the last close":"17.5\u00d7","Insider trades, last 12 months":"bought $98.4 million, sold $1.8 million"},"lead":{"rev":3629.9,"rev_w":"$3.6 billion","g":-5.05,"om":6.39,"roe":8.07,"fcf_w":"$597 million"},"years":[2016,2017,2018,2019,2020,2021,2022,2023,2024,2025],"rev":[7965.0,8547.1,8285.3,6466.0,5089.8,6010.7,5927.2,5272.8,3823.0,3629.9],"om":[6.05,5.14,-8.47,-6.18,-4.67,-6.13,-5.26,-0.65,-0.69,6.39],"roe":[16.29,1.55,-37.91,-48.35,-41.08,-37.4,-21.41,0.5,4.19,8.07],"fcf":[394.4,321.5,231.4,-493.0,63.7,-496.3,52.3,-238.6,129.6,597.3],"ni":[353.2,34.7,-673.0,-470.9,-215.3,-381.3,-313.1,6.7,131.3,418.4]}];</script>
 <script src="/assets/report.js?v=3390bbe4"></script>
-<script src="/assets/compare.js?v=c6297c26"></script>
+<script src="/assets/compare.js?v=3a8d459f"></script>
 <script src="/assets/search.js?v=dfad3182"></script>
 <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "c91a8c3feb754f34aed3f08ca909e8ad"}'></script>
 </body>
