@@ -270,6 +270,17 @@ td.fail { color: var(--muted); }
 .rail .rep.has-thumb > .thumb { grid-column: 1; grid-row: auto; width: 100%; height: auto; aspect-ratio: 16 / 9; margin: 0 0 4px; }
 .reports-index .reports { display: grid; gap: 12px; }
 .stories > li[hidden] { display: none; }
+/* comparisons: /compare/ and /compare/<a>-vs-<b>/ */
+.cmp-tbl td:first-child { color: var(--ink-2); }
+.cmp-tbl td, .cmp-tbl th { text-align: left; }
+.cmp-page .co-hero h1 { margin: 0 0 6px; }
+.cmp-links, .cmp-cta { font-size: 14.5px; color: var(--ink-2); margin: 14px 0 0; line-height: 1.7; }
+.cmp-pick { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 6px 0 22px; }
+.cmp-pick input { font: inherit; font-size: 15px; color: var(--ink); background: var(--sheet); border: 1px solid var(--rule); border-radius: 999px; padding: 10px 16px; min-width: min(100%, 260px); }
+.cmp-pick button { font: inherit; font-size: 14px; font-weight: 700; color: var(--sheet); background: var(--accent); border: 0; border-radius: 999px; padding: 10px 20px; cursor: pointer; }
+.cmp-pick .cmp-msg { flex-basis: 100%; margin: 0; font-size: 14px; color: var(--ink-2); }
+.cmp-list { columns: 2 260px; padding-left: 18px; margin: 0; }
+.cmp-list li { margin-bottom: 6px; }
 /* "What <company> does": company pages */
 .about-card p { font-size: 16.5px; line-height: 1.65; color: var(--ink-2); margin: 0 0 12px; }
 .about-grid { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: 8px 44px; margin-top: 4px; }
