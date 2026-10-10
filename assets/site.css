@@ -269,6 +269,9 @@ td.fail { color: var(--muted); }
 .rail .rep.has-thumb { grid-template-columns: minmax(0, 1fr); }
 .rail .rep.has-thumb > .thumb { grid-column: 1; grid-row: auto; width: 100%; height: auto; aspect-ratio: 16 / 9; margin: 0 0 4px; }
 .reports-index .reports { display: grid; gap: 12px; }
+.stories > li[hidden] { display: none; }
+.reports-index .chips { margin: 0 0 18px; }
+.rep-meta .tag { margin-right: 0; }
 .more-from { margin: 34px 0 10px; }
 .more-from ul { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 12px; }
 .more-from li { background: var(--sheet); border-radius: var(--radius-sm); padding: 16px 18px; display: grid; gap: 6px; }
