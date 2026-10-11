@@ -18,7 +18,7 @@
 <meta name="twitter:card" content="summary">
 <link rel="preload" href="/assets/fonts/plus-jakarta-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/ibm-plex-mono-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/site.css?v=b5c1e3d2">
+<link rel="stylesheet" href="/assets/site.css?v=98ab01db">
 <link rel="alternate" type="application/atom+xml" title="The Filing Desk" href="/feed.xml">
 </head>
 <body class="k-data">
@@ -35,7 +35,10 @@
     <h1>Look up a company's numbers</h1>
     <p>Ten years of revenue, margins, cash flow and debt for 645 US companies, read from their annual reports to the SEC. Search for a company, browse by sector and industry, or compare them in the table and charts below.</p>
     <form class="search search-lg" role="search" action="/companies/" data-search><label class="vh" for="q-hub">Search companies</label><input id="q-hub" name="q" type="search" placeholder="Search 645 companies by name or ticker" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="q-hub-list"><ul id="q-hub-list" class="search-list" role="listbox" hidden></ul></form>
-    <div class="cmp-hub"><h2 class="section-label">Compare two companies</h2><form class="cmp-pick" action="/compare/" method="get" data-compare><label for="cmp-a">Compare</label><input id="cmp-a" name="a" list="cmp-list" placeholder="Company or ticker" autocomplete="off" required><label for="cmp-b">with</label><input id="cmp-b" name="b" list="cmp-list" placeholder="Any company or ticker" autocomplete="off" required><button type="submit">Compare</button><datalist id="cmp-list"></datalist><p class="cmp-msg" aria-live="polite"></p></form></div>
+    <div class="hub-tools">
+      <div class="hub-tool"><h2 class="section-label">Compare companies</h2><form class="cmp-pick" action="/compare/" method="get" data-compare><label for="cmp-a">Compare</label><input id="cmp-a" name="a" list="cmp-list" placeholder="Company or ticker" autocomplete="off" required><label for="cmp-b">with</label><input id="cmp-b" name="b" list="cmp-list" placeholder="Any company or ticker" autocomplete="off" required><button type="submit">Compare</button><datalist id="cmp-list"></datalist><p class="cmp-msg" aria-live="polite"></p></form></div>
+      <div class="hub-tool"><h2 class="section-label">Screen companies</h2><p>Filter all 645 companies by growth, margins, cash flow, debt, P/E and insider trades.</p><a class="btn" href="/screener/">Open the screener</a></div>
+    </div>
   </section>
 
   <section class="hub-sec hub-browse">
@@ -61,7 +64,7 @@
 
   <section class="hub-sec hub-all">
     <h2 class="section-label" id="all-title">All 645 companies</h2>
-    <p>Latest fiscal year. Select a column heading to sort; the sector and industry chosen above apply here too.</p>
+    <p>Latest fiscal year. Select a column heading to sort; the sector and industry chosen above apply here too. To filter them by their figures, use the <a href="/screener/">screener</a>.</p>
     <div class="tbl"><table class="sort" id="all">
       <thead><tr><th scope="col"><button type="button" data-k="n">Company</button></th><th scope="col" class="ind-col"><button type="button" data-k="si">Industry</button></th><th scope="col" aria-sort="descending"><button type="button" data-k="rev">Revenue</button></th><th scope="col"><button type="button" data-k="revenue_growth">Growth</button></th><th scope="col"><button type="button" data-k="operating_margin">Op. margin</button></th><th scope="col"><button type="button" data-k="fcf_margin">FCF margin</button></th><th scope="col"><button type="button" data-k="roic">Return on capital</button></th></tr></thead>
       <tbody>
@@ -726,7 +729,7 @@
   </section>
 
   <section class="hub-sec">
-    <h2 class="section-label">Compare companies</h2>
+    <h2 class="section-label">Chart companies against each other</h2>
     <p>Each dot is a company, sized by revenue. Choose the two measures to compare, and select a dot to open that company's page. Companies outside the chart's range sit on its edge as rings.</p>
     <div class="panel">
       <div class="controls"><label>Across <select id="sc-x"><option value="revenue_growth">Revenue growth</option><option value="operating_margin">Operating margin</option><option value="net_margin">Net margin</option><option value="fcf_margin">Free cash flow margin</option><option value="roic">Return on capital</option><option value="roe">Return on equity</option><option value="net_debt_to_ebitda">Net debt to EBITDA</option></select></label><label>Up <select id="sc-y"><option value="revenue_growth">Revenue growth</option><option value="operating_margin">Operating margin</option><option value="net_margin">Net margin</option><option value="fcf_margin">Free cash flow margin</option><option value="roic">Return on capital</option><option value="roe">Return on equity</option><option value="net_debt_to_ebitda">Net debt to EBITDA</option></select></label></div>

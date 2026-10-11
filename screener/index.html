@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stock screener: filter 645 US companies by growth, margins and cash flow | The Filing Desk</title>
+<meta name="description" content="A free stock screener for 645 US companies: filter by revenue growth, margins, free cash flow, returns, debt, P/E and insider trades, from their SEC filings.">
+<link rel="canonical" href="https://thefilingdesk.net/screener/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta name="color-scheme" content="light dark">
+<meta name="google-site-verification" content="WHJkGddMUSNiTsVDjDC8w9Yb_SrfJP3h5uKOD-LeO4g">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5600282011181052" crossorigin="anonymous"></script>
+<meta property="og:site_name" content="The Filing Desk">
+<meta property="og:title" content="Stock screener: filter 645 US companies by growth, margins and cash flow | The Filing Desk">
+<meta property="og:description" content="A free stock screener for 645 US companies: filter by revenue growth, margins, free cash flow, returns, debt, P/E and insider trades, from their SEC filings.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://thefilingdesk.net/screener/">
+<meta name="twitter:card" content="summary">
+<link rel="preload" href="/assets/fonts/plus-jakarta-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/ibm-plex-mono-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/site.css?v=98ab01db">
+<link rel="alternate" type="application/atom+xml" title="The Filing Desk" href="/feed.xml">
+</head>
+<body class="k-data">
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="/"><span class="mark" aria-hidden="true">FD</span><span class="brand-name">The Filing Desk</span></a>
+    <form class="search search-pill" role="search" action="/companies/" data-search><label class="vh" for="q-head">Search companies</label><input id="q-head" name="q" type="search" placeholder="Search companies" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="q-head-list"><ul id="q-head-list" class="search-list" role="listbox" hidden></ul></form>
+    <nav class="mast-nav" aria-label="Main"><a href="/companies/" aria-current="page">Companies</a><a href="/stories/">Stories</a><a href="/insiders/">Insiders</a><a href="/about/">About</a></nav>
+  </div>
+</header>
+<main>
+<div class="wrap scr-page">
+  <section class="intro">
+    <h1>Screen companies</h1>
+    <p>Filter all 645 companies we cover by their latest figures from their SEC filings: set a minimum, a maximum or both for any measure, and the list updates as you type. Select up to four companies to compare them side by side.</p>
+  </section>
+  <div class="chips scr-presets" role="group" aria-label="Ready-made screens"><button type="button" data-preset="0" aria-pressed="false">Revenue growth above 20%</button><button type="button" data-preset="1" aria-pressed="false">Operating margin above 30%</button><button type="button" data-preset="2" aria-pressed="false">More cash than debt</button><button type="button" data-preset="3" aria-pressed="false">Free cash flow margin above 20%</button><button type="button" data-preset="4" aria-pressed="false">F-score 8 or 9</button><button type="button" data-preset="5" aria-pressed="false">P/E below 15</button><button type="button" data-preset="6" aria-pressed="false">Insiders bought in the last 90 days</button></div>
+  <div class="scr">
+    <details class="scr-panel" id="scr-panel" open><summary>Filters <span id="scr-active"></span></summary>
+    <form class="scr-filters" id="scr-form">
+      <div class="scr-f"><label for="f-sector">Sector</label><select id="f-sector" data-k="sector"><option value="">All sectors</option></select></div>
+      <div class="scr-f"><label for="f-ind">Industry</label><select id="f-ind" data-k="ind"><option value="">All industries</option></select></div>
+      <div class="scr-f"><label for="f-rev-min">Revenue</label><div class="scr-range"><input id="f-rev-min" data-k="rev_min" inputmode="decimal" placeholder="min" aria-label="Revenue, at least"><span>to</span><input id="f-rev-max" data-k="rev_max" inputmode="decimal" placeholder="max" aria-label="Revenue, at most"><span class="u">$bn</span></div></div><div class="scr-f"><label for="f-g-min">Revenue growth</label><div class="scr-range"><input id="f-g-min" data-k="g_min" inputmode="decimal" placeholder="min" aria-label="Revenue growth, at least"><span>to</span><input id="f-g-max" data-k="g_max" inputmode="decimal" placeholder="max" aria-label="Revenue growth, at most"><span class="u">%</span></div></div><div class="scr-f"><label for="f-g5-min">Revenue growth a year, last 5 years</label><div class="scr-range"><input id="f-g5-min" data-k="g5_min" inputmode="decimal" placeholder="min" aria-label="Revenue growth a year, last 5 years, at least"><span>to</span><input id="f-g5-max" data-k="g5_max" inputmode="decimal" placeholder="max" aria-label="Revenue growth a year, last 5 years, at most"><span class="u">%</span></div></div><div class="scr-f"><label for="f-gm-min">Gross margin</label><div class="scr-range"><input id="f-gm-min" data-k="gm_min" inputmode="decimal" placeholder="min" aria-label="Gross margin, at least"><span>to</span><input id="f-gm-max" data-k="gm_max" inputmode="decimal" placeholder="max" aria-label="Gross margin, at most"><span class="u">%</span></div></div><div class="scr-f"><label for="f-om-min">Operating margin</label><div class="scr-range"><input id="f-om-min" data-k="om_min" inputmode="decimal" placeholder="min" aria-label="Operating margin, at least"><span>to</span><input id="f-om-max" data-k="om_max" inputmode="decimal" placeholder="max" aria-label="Operating margin, at most"><span class="u">%</span></div></div><div class="scr-f"><label for="f-nm-min">Net margin</label><div class="scr-range"><input id="f-nm-min" data-k="nm_min" inputmode="decimal" placeholder="min" aria-label="Net margin, at least"><span>to</span><input id="f-nm-max" data-k="nm_max" inputmode="decimal" placeholder="max" aria-label="Net margin, at most"><span class="u">%</span></div></div><div class="scr-f"><label for="f-fcf-min">Free cash flow</label><div class="scr-range"><input id="f-fcf-min" data-k="fcf_min" inputmode="decimal" placeholder="min" aria-label="Free cash flow, at least"><span>to</span><input id="f-fcf-max" data-k="fcf_max" inputmode="decimal" placeholder="max" aria-label="Free cash flow, at most"><span class="u">$bn</span></div></div><div class="scr-f"><label for="f-fcfm-min">Free cash flow margin</label><div class="scr-range"><input id="f-fcfm-min" data-k="fcfm_min" inputmode="decimal" placeholder="min" aria-label="Free cash flow margin, at least"><span>to</span><input id="f-fcfm-max" data-k="fcfm_max" inputmode="decimal" placeholder="max" aria-label="Free cash flow margin, at most"><span class="u">%</span></div></div><div class="scr-f"><label for="f-roic-min">Return on capital</label><div class="scr-range"><input id="f-roic-min" data-k="roic_min" inputmode="decimal" placeholder="min" aria-label="Return on capital, at least"><span>to</span><input id="f-roic-max" data-k="roic_max" inputmode="decimal" placeholder="max" aria-label="Return on capital, at most"><span class="u">%</span></div></div><div class="scr-f"><label for="f-roe-min">Return on equity</label><div class="scr-range"><input id="f-roe-min" data-k="roe_min" inputmode="decimal" placeholder="min" aria-label="Return on equity, at least"><span>to</span><input id="f-roe-max" data-k="roe_max" inputmode="decimal" placeholder="max" aria-label="Return on equity, at most"><span class="u">%</span></div></div><div class="scr-f"><label for="f-nd-min">Net debt (negative: net cash)</label><div class="scr-range"><input id="f-nd-min" data-k="nd_min" inputmode="decimal" placeholder="min" aria-label="Net debt (negative: net cash), at least"><span>to</span><input id="f-nd-max" data-k="nd_max" inputmode="decimal" placeholder="max" aria-label="Net debt (negative: net cash), at most"><span class="u">$bn</span></div></div><div class="scr-f"><label for="f-nde-min">Net debt to EBITDA</label><div class="scr-range"><input id="f-nde-min" data-k="nde_min" inputmode="decimal" placeholder="min" aria-label="Net debt to EBITDA, at least"><span>to</span><input id="f-nde-max" data-k="nde_max" inputmode="decimal" placeholder="max" aria-label="Net debt to EBITDA, at most"><span class="u">×</span></div></div><div class="scr-f"><label for="f-pay-min">Dividends and buybacks</label><div class="scr-range"><input id="f-pay-min" data-k="pay_min" inputmode="decimal" placeholder="min" aria-label="Dividends and buybacks, at least"><span>to</span><input id="f-pay-max" data-k="pay_max" inputmode="decimal" placeholder="max" aria-label="Dividends and buybacks, at most"><span class="u">$bn</span></div></div><div class="scr-f"><label for="f-sh-min">Change in diluted share count</label><div class="scr-range"><input id="f-sh-min" data-k="sh_min" inputmode="decimal" placeholder="min" aria-label="Change in diluted share count, at least"><span>to</span><input id="f-sh-max" data-k="sh_max" inputmode="decimal" placeholder="max" aria-label="Change in diluted share count, at most"><span class="u">%</span></div></div><div class="scr-f"><label for="f-pe-min">P/E at the last close</label><div class="scr-range"><input id="f-pe-min" data-k="pe_min" inputmode="decimal" placeholder="min" aria-label="P/E at the last close, at least"><span>to</span><input id="f-pe-max" data-k="pe_max" inputmode="decimal" placeholder="max" aria-label="P/E at the last close, at most"><span class="u">×</span></div></div><div class="scr-f"><label for="f-fs-min">Piotroski F-score</label><div class="scr-range"><input id="f-fs-min" data-k="fs_min" inputmode="decimal" placeholder="min" aria-label="Piotroski F-score, at least"><span>to</span><input id="f-fs-max" data-k="fs_max" inputmode="decimal" placeholder="max" aria-label="Piotroski F-score, at most"><span class="u"></span></div></div><div class="scr-f"><label for="f-ib-min">Insider purchases, last 90 days</label><div class="scr-range"><input id="f-ib-min" data-k="ib_min" inputmode="decimal" placeholder="min" aria-label="Insider purchases, last 90 days, at least"><span>to</span><input id="f-ib-max" data-k="ib_max" inputmode="decimal" placeholder="max" aria-label="Insider purchases, last 90 days, at most"><span class="u">$m</span></div></div><div class="scr-f"><label for="f-is-min">Insider sales, last 90 days</label><div class="scr-range"><input id="f-is-min" data-k="is_min" inputmode="decimal" placeholder="min" aria-label="Insider sales, last 90 days, at least"><span>to</span><input id="f-is-max" data-k="is_max" inputmode="decimal" placeholder="max" aria-label="Insider sales, last 90 days, at most"><span class="u">$m</span></div></div>
+      <button type="button" class="scr-reset" id="scr-reset">Clear all filters</button>
+    </form>
+    </details>
+    <section class="scr-results">
+      <div class="scr-bar"><b id="scr-count" aria-live="polite">645 companies</b>
+        <button type="button" class="scr-cmp" id="scr-cmp" disabled>Compare selected</button></div>
+      <div class="tbl"><table id="scr-table"><thead></thead><tbody></tbody></table></div>
+      <div class="all-foot"><button type="button" class="more" id="scr-more" hidden>Show 100 more</button></div>
+    </section>
+  </div>
+  <p class="src">Each company's latest fiscal year from its 10-K, the last close and the last 90 days of insider trades (Form 4). Fiscal years end in different months. A company without a figure is left out when you filter on that figure; banks have no operating margin, free cash flow or return on capital. Net debt is debt minus cash and short-term investments. The screener filters and sorts the figures; it doesn't rate companies, and it is not investment advice.</p>
+</div>
+</main>
+<footer class="site-foot">
+  <div class="wrap">
+    <div><b>The Filing Desk</b> · Company results, read from the SEC filings, by Jon Mc Gowan.</div>
+    <div>Figures come from filings with the US Securities and Exchange Commission and from company releases. Information only, not investment advice. <a href="/about/">About and method</a> · <a href="/privacy/">Privacy</a> · <a href="/feed.xml">RSS feed</a></div>
+  </div>
+</footer>
+<script src="/assets/screener.js?v=376d551a"></script>
+<script src="/assets/search.js?v=dfad3182"></script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "c91a8c3feb754f34aed3f08ca909e8ad"}'></script>
+</body>
+</html>
