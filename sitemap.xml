@@ -8,7 +8,7 @@
   <url><loc>https://thefilingdesk.net/reports/costco-fy2026/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/reports/nvidia-fy2026/</loc><lastmod>2026-10-05</lastmod></url>
   <url><loc>https://thefilingdesk.net/reports/microsoft-fy2026/</loc><lastmod>2026-10-06</lastmod></url>
-  <url><loc>https://thefilingdesk.net/companies/</loc><lastmod>2026-10-13</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/a/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/aa/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/aal/</loc><lastmod>2026-10-11</lastmod></url>
@@ -70,6 +70,7 @@
   <url><loc>https://thefilingdesk.net/companies/are/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ares/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/armk/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/arwr/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/asan/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ash/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/asts/</loc><lastmod>2026-10-11</lastmod></url>
@@ -78,6 +79,7 @@
   <url><loc>https://thefilingdesk.net/companies/avav/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/avgo/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/avnt/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/avtr/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/avy/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/awk/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/axon/</loc><lastmod>2026-10-09</lastmod></url>
@@ -102,18 +104,23 @@
   <url><loc>https://thefilingdesk.net/companies/bg/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/bgc/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/biib/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/bio/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/bj/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/bjri/</loc><lastmod>2026-10-12</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/bkh/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/bkng/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/bkr/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/blk/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/bmrn/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/bmy/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/bny/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/br/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/brk-b/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/brkr/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/bro/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/bros/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/bsx/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/btsg/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/burl/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/bwa/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/bx/</loc><lastmod>2026-10-09</lastmod></url>
@@ -135,7 +142,9 @@
   <url><loc>https://thefilingdesk.net/companies/cbre/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/cbt/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/cci/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/cck/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ccl/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/cde/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/cdns/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/cdw/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ceg/</loc><lastmod>2026-10-09</lastmod></url>
@@ -145,6 +154,7 @@
   <url><loc>https://thefilingdesk.net/companies/cg/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/chd/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/chdn/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/che/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/chh/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/chrd/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/chrw/</loc><lastmod>2026-10-09</lastmod></url>
@@ -155,6 +165,7 @@
   <url><loc>https://thefilingdesk.net/companies/cinf/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/cl/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/clf/</loc><lastmod>2026-10-11</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/cmc/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/cmcsa/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/cme/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/cmg/</loc><lastmod>2026-10-10</lastmod></url>
@@ -173,6 +184,7 @@
   <url><loc>https://thefilingdesk.net/companies/coo/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/cop/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/cor/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/cort/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/cost/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/coty/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/cour/</loc><lastmod>2026-10-11</lastmod></url>
@@ -199,6 +211,7 @@
   <url><loc>https://thefilingdesk.net/companies/cw/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/cwk/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/cxw/</loc><lastmod>2026-10-11</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/cytk/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/czr/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/d/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/dal/</loc><lastmod>2026-10-09</lastmod></url>
@@ -223,6 +236,7 @@
   <url><loc>https://thefilingdesk.net/companies/dltr/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/doc/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/docn/</loc><lastmod>2026-10-13</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/docs/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/dole/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/dov/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/dow/</loc><lastmod>2026-10-09</lastmod></url>
@@ -243,14 +257,17 @@
   <url><loc>https://thefilingdesk.net/companies/ed/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/efx/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/eg/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/ehc/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/eix/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/el/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/elan/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/elf/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/elv/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/eme/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/emn/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/emr/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/enr/</loc><lastmod>2026-10-11</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/ensg/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/eog/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/epr/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/eqix/</loc><lastmod>2026-10-09</lastmod></url>
@@ -265,7 +282,9 @@
   <url><loc>https://thefilingdesk.net/companies/ew/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/exc/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/exe/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/exel/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/exls/</loc><lastmod>2026-10-12</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/exp/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/expd/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/expe/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/exr/</loc><lastmod>2026-10-09</lastmod></url>
@@ -303,6 +322,7 @@
   <url><loc>https://thefilingdesk.net/companies/gd/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/gddy/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ge/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/gef/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/gehc/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/gen/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/geo/</loc><lastmod>2026-10-10</lastmod></url>
@@ -314,12 +334,14 @@
   <url><loc>https://thefilingdesk.net/companies/glw/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/gm/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/gme/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/gmed/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/gnrc/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/gntx/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/go/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/golf/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/googl/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/gpc/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/gpk/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/gpn/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/grmn/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/grnd/</loc><lastmod>2026-10-10</lastmod></url>
@@ -328,7 +350,9 @@
   <url><loc>https://thefilingdesk.net/companies/gtlb/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/gww/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/h/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/hae/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/hal/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/halo/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/has/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/hban/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/hca/</loc><lastmod>2026-10-09</lastmod></url>
@@ -337,6 +361,7 @@
   <url><loc>https://thefilingdesk.net/companies/hig/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/hii/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/hims/</loc><lastmod>2026-10-11</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/hl/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/hlt/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/hog/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/hon/</loc><lastmod>2026-10-10</lastmod></url>
@@ -355,6 +380,7 @@
   <url><loc>https://thefilingdesk.net/companies/ibkr/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ibm/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ice/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/ida/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/idxx/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/iex/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/iff/</loc><lastmod>2026-10-09</lastmod></url>
@@ -365,7 +391,7 @@
   <url><loc>https://thefilingdesk.net/companies/intc/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/intu/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/invh/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/companies/ionq/</loc><lastmod>2026-10-12</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/ionq/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ip/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/iqv/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ir/</loc><lastmod>2026-10-09</lastmod></url>
@@ -400,6 +426,7 @@
   <url><loc>https://thefilingdesk.net/companies/kmb/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/kmi/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/kmx/</loc><lastmod>2026-10-12</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/knf/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ko/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/kr/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ktb/</loc><lastmod>2026-10-12</lastmod></url>
@@ -461,6 +488,7 @@
   <url><loc>https://thefilingdesk.net/companies/mog-a/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/morn/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/mos/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/mp/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/mpc/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/mpwr/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/mrk/</loc><lastmod>2026-10-09</lastmod></url>
@@ -488,8 +516,11 @@
   <url><loc>https://thefilingdesk.net/companies/nee/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/nem/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/net/</loc><lastmod>2026-10-11</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/neu/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/nfg/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/nflx/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ni/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/njr/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/nke/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/noc/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/nov/</loc><lastmod>2026-10-09</lastmod></url>
@@ -501,6 +532,7 @@
   <url><loc>https://thefilingdesk.net/companies/nue/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/nvda/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/nvr/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/nwe/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/nwl/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/nwsa/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/nxpi/</loc><lastmod>2026-10-09</lastmod></url>
@@ -508,6 +540,8 @@
   <url><loc>https://thefilingdesk.net/companies/nyt/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/o/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/odfl/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/oge/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/ogs/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/oke/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/oklo/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/okta/</loc><lastmod>2026-10-11</lastmod></url>
@@ -515,6 +549,7 @@
   <url><loc>https://thefilingdesk.net/companies/oln/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/omc/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/on/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/ora/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/orcl/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/orly/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/oscr/</loc><lastmod>2026-10-11</lastmod></url>
@@ -554,6 +589,7 @@
   <url><loc>https://thefilingdesk.net/companies/pnr/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/pnw/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/podd/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/por/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/post/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ppc/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ppg/</loc><lastmod>2026-10-09</lastmod></url>
@@ -581,6 +617,7 @@
   <url><loc>https://thefilingdesk.net/companies/reg/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/regn/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/rf/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/rgld/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/rh/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/rig/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/rivn/</loc><lastmod>2026-10-11</lastmod></url>
@@ -593,7 +630,9 @@
   <url><loc>https://thefilingdesk.net/companies/rol/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/rop/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/rost/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/rpm/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/rrc/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/rs/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/rsg/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/rtx/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/rum/</loc><lastmod>2026-10-11</lastmod></url>
@@ -612,7 +651,9 @@
   <url><loc>https://thefilingdesk.net/companies/siri/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/sjm/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/slb/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/slgn/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/smci/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/smg/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/sn/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/sna/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/snap/</loc><lastmod>2026-10-11</lastmod></url>
@@ -621,9 +662,12 @@
   <url><loc>https://thefilingdesk.net/companies/snps/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/so/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/sofi/</loc><lastmod>2026-10-11</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/sols/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/solv/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/son/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/spg/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/spgi/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/sr/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/sre/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ste/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/stld/</loc><lastmod>2026-10-09</lastmod></url>
@@ -633,6 +677,7 @@
   <url><loc>https://thefilingdesk.net/companies/sw/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/swk/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/swks/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/swx/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/syf/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/syk/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/syy/</loc><lastmod>2026-10-09</lastmod></url>
@@ -651,6 +696,7 @@
   <url><loc>https://thefilingdesk.net/companies/tho/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/tjx/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/tko/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/tln/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/tmo/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/tmus/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/tnl/</loc><lastmod>2026-10-09</lastmod></url>
@@ -672,6 +718,7 @@
   <url><loc>https://thefilingdesk.net/companies/ttwo/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/twlo/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/txn/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/txnm/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/txrh/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/txt/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/tyl/</loc><lastmod>2026-10-09</lastmod></url>
@@ -679,6 +726,7 @@
   <url><loc>https://thefilingdesk.net/companies/ual/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/uber/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/udr/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/ugi/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/uhs/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ui/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/ulta/</loc><lastmod>2026-10-09</lastmod></url>
@@ -728,6 +776,7 @@
   <url><loc>https://thefilingdesk.net/companies/wh/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/whr/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/wing/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/wlk/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/wm/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/wmb/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/wmg/</loc><lastmod>2026-10-09</lastmod></url>
@@ -736,6 +785,7 @@
   <url><loc>https://thefilingdesk.net/companies/wrby/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/wsm/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/wst/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/companies/wtrg/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/wtw/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/wu/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/www/</loc><lastmod>2026-10-11</lastmod></url>
@@ -754,13 +804,13 @@
   <url><loc>https://thefilingdesk.net/companies/zm/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/zs/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/companies/zts/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/a-vs-avtr/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/a-vs-crl/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/a-vs-dhr/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/a-vs-ilmn/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/a-vs-iqv/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/a-vs-mtd/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/a-vs-tmo/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/a-vs-wat/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/aal-vs-alk/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/aal-vs-dal/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/aal-vs-jblu/</loc><lastmod>2026-10-11</lastmod></url>
@@ -857,6 +907,7 @@
   <url><loc>https://thefilingdesk.net/compare/aep-vs-so/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/aep-vs-vst/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/aes-vs-nrg/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/aes-vs-tln/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/afl-vs-gl/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/afl-vs-met/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/afl-vs-pfg/</loc><lastmod>2026-10-09</lastmod></url>
@@ -885,8 +936,11 @@
   <url><loc>https://thefilingdesk.net/compare/alb-vs-avnt/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/alb-vs-axta/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/alb-vs-emn/</loc><lastmod>2026-10-12</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/alb-vs-iff/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/alb-vs-neu/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/alb-vs-rpm/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/alb-vs-sols/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/algn-vs-coo/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/algn-vs-hae/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/algn-vs-wst/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/alk-vs-jblu/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/alk-vs-luv/</loc><lastmod>2026-10-12</lastmod></url>
@@ -929,7 +983,7 @@
   <url><loc>https://thefilingdesk.net/compare/amc-vs-roku/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/amc-vs-tko/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/amc-vs-wmg/</loc><lastmod>2026-10-10</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/amcr-vs-avy/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/amcr-vs-cck/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/amcr-vs-ip/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/amcr-vs-pkg/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/amcr-vs-sw/</loc><lastmod>2026-10-10</lastmod></url>
@@ -1006,6 +1060,12 @@
   <url><loc>https://thefilingdesk.net/compare/ares-vs-owl/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ares-vs-tpg/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/armk-vs-gpc/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/arwr-vs-bmrn/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/arwr-vs-cytk/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/arwr-vs-exel/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/arwr-vs-halo/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/arwr-vs-mrna/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/arwr-vs-roiv/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/asan-vs-dlb/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/asan-vs-gtlb/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/asan-vs-mstr/</loc><lastmod>2026-10-11</lastmod></url>
@@ -1014,7 +1074,13 @@
   <url><loc>https://thefilingdesk.net/compare/ash-vs-oln/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/asts-vs-echo/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/asts-vs-tmus/</loc><lastmod>2026-10-11</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/ato-vs-nfg/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/ato-vs-ogs/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/ato-vs-sr/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/ato-vs-ugi/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/atr-vs-ball/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/atr-vs-gef/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/atr-vs-slgn/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/avav-vs-axon/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/avav-vs-cw/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/avav-vs-hwm/</loc><lastmod>2026-10-12</lastmod></url>
@@ -1027,11 +1093,19 @@
   <url><loc>https://thefilingdesk.net/compare/avgo-vs-qcom/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/avgo-vs-txn/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/avnt-vs-axta/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/avnt-vs-emn/</loc><lastmod>2026-10-12</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/avnt-vs-iff/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/avy-vs-ip/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/avnt-vs-neu/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/avnt-vs-sols/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/avtr-vs-crl/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/avtr-vs-dhr/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/avtr-vs-ilmn/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/avtr-vs-iqv/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/avtr-vs-mtd/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/avtr-vs-tmo/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/avy-vs-cck/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/avy-vs-gpk/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/avy-vs-pkg/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/avy-vs-sw/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/avy-vs-son/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/awk-vs-wtrg/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/axon-vs-cw/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/axon-vs-hwm/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/axon-vs-joby/</loc><lastmod>2026-10-12</lastmod></url>
@@ -1040,8 +1114,9 @@
   <url><loc>https://thefilingdesk.net/compare/axp-vs-cof/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/axp-vs-sofi/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/axp-vs-syf/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/axta-vs-emn/</loc><lastmod>2026-10-12</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/axta-vs-iff/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/axta-vs-neu/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/axta-vs-rpm/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/axta-vs-sols/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/azo-vs-cvna/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/azo-vs-kmx/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/azo-vs-musa/</loc><lastmod>2026-10-09</lastmod></url>
@@ -1061,6 +1136,8 @@
   <url><loc>https://thefilingdesk.net/compare/bah-vs-efx/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/bah-vs-tru/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/bah-vs-vrsk/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/ball-vs-gef/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/ball-vs-slgn/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/bam-vs-ben/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/bam-vs-blk/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/bam-vs-bx/</loc><lastmod>2026-10-10</lastmod></url>
@@ -1113,8 +1190,12 @@
   <url><loc>https://thefilingdesk.net/compare/biib-vs-gild/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/biib-vs-incy/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/biib-vs-regn/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/biib-vs-roiv/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/biib-vs-vrtx/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/bio-vs-crl/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/bio-vs-ilmn/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/bio-vs-mtd/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/bio-vs-tech/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/bio-vs-wat/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/bj-vs-cost/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/bj-vs-dg/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/bj-vs-dltr/</loc><lastmod>2026-10-09</lastmod></url>
@@ -1128,6 +1209,10 @@
   <url><loc>https://thefilingdesk.net/compare/bjri-vs-sg/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/bjri-vs-shak/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/bjri-vs-wing/</loc><lastmod>2026-10-12</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/bkh-vs-ni/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/bkh-vs-nwe/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/bkh-vs-oge/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/bkh-vs-pnw/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/bkng-vs-ccl/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/bkng-vs-expe/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/bkng-vs-mar/</loc><lastmod>2026-10-10</lastmod></url>
@@ -1140,6 +1225,10 @@
   <url><loc>https://thefilingdesk.net/compare/blk-vs-bx/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/blk-vs-cg/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/blk-vs-kkr/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/bmrn-vs-exel/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/bmrn-vs-halo/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/bmrn-vs-incy/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/bmrn-vs-mrna/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/bmy-vs-jnj/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/bmy-vs-lly/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/bmy-vs-mrk/</loc><lastmod>2026-10-09</lastmod></url>
@@ -1152,6 +1241,10 @@
   <url><loc>https://thefilingdesk.net/compare/br-vs-exls/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/br-vs-g/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/brk-b-vs-jef/</loc><lastmod>2026-10-12</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/brkr-vs-gmed/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/brkr-vs-idxx/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/brkr-vs-podd/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/brkr-vs-rvty/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/bro-vs-erie/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/bro-vs-mrsh/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/bro-vs-wtw/</loc><lastmod>2026-10-09</lastmod></url>
@@ -1171,6 +1264,14 @@
   <url><loc>https://thefilingdesk.net/compare/bros-vs-yum/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/bsx-vs-gehc/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/bsx-vs-syk/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/btsg-vs-che/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/btsg-vs-ci/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/btsg-vs-cvs/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/btsg-vs-dgx/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/btsg-vs-dva/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/btsg-vs-hims/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/btsg-vs-lh/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/btsg-vs-tem/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/burl-vs-gap/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/burl-vs-rost/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/burl-vs-tjx/</loc><lastmod>2026-10-09</lastmod></url>
@@ -1256,6 +1357,11 @@
   <url><loc>https://thefilingdesk.net/compare/cbre-vs-zg/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cbt-vs-oln/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cci-vs-sbac/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/cck-vs-gpk/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/cck-vs-ip/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/cck-vs-pkg/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/cck-vs-son/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/cck-vs-sw/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ccl-vs-dal/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ccl-vs-dis/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ccl-vs-h/</loc><lastmod>2026-10-09</lastmod></url>
@@ -1264,6 +1370,8 @@
   <url><loc>https://thefilingdesk.net/compare/ccl-vs-mgm/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ccl-vs-rcl/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ccl-vs-ual/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/cde-vs-nem/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/cde-vs-rgld/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cdns-vs-otex/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cdns-vs-pltr/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cdns-vs-snow/</loc><lastmod>2026-10-11</lastmod></url>
@@ -1283,6 +1391,7 @@
   <url><loc>https://thefilingdesk.net/compare/cf-vs-ctva/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cf-vs-fmc/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cf-vs-mos/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/cf-vs-smg/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cfg-vs-fcnca/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cfg-vs-fitb/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cfg-vs-hban/</loc><lastmod>2026-10-09</lastmod></url>
@@ -1300,6 +1409,11 @@
   <url><loc>https://thefilingdesk.net/compare/chdn-vs-dkng/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/chdn-vs-penn/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/chdn-vs-wynn/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/che-vs-dgx/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/che-vs-dva/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/che-vs-hims/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/che-vs-lh/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/che-vs-tem/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/chh-vs-hgv/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/chh-vs-mtn/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/chh-vs-tnl/</loc><lastmod>2026-10-09</lastmod></url>
@@ -1317,7 +1431,6 @@
   <url><loc>https://thefilingdesk.net/compare/chwy-vs-tsco/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/chwy-vs-ulta/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ci-vs-cvs/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/ci-vs-dgx/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ci-vs-dva/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ci-vs-lh/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cien-vs-ffiv/</loc><lastmod>2026-10-09</lastmod></url>
@@ -1330,8 +1443,13 @@
   <url><loc>https://thefilingdesk.net/compare/cinf-vs-wrb/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cl-vs-enr/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cl-vs-kmb/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/clf-vs-cmc/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/clf-vs-nue/</loc><lastmod>2026-10-11</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/clf-vs-rs/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/clf-vs-stld/</loc><lastmod>2026-10-11</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/cmc-vs-nue/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/cmc-vs-rs/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/cmc-vs-stld/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cmcsa-vs-lbtya/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cme-vs-coin/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cme-vs-fds/</loc><lastmod>2026-10-09</lastmod></url>
@@ -1361,7 +1479,6 @@
   <url><loc>https://thefilingdesk.net/compare/cnc-vs-unh/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cnh-vs-de/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cnp-vs-ni/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/cnp-vs-pnw/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cnp-vs-sre/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cnx-vs-mtdr/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cnx-vs-mur/</loc><lastmod>2026-10-09</lastmod></url>
@@ -1388,6 +1505,7 @@
   <url><loc>https://thefilingdesk.net/compare/comp-vs-csgp/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/comp-vs-cwk/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/comp-vs-zg/</loc><lastmod>2026-10-12</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/coo-vs-hae/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/coo-vs-wst/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cop-vs-dvn/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cop-vs-eog/</loc><lastmod>2026-10-09</lastmod></url>
@@ -1395,6 +1513,10 @@
   <url><loc>https://thefilingdesk.net/compare/cop-vs-oxy/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cor-vs-hsic/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cor-vs-mck/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/cort-vs-elan/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/cort-vs-teva/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/cort-vs-vtrs/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/cort-vs-zts/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cost-vs-dg/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cost-vs-tgt/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cost-vs-wmt/</loc><lastmod>2026-10-10</lastmod></url>
@@ -1431,6 +1553,8 @@
   <url><loc>https://thefilingdesk.net/compare/cr-vs-iex/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cr-vs-itt/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cr-vs-ndsn/</loc><lastmod>2026-10-12</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/crh-vs-exp/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/crh-vs-knf/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/crh-vs-mlm/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/crh-vs-vmc/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/crl-vs-ilmn/</loc><lastmod>2026-10-09</lastmod></url>
@@ -1464,13 +1588,13 @@
   <url><loc>https://thefilingdesk.net/compare/ctsh-vs-vyx/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ctva-vs-fmc/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ctva-vs-mos/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/ctva-vs-smg/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cvna-vs-kmx/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cvna-vs-lad/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cvna-vs-musa/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cvna-vs-orly/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cvna-vs-pag/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cvna-vs-vvv/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/cvs-vs-dgx/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cvs-vs-dva/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cvs-vs-lh/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cvx-vs-xom/</loc><lastmod>2026-10-09</lastmod></url>
@@ -1480,6 +1604,9 @@
   <url><loc>https://thefilingdesk.net/compare/cw-vs-pl/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cwk-vs-zg/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/cxw-vs-kbr/</loc><lastmod>2026-10-11</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/cytk-vs-halo/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/cytk-vs-mrna/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/cytk-vs-roiv/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/czr-vs-dkng/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/czr-vs-flut/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/czr-vs-lvs/</loc><lastmod>2026-10-11</lastmod></url>
@@ -1522,7 +1649,6 @@
   <url><loc>https://thefilingdesk.net/compare/dhi-vs-nvr/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/dhi-vs-phm/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/dhi-vs-tol/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/dhr-vs-ilmn/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/dhr-vs-iqv/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/dhr-vs-tmo/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/dino-vs-mpc/</loc><lastmod>2026-10-09</lastmod></url>
@@ -1555,6 +1681,8 @@
   <url><loc>https://thefilingdesk.net/compare/docn-vs-gddy/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/docn-vs-net/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/docn-vs-vrsn/</loc><lastmod>2026-10-13</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/docs-vs-solv/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/docs-vs-veev/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/dole-vs-ingr/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/dov-vs-hubb/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/dov-vs-ir/</loc><lastmod>2026-10-09</lastmod></url>
@@ -1591,9 +1719,7 @@
   <url><loc>https://thefilingdesk.net/compare/duk-vs-so/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/duol-vs-ghc/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/duol-vs-lope/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/dva-vs-hims/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/dva-vs-lh/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/dva-vs-tem/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/dvn-vs-eog/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/dvn-vs-exe/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/dvn-vs-fang/</loc><lastmod>2026-10-10</lastmod></url>
@@ -1604,9 +1730,7 @@
   <url><loc>https://thefilingdesk.net/compare/dxc-vs-vyx/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/dxcm-vs-ew/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/dxcm-vs-idxx/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/dxcm-vs-podd/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/dxcm-vs-rmd/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/dxcm-vs-rvty/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/dxcm-vs-ste/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/eat-vs-txrh/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/eat-vs-yum/</loc><lastmod>2026-10-09</lastmod></url>
@@ -1615,17 +1739,20 @@
   <url><loc>https://thefilingdesk.net/compare/ebay-vs-meli/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ebay-vs-olli/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/echo-vs-tmus/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/ecl-vs-emn/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ecl-vs-iff/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ecl-vs-lyb/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ecl-vs-ppg/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ecl-vs-shw/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/ecl-vs-wlk/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ed-vs-nee/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ed-vs-pcg/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ed-vs-sre/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ed-vs-xel/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/efx-vs-tru/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/efx-vs-vrsk/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/ehc-vs-ensg/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/ehc-vs-hca/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/ehc-vs-uhs/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/eix-vs-exc/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/eix-vs-fe/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/eix-vs-oklo/</loc><lastmod>2026-10-13</lastmod></url>
@@ -1633,6 +1760,9 @@
   <url><loc>https://thefilingdesk.net/compare/el-vs-elf/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/el-vs-kvue/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/el-vs-pg/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/elan-vs-teva/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/elan-vs-vtrs/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/elan-vs-zts/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/elf-vs-kvue/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/elf-vs-pg/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/elv-vs-hum/</loc><lastmod>2026-10-09</lastmod></url>
@@ -1643,11 +1773,14 @@
   <url><loc>https://thefilingdesk.net/compare/eme-vs-mtz/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/eme-vs-pwr/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/emn-vs-iff/</loc><lastmod>2026-10-12</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/emn-vs-ppg/</loc><lastmod>2026-10-12</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/emn-vs-rpm/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/emn-vs-wlk/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/emr-vs-etn/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/emr-vs-rok/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/emr-vs-vrt/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/enr-vs-kmb/</loc><lastmod>2026-10-11</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/ensg-vs-hca/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/ensg-vs-uhs/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/eog-vs-exe/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/eog-vs-fang/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/eog-vs-oxy/</loc><lastmod>2026-10-09</lastmod></url>
@@ -1674,11 +1807,12 @@
   <url><loc>https://thefilingdesk.net/compare/etsy-vs-m/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/etsy-vs-meli/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/etsy-vs-olli/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/evrg-vs-ida/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/evrg-vs-lnt/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/evrg-vs-peg/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/evrg-vs-por/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/evrg-vs-ppl/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/evrg-vs-txnm/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/evrg-vs-wec/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/ew-vs-idxx/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ew-vs-isrg/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ew-vs-rmd/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ew-vs-ste/</loc><lastmod>2026-10-09</lastmod></url>
@@ -1687,7 +1821,13 @@
   <url><loc>https://thefilingdesk.net/compare/exe-vs-fang/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/exe-vs-ovv/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/exe-vs-oxy/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/exel-vs-halo/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/exel-vs-incy/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/exel-vs-mrna/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/exls-vs-g/</loc><lastmod>2026-10-12</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/exp-vs-knf/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/exp-vs-mlm/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/exp-vs-vmc/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/expd-vs-fdx/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/expd-vs-ups/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/expe-vs-hlt/</loc><lastmod>2026-10-09</lastmod></url>
@@ -1749,6 +1889,7 @@
   <url><loc>https://thefilingdesk.net/compare/flut-vs-mgm/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/flut-vs-wynn/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/fmc-vs-mos/</loc><lastmod>2026-10-12</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/fmc-vs-smg/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/fnd-vs-hd/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/fnd-vs-low/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/foxa-vs-nxst/</loc><lastmod>2026-10-09</lastmod></url>
@@ -1795,6 +1936,7 @@
   <url><loc>https://thefilingdesk.net/compare/ge-vs-lmt/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ge-vs-noc/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ge-vs-rtx/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/gef-vs-slgn/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/gehc-vs-mdt/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/gehc-vs-syk/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/gen-vs-now/</loc><lastmod>2026-10-10</lastmod></url>
@@ -1823,6 +1965,9 @@
   <url><loc>https://thefilingdesk.net/compare/gm-vs-rivn/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/gm-vs-tsla/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/gm-vs-wgo/</loc><lastmod>2026-10-11</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/gmed-vs-idxx/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/gmed-vs-podd/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/gmed-vs-rvty/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/gntx-vs-mbly/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/gntx-vs-vc/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/go-vs-kr/</loc><lastmod>2026-10-11</lastmod></url>
@@ -1838,6 +1983,8 @@
   <url><loc>https://thefilingdesk.net/compare/googl-vs-rddt/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/googl-vs-rum/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/googl-vs-snap/</loc><lastmod>2026-10-11</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/gpk-vs-pkg/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/gpk-vs-son/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/gpn-vs-tost/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/grnd-vs-meta/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/grnd-vs-mtch/</loc><lastmod>2026-10-11</lastmod></url>
@@ -1863,9 +2010,12 @@
   <url><loc>https://thefilingdesk.net/compare/h-vs-nclh/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/h-vs-rcl/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/h-vs-tnl/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/hae-vs-wst/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/hal-vs-nov/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/hal-vs-slb/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/hal-vs-wfrd/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/halo-vs-mrna/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/halo-vs-roiv/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/has-vs-mat/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/has-vs-pii/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/has-vs-tho/</loc><lastmod>2026-10-09</lastmod></url>
@@ -1887,7 +2037,6 @@
   <url><loc>https://thefilingdesk.net/compare/hii-vs-lhx/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/hii-vs-tdg/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/hii-vs-txt/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/hims-vs-lh/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/hims-vs-tem/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/hlt-vs-mar/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/hlt-vs-nclh/</loc><lastmod>2026-10-09</lastmod></url>
@@ -1931,6 +2080,9 @@
   <url><loc>https://thefilingdesk.net/compare/ice-vs-mco/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ice-vs-ndaq/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ice-vs-spgi/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/ida-vs-lnt/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/ida-vs-por/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/ida-vs-txnm/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/idxx-vs-podd/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/idxx-vs-rmd/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/idxx-vs-rvty/</loc><lastmod>2026-10-09</lastmod></url>
@@ -1938,13 +2090,10 @@
   <url><loc>https://thefilingdesk.net/compare/iex-vs-itt/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/iex-vs-ndsn/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/iex-vs-pnr/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/iff-vs-lyb/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/iff-vs-ppg/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/iff-vs-shw/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/ilmn-vs-iqv/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/iff-vs-rpm/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/iff-vs-wlk/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ilmn-vs-mtd/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/ilmn-vs-tech/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/ilmn-vs-tmo/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ilmn-vs-wat/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/imax-vs-lion/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/imax-vs-lyv/</loc><lastmod>2026-10-10</lastmod></url>
@@ -1952,9 +2101,6 @@
   <url><loc>https://thefilingdesk.net/compare/imax-vs-roku/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/imax-vs-tko/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/imax-vs-wmg/</loc><lastmod>2026-10-10</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/incy-vs-mrna/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/incy-vs-regn/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/incy-vs-roiv/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/incy-vs-vrtx/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/intc-vs-mu/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/intc-vs-nvda/</loc><lastmod>2026-10-10</lastmod></url>
@@ -1962,10 +2108,10 @@
   <url><loc>https://thefilingdesk.net/compare/intc-vs-txn/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/intu-vs-orcl/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/intu-vs-wday/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/ionq-vs-logi/</loc><lastmod>2026-10-12</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/ionq-vs-ntap/</loc><lastmod>2026-10-12</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/ionq-vs-p/</loc><lastmod>2026-10-12</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/ionq-vs-stx/</loc><lastmod>2026-10-12</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/ionq-vs-logi/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/ionq-vs-ntap/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/ionq-vs-p/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/ionq-vs-stx/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ip-vs-pkg/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ip-vs-sw/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/iqv-vs-tmo/</loc><lastmod>2026-10-09</lastmod></url>
@@ -2034,6 +2180,8 @@
   <url><loc>https://thefilingdesk.net/compare/kmx-vs-musa/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/kmx-vs-orly/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/kmx-vs-pag/</loc><lastmod>2026-10-12</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/knf-vs-mlm/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/knf-vs-vmc/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ko-vs-mnst/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ko-vs-pep/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ko-vs-sbux/</loc><lastmod>2026-10-09</lastmod></url>
@@ -2058,7 +2206,6 @@
   <url><loc>https://thefilingdesk.net/compare/levi-vs-tpr/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/levi-vs-vfc/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/levi-vs-wrby/</loc><lastmod>2026-10-12</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/lh-vs-tem/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/lhx-vs-lmt/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/lhx-vs-noc/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/lhx-vs-rtx/</loc><lastmod>2026-10-09</lastmod></url>
@@ -2076,9 +2223,9 @@
   <url><loc>https://thefilingdesk.net/compare/lly-vs-pfe/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/lmt-vs-noc/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/lmt-vs-rtx/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/lnt-vs-peg/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/lnt-vs-por/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/lnt-vs-ppl/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/lnt-vs-wec/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/lnt-vs-txnm/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/logi-vs-ntap/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/logi-vs-p/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/logi-vs-stx/</loc><lastmod>2026-10-11</lastmod></url>
@@ -2095,6 +2242,7 @@
   <url><loc>https://thefilingdesk.net/compare/lvs-vs-wynn/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/lyb-vs-ppg/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/lyb-vs-shw/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/lyb-vs-wlk/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/lyft-vs-uber/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/lyv-vs-nflx/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/lyv-vs-tko/</loc><lastmod>2026-10-09</lastmod></url>
@@ -2146,6 +2294,7 @@
   <url><loc>https://thefilingdesk.net/compare/mo-vs-pm/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/mog-a-vs-tdg/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/morn-vs-msci/</loc><lastmod>2026-10-11</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/mos-vs-smg/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/mpc-vs-pbf/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/mpc-vs-psx/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/mpc-vs-vlo/</loc><lastmod>2026-10-09</lastmod></url>
@@ -2194,11 +2343,23 @@
   <url><loc>https://thefilingdesk.net/compare/nclh-vs-tnl/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ndaq-vs-spgi/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/nee-vs-pcg/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/nem-vs-rgld/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/net-vs-shop/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/net-vs-vrsn/</loc><lastmod>2026-10-11</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/neu-vs-sols/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/nfg-vs-njr/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/nfg-vs-ogs/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/nfg-vs-sr/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/nfg-vs-swx/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/nfg-vs-ugi/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/nflx-vs-tko/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/nflx-vs-wmg/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/ni-vs-nwe/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/ni-vs-oge/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ni-vs-pnw/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/njr-vs-ogs/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/njr-vs-sr/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/njr-vs-swx/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/nke-vs-rl/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/nke-vs-sbux/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/nke-vs-tgt/</loc><lastmod>2026-10-09</lastmod></url>
@@ -2208,16 +2369,20 @@
   <url><loc>https://thefilingdesk.net/compare/nov-vs-wfrd/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/now-vs-panw/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/now-vs-twlo/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/nrg-vs-tln/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/nsc-vs-unp/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ntap-vs-p/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ntap-vs-stx/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ntap-vs-wdc/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ntrs-vs-stt/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/nue-vs-rs/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/nue-vs-stld/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/nvda-vs-qcom/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/nvda-vs-txn/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/nvr-vs-phm/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/nvr-vs-tol/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/nwe-vs-oge/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/nwe-vs-pnw/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/nwsa-vs-nyt/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/nxpi-vs-on/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/nxpi-vs-txn/</loc><lastmod>2026-10-09</lastmod></url>
@@ -2225,6 +2390,10 @@
   <url><loc>https://thefilingdesk.net/compare/nxst-vs-wbd/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/o-vs-reg/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/o-vs-spg/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/oge-vs-pnw/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/ogs-vs-sr/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/ogs-vs-swx/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/ogs-vs-ugi/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/oke-vs-trgp/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/oke-vs-vnom/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/oke-vs-wmb/</loc><lastmod>2026-10-09</lastmod></url>
@@ -2260,8 +2429,6 @@
   <url><loc>https://thefilingdesk.net/compare/penn-vs-wynn/</loc><lastmod>2026-10-12</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/pep-vs-sbux/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/pfe-vs-teva/</loc><lastmod>2026-10-11</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/pfe-vs-vtrs/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/pfe-vs-zts/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/pfg-vs-pri/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/pfg-vs-pru/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/pfgc-vs-syy/</loc><lastmod>2026-10-09</lastmod></url>
@@ -2272,6 +2439,7 @@
   <url><loc>https://thefilingdesk.net/compare/pii-vs-tho/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/pins-vs-rblx/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/pins-vs-ttwo/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/pkg-vs-son/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/pkg-vs-sw/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/play-vs-pzza/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/play-vs-shak/</loc><lastmod>2026-10-11</lastmod></url>
@@ -2284,11 +2452,12 @@
   <url><loc>https://thefilingdesk.net/compare/pnc-vs-usb/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/pnc-vs-wfc/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/pnr-vs-sna/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/podd-vs-rmd/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/podd-vs-rvty/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/por-vs-txnm/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/post-vs-sjm/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ppc-vs-tsn/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ppg-vs-shw/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/ppg-vs-wlk/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ppl-vs-wec/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ppli-vs-rddt/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ppli-vs-snap/</loc><lastmod>2026-10-11</lastmod></url>
@@ -2336,9 +2505,7 @@
   <url><loc>https://thefilingdesk.net/compare/rjf-vs-schw/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/rl-vs-tpr/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/rl-vs-vfc/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/rmd-vs-rvty/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/rmd-vs-ste/</loc><lastmod>2026-10-09</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/roiv-vs-vrtx/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/rok-vs-vrt/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/roku-vs-tko/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/roku-vs-wmg/</loc><lastmod>2026-10-09</lastmod></url>
@@ -2349,7 +2516,9 @@
   <url><loc>https://thefilingdesk.net/compare/rop-vs-zbra/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/rost-vs-tjx/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/rost-vs-vsxy/</loc><lastmod>2026-10-11</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/rpm-vs-wlk/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/rrc-vs-tpl/</loc><lastmod>2026-10-10</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/rs-vs-stld/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/rsg-vs-vlto/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/rsg-vs-wm/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/rum-vs-snap/</loc><lastmod>2026-10-11</lastmod></url>
@@ -2367,6 +2536,7 @@
   <url><loc>https://thefilingdesk.net/compare/shak-vs-wing/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/shak-vs-yum/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/shop-vs-vrsn/</loc><lastmod>2026-10-11</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/shw-vs-wlk/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/siri-vs-wbd/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/smci-vs-sndk/</loc><lastmod>2026-10-10</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/sn-vs-whr/</loc><lastmod>2026-10-09</lastmod></url>
@@ -2378,6 +2548,8 @@
   <url><loc>https://thefilingdesk.net/compare/snps-vs-wday/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/sofi-vs-syf/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/solv-vs-veev/</loc><lastmod>2026-10-09</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/sr-vs-swx/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/sr-vs-ugi/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/sre-vs-xel/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/ste-vs-zbh/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/stx-vs-wdc/</loc><lastmod>2026-10-09</lastmod></url>
@@ -2423,8 +2595,8 @@
   <url><loc>https://thefilingdesk.net/compare/w-vs-wsm/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/wing-vs-yum/</loc><lastmod>2026-10-09</lastmod></url>
   <url><loc>https://thefilingdesk.net/compare/wu-vs-xyz/</loc><lastmod>2026-10-11</lastmod></url>
-  <url><loc>https://thefilingdesk.net/screener/</loc><lastmod>2026-10-13</lastmod></url>
-  <url><loc>https://thefilingdesk.net/compare/</loc><lastmod>2026-10-13</lastmod></url>
+  <url><loc>https://thefilingdesk.net/screener/</loc><lastmod>2026-10-14</lastmod></url>
+  <url><loc>https://thefilingdesk.net/compare/</loc><lastmod>2026-10-14</lastmod></url>
   <url><loc>https://thefilingdesk.net/insiders/</loc><lastmod>2026-10-13</lastmod></url>
   <url><loc>https://thefilingdesk.net/weekly/2026-w41/</loc><lastmod>2026-10-11</lastmod></url>
   <url><loc>https://thefilingdesk.net/weekly/2026-w40/</loc><lastmod>2026-10-06</lastmod></url>
