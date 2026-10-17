@@ -708,6 +708,14 @@ a.earn:hover .nm { color: var(--accent); }
 .dcf .preset-note { display: block; font-size: 12.5px; line-height: 1.5; color: var(--muted); margin: 0 0 6px; }
 .dcf-reset { font: inherit; font-size: 13.5px; font-weight: 700; color: var(--ink); background: var(--sheet); border: 1px solid var(--rule-strong); border-radius: 999px; padding: 9px 16px; cursor: pointer; transition: transform 160ms cubic-bezier(0.23, 1, 0.32, 1); }
 @media (hover: hover) and (pointer: fine) { .dcf-reset:hover { border-color: var(--ink); } }
+.outlook { margin: 22px 0 6px; padding: 18px 20px; background: var(--ground); border-radius: 14px; }
+.outlook { padding-top: 14px; }
+.outlook .val-h { margin: 0 0 10px; font-size: 17px; }
+.outlook-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.outlook-list li { display: grid; gap: 3px; padding-left: 14px; border-left: 3px solid var(--rule-strong); }
+.outlook-list .k { font-family: var(--mono); font-size: 12px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.04em; }
+.outlook-list q { quotes: "\201C" "\201D"; font-size: 15.5px; line-height: 1.55; }
+.outlook .src { margin-top: 12px; }
 .dcf-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 12px; margin-top: 4px; }
 .share-note { font-size: 12.5px; line-height: 1.4; color: var(--muted); }
 .dcf-out { background: var(--dark); color: var(--dark-ink); border-radius: 16px; padding: 22px; align-self: start; position: sticky; top: 84px; }
