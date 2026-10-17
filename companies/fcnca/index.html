@@ -18,7 +18,7 @@
 <meta name="twitter:card" content="summary">
 <link rel="preload" href="/assets/fonts/plus-jakarta-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/ibm-plex-mono-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/site.css?v=6cec785b">
+<link rel="stylesheet" href="/assets/site.css?v=31a46c51">
 <link rel="alternate" type="application/atom+xml" title="The Filing Desk" href="/feed.xml">
 </head>
 <body class="k-data">
@@ -84,6 +84,8 @@
       <div class="row"><label for="pe-r-n">Discount rate (% a year)</label><input type="number" id="pe-r-n" min="5" max="15" step="0.1" aria-label="Discount rate">
         <input type="range" id="pe-r" min="5" max="15" step="0.1" aria-label="Discount rate, slider">
         <small>The yearly return an investor wants for the risk, as in the cash flow model.</small></div>
+      <div class="dcf-actions"><button type="button" class="dcf-reset" id="pe-link">Copy link to my scenario</button>
+        <span class="share-note" id="pe-link-note" role="status"></span></div>
     </div>
     <div class="dcf-out" aria-live="polite">
       <div class="k">Value per share today at this multiple</div>
@@ -111,11 +113,11 @@
   </div>
 </footer>
 <script>window.COMPANY = {"FY":[2016,2017,2018,2019,2020,2021,2022,2023,2024,2025],"profile":"bank","data":{"revenue":[1321.8,1581.9,1609.0,1727.2,1865.0,1898.0,5082.0,18787.0,9758.0,9541.0],"net_income":[225.5,323.8,400.3,457.4,492.0,547.0,1098.0,11466.0,2777.0,2206.0],"eps_diluted":[null,null,null,null,47.5,53.88,67.4,784.51,189.41,165.24],"dividends":[14.4,14.4,16.8,18.1,30.4,41.6,83.0,117.0,158.0,161.0],"buybacks":[0.0,0.0,163.1,453.1,334.0,0.0,1240.0,0.0,1648.0,3027.0],"shares_diluted":[12.0,12.0,11.9,11.1,10.1,9.8,15.5,14.5,14.3,13.0],"ocf":[null,null,null,null,null,null,null,null,null,null],"capex":[null,null,null,null,null,null,null,null,null,null]},"metrics":{"revenue_growth":[-5.04,19.68,1.72,7.34,7.98,1.77,167.76,269.68,-48.06,-2.22],"net_margin":[17.06,20.47,24.88,26.48,26.38,28.82,21.61,61.03,28.46,23.12],"roe":[7.66,10.2,11.73,12.93,12.59,12.2,15.25,74.17,12.77,9.92],"rote":[8.31,10.99,12.73,14.41,14.36,14.07,17.0,81.45,13.42,10.46],"efficiency_ratio":[70.95,64.01,66.93,63.9,63.75,65.02,60.51,28.4,58.77,63.47],"net_interest_share":[71.47,67.0,75.13,75.92,74.42,73.23,57.97,35.73,73.2,71.42],"share_change":[0.0,0.0,-0.6,-6.68,-9.73,-2.39,58.41,-6.5,-1.35,-9.34],"net_income_growth":[7.18,43.58,23.65,14.25,7.57,11.18,100.73,944.26,-75.78,-20.56],"eps_growth":[null,null,null,null,null,13.43,25.09,1063.96,-75.86,-12.76]},"quarterly":{"fy":[2023,2023,2024,2024,2024,2024,2025,2025,2025,2025,2026,2026],"fq":[3,4,1,2,3,4,1,2,3,4,1,2],"period_end":["2023-09-30","2023-12-31","2024-03-31","2024-06-30","2024-09-30","2024-12-31","2025-03-31","2025-06-30","2025-09-30","2025-12-31","2026-03-31","2026-06-30"],"data":{"revenue":[2605.0,2454.0,2444.0,2460.0,2446.0,2408.0,2298.0,2373.0,2433.0,2437.0,2313.0,2432.0],"net_income":[752.0,514.0,731.0,707.0,639.0,700.0,483.0,575.0,568.0,580.0,534.0,672.0],"eps_diluted":[50.67,34.32,49.26,47.54,43.42,49.15,34.47,42.36,43.08,45.54,42.63,55.52],"dividends":[26.0,39.0,39.0,39.0,38.0,42.0,42.0,40.0,39.0,40.0,51.0,55.0],"buybacks":[0.0,0.0,0.0,0.0,700.0,948.0,618.0,613.0,896.0,900.0,899.0,606.0],"shares_diluted":[14.5,null,14.5,14.5,14.4,null,13.6,13.2,12.8,null,11.9,11.5],"ocf":[null,null,null,null,null,null,null,null,null,null,null,null],"capex":[null,null,null,null,null,null,null,null,null,null,null,null]},"metrics":{"revenue_growth":[112.13,99.35,-78.0,-6.07,-6.1,-1.87,-5.97,-3.54,-0.53,1.2,0.65,2.49],"net_margin":[28.87,20.95,29.91,28.74,26.12,29.07,21.02,24.23,23.35,23.8,23.09,27.63],"efficiency_ratio":[54.36,60.8,56.3,56.34,59.53,63.0,64.97,63.21,61.28,64.51,66.41,63.77],"net_income_growth":[138.73,100.0,-92.32,3.67,-15.03,36.19,-33.93,-18.67,-11.11,-17.14,10.56,16.87],"eps_growth":[163.22,105.51,-92.46,3.64,-14.31,43.21,-30.02,-10.9,-0.78,-7.34,23.67,31.07],"net_interest_share":[76.39,77.87,74.35,74.02,73.43,70.97,72.37,71.43,71.27,70.66,70.08,68.09]},"derived":{"revenue":[0,0,0,0,0,1,0,0,0,1,0,0],"net_income":[0,1,0,0,0,1,0,0,0,1,0,0],"eps_diluted":[0,1,0,0,0,1,0,0,0,1,0,0],"buybacks":[0,1,0,1,1,1,0,1,1,1,0,1],"dividends":[1,1,0,1,1,1,0,1,1,1,0,1]}}};</script>
-<script src="/assets/report.js?v=3390bbe4"></script>
+<script src="/assets/report.js?v=110dc4da"></script>
 <script src="/assets/company.js?v=4afa3990"></script>
 <script src="/assets/compare.js?v=4638bd9b"></script>
 <script>window.PE = {"eps":{"fy":165.24,"ttm":186.77},"eps_notes":{"fy":"Diluted earnings per share in fiscal 2025, from the 10-K.","ttm":"Diluted earnings per share over the four quarters to June 30, 2026, from the 10-Qs and 10-K."},"eps_default":"ttm","multiples":{"peers":12.8,"sector":15.1,"today":11.4},"m_default":12.8,"price":{"close":2123.74,"date":"2026-10-16","prev":2097.2,"prev_date":"2026-10-15"},"g_default":20.0,"r_default":10,"n_default":1,"presets":{"cautious":{"g":10.0,"m":10.2,"r":11,"n":1},"base":{"g":20.0,"m":12.8,"r":10,"n":1},"optimistic":{"g":25.0,"m":15.4,"r":9,"n":1}}};</script>
-<script src="/assets/pe.js?v=a90fc9e3"></script>
+<script src="/assets/pe.js?v=15857ab2"></script>
 <script src="/assets/search.js?v=dfad3182"></script>
 <script>(function(){var q=location.search,s=null,off=false;try{if(/[?&]notrack\b/.test(q)){localStorage.setItem('fd-notrack','1');s='This browser will no longer be counted in the visitor statistics. Visit /?track to undo it.';}else if(/[?&]track\b/.test(q)){localStorage.removeItem('fd-notrack');s='This browser is counted in the visitor statistics again.';}off=!!localStorage.getItem('fd-notrack');}catch(e){}if(s){var n=document.createElement('p');n.className='notrack-note';n.setAttribute('role','status');n.textContent=s;document.body.prepend(n);setTimeout(function(){n.remove();},6000);}if(off)return;var b=document.createElement('script');b.defer=true;b.src='https://static.cloudflareinsights.com/beacon.min.js';b.setAttribute('data-cf-beacon','{"token": "c91a8c3feb754f34aed3f08ca909e8ad"}');document.body.appendChild(b);})();</script>
 </body>

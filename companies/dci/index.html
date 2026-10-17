@@ -18,7 +18,7 @@
 <meta name="twitter:card" content="summary">
 <link rel="preload" href="/assets/fonts/plus-jakarta-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/ibm-plex-mono-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/site.css?v=6cec785b">
+<link rel="stylesheet" href="/assets/site.css?v=31a46c51">
 <link rel="alternate" type="application/atom+xml" title="The Filing Desk" href="/feed.xml">
 </head>
 <body class="k-data">
@@ -83,7 +83,9 @@
         <div class="row"><label for="dcf-gt-n">Growth after year 10 (% a year)</label><input type="number" id="dcf-gt-n" min="-10" max="30" step="0.1" aria-label="Growth after year 10 (% a year)"><input type="range" id="dcf-gt" min="-10" max="30" step="0.1" aria-label="Growth after year 10 (% a year), slider"><small>Long-run growth forever after year 10. Usually close to inflation, and always below the discount rate.</small></div>
         <div class="row"><label for="dcf-r-n">Discount rate (% a year)</label><input type="number" id="dcf-r-n" min="5" max="15" step="0.1" aria-label="Discount rate (% a year)"><input type="range" id="dcf-r" min="5" max="15" step="0.1" aria-label="Discount rate (% a year), slider"><small>The yearly return an investor wants for the risk. A higher rate gives a lower value.</small></div>
       </fieldset>
-      <button type="button" class="dcf-reset" id="dcf-reset">Reset to the base scenario</button>
+      <div class="dcf-actions"><button type="button" class="dcf-reset" id="dcf-reset">Reset to the base scenario</button>
+        <button type="button" class="dcf-reset" id="dcf-link">Copy link to my scenario</button>
+        <span class="share-note" id="dcf-link-note" role="status"></span></div>
     </div>
     <div class="dcf-out" aria-live="polite">
       <div class="k">Value per share on these assumptions</div>
@@ -122,6 +124,8 @@
       <div class="row"><label for="pe-r-n">Discount rate (% a year)</label><input type="number" id="pe-r-n" min="5" max="15" step="0.1" aria-label="Discount rate">
         <input type="range" id="pe-r" min="5" max="15" step="0.1" aria-label="Discount rate, slider">
         <small>The yearly return an investor wants for the risk, as in the cash flow model.</small></div>
+      <div class="dcf-actions"><button type="button" class="dcf-reset" id="pe-link">Copy link to my scenario</button>
+        <span class="share-note" id="pe-link-note" role="status"></span></div>
     </div>
     <div class="dcf-out" aria-live="polite">
       <div class="k">Value per share today at this multiple</div>
@@ -151,12 +155,12 @@
 </footer>
 <script>window.COMPANY = {"FY":[2017,2018,2019,2020,2021,2022,2023,2024,2025,2026],"profile":"industrial","data":{"revenue":[2371.9,2734.2,2844.9,2581.8,2853.9,3306.6,3430.8,3586.3,3690.9,3885.6],"net_income":[232.8,180.3,267.2,257.0,286.9,332.8,358.8,414.0,367.0,453.8],"eps_diluted":[1.74,1.36,2.05,2,2.24,2.66,2.9,3.38,3.05,3.85],"ocf":[317.8,262.9,345.8,387.0,401.9,252.8,544.5,492.5,418.8,493.7],"capex":[65.9,97.5,150.7,124.4,59.0,85.5,118.5,85.6,78.9,67.4],"dividends":[92.4,94.7,99.7,106.4,107.2,110.1,114.4,122.8,131.9,141.2],"buybacks":[140.4,122.0,129.2,94.3,142.2,170.6,141.8,162.7,331.5,111.2],"shares_diluted":[134.1,132.2,130.3,128.3,128.2,125.2,123.6,122.6,120.4,117.9]},"metrics":{"revenue_growth":[6.83,15.27,4.05,-9.25,10.54,15.86,3.76,4.53,2.92,5.28],"gross_margin":[34.61,34.23,33.33,33.76,34.05,32.28,33.83,35.54,34.85,34.64],"operating_margin":[13.64,13.79,13.65,13.17,13.48,13.41,14.0,15.17,13.42,15.44],"net_margin":[9.81,6.59,9.39,9.95,10.05,10.06,10.46,11.54,9.94,11.68],"fcf_margin":[10.62,6.05,6.86,10.17,12.02,5.06,12.42,11.35,9.21,10.97],"fcf":[251.9,165.4,195.1,262.6,342.9,167.3,426.0,406.9,339.9,426.3],"roic":[20.76,16.02,21.7,19.06,20.61,22.32,21.74,23.47,19.76,19.42],"roe":[28.64,21.06,30.53,27.26,26.94,29.32,29.24,29.47,24.94,28.2],"payout_of_fcf":[92.42,131.02,117.32,76.43,72.73,167.78,60.14,70.16,136.33,59.21],"share_change":[-0.52,-1.42,-1.44,-1.53,-0.08,-2.34,-1.28,-0.81,-1.79,-2.08],"net_income_growth":[22.01,-22.55,48.2,-3.82,11.63,16.0,7.81,15.38,-11.35,23.65],"eps_growth":[22.54,-21.84,50.74,-2.44,12.0,18.75,9.02,16.55,-9.76,26.23]},"quarterly":{"fy":[2024,2024,2024,2024,2025,2025,2025,2025,2026,2026,2026,2026],"fq":[1,2,3,4,1,2,3,4,1,2,3,4],"period_end":["2023-10-31","2024-01-31","2024-04-30","2024-07-31","2024-10-31","2025-01-31","2025-04-30","2025-07-31","2025-10-31","2026-01-31","2026-04-30","2026-07-31"],"data":{"revenue":[846.3,876.7,927.9,935.4,900.1,870.0,940.1,980.7,935.4,896.3,995.1,1058.8],"net_income":[92.1,98.7,113.5,109.7,99.0,95.9,57.8,114.3,113.9,92.5,118.1,129.3],"eps_diluted":[0.75,0.81,0.92,0.9,0.81,0.79,0.48,0.96,0.97,0.78,1.0,1.1],"ocf":[138.0,87.0,141.5,126.0,72.9,90.4,87.7,167.8,125.4,33.0,135.4,199.9],"capex":[23.2,21.3,21.3,19.8,25.1,18.9,16.3,18.6,14.2,15.0,23.3,14.9],"dividends":[30.2,30.1,30.0,32.5,32.4,32.2,32.3,35.0,34.7,34.6,34.7,37.2],"buybacks":[53.3,33.3,27.2,48.9,74.4,7.2,190.6,59.3,91.5,19.7,0.0,0.0],"shares_diluted":[122.6,122.1,122.9,null,121.9,121.4,120.3,null,117.8,117.9,118.1,null]},"metrics":{"revenue_growth":[-0.12,5.84,5.96,6.36,6.36,-0.76,1.31,4.84,3.92,3.02,5.85,7.96],"gross_margin":[35.55,35.2,35.57,35.79,35.51,35.16,34.24,34.55,35.15,33.45,33.5,36.26],"operating_margin":[14.72,14.79,15.48,15.63,14.53,14.43,9.3,15.47,15.96,13.24,15.61,16.68],"net_margin":[10.88,11.26,12.23,11.73,11.0,11.02,6.15,11.65,12.18,10.32,11.87,12.21],"fcf_margin":[13.56,7.49,12.95,11.35,5.31,8.22,7.59,15.21,11.89,2.01,11.27,17.47],"fcf":[114.8,65.7,120.2,106.2,47.8,71.5,71.4,149.2,111.2,18.0,112.1,185.0],"net_income_growth":[5.62,14.77,21.13,19.37,7.49,-2.84,-49.07,4.19,15.05,-3.55,104.33,13.12],"eps_growth":[7.14,15.71,21.05,21.62,8.0,-2.47,-47.83,6.67,19.75,-1.27,108.33,14.58]},"derived":{"revenue":[0,0,0,1,0,0,0,1,0,0,0,1],"net_income":[0,0,0,1,0,0,0,1,0,0,0,1],"eps_diluted":[0,0,0,1,0,0,0,1,0,0,0,1],"ocf":[0,1,1,1,0,1,1,1,0,1,1,1],"capex":[0,1,1,1,0,1,1,1,0,1,1,1],"buybacks":[0,1,1,1,0,1,1,1,0,1,1,1],"dividends":[0,1,1,1,0,1,1,1,0,1,1,1]}}};</script>
 <script>window.DCF = {"fy":2026,"fcf":426.3,"fcf_avg3":391.0333333333333,"fcf_norm":387.7,"net_cash":-1077.5,"net_cash_q":null,"shares":117.9,"shares_q":null,"price":{"close":87.97,"date":"2026-10-16","prev":87.77,"prev_date":"2026-10-15"},"notes":{"fcf":{"fy":"Cash from operations minus capital spending in fiscal 2026.","avg":"The average of fiscal 2024 to 2026.","norm":"Cash from operations minus depreciation in fiscal 2026: a rough guide to cash flow before spending to grow, for a company building heavily."},"cash":{"fy":"Cash and short-term investments minus debt and finance leases at July 31, 2026. Negative means net debt.","q":null},"shares":{"fy":"Weighted-average diluted shares in fiscal 2026.","q":null}},"presets":{"cautious":{"g1":2.0,"g2":2.0,"gt":2,"r":10},"base":{"g1":4.0,"g2":3.0,"gt":2.5,"r":9},"optimistic":{"g1":6.5,"g2":5.0,"gt":3,"r":8}},"defaults":{"fcf":"fy","cash":"fy","shares":"fy"}};</script>
-<script src="/assets/report.js?v=3390bbe4"></script>
+<script src="/assets/report.js?v=110dc4da"></script>
 <script src="/assets/company.js?v=4afa3990"></script>
 <script src="/assets/compare.js?v=4638bd9b"></script>
-<script src="/assets/dcf.js?v=1a4826cb"></script>
+<script src="/assets/dcf.js?v=7807ab01"></script>
 <script>window.PE = {"eps":{"fy":3.85,"ttm":null},"eps_notes":{"fy":"Diluted earnings per share in fiscal 2026, from the 10-K.","ttm":null},"eps_default":"fy","multiples":{"peers":26.1,"sector":26.2,"today":22.8},"m_default":26.1,"price":{"close":87.97,"date":"2026-10-16","prev":87.77,"prev_date":"2026-10-15"},"g_default":4.0,"r_default":9,"n_default":1,"presets":{"cautious":{"g":2.0,"m":20.9,"r":10,"n":1},"base":{"g":4.0,"m":26.1,"r":9,"n":1},"optimistic":{"g":6.5,"m":31.3,"r":8,"n":1}}};</script>
-<script src="/assets/pe.js?v=a90fc9e3"></script>
+<script src="/assets/pe.js?v=15857ab2"></script>
 <script src="/assets/search.js?v=dfad3182"></script>
 <script>(function(){var q=location.search,s=null,off=false;try{if(/[?&]notrack\b/.test(q)){localStorage.setItem('fd-notrack','1');s='This browser will no longer be counted in the visitor statistics. Visit /?track to undo it.';}else if(/[?&]track\b/.test(q)){localStorage.removeItem('fd-notrack');s='This browser is counted in the visitor statistics again.';}off=!!localStorage.getItem('fd-notrack');}catch(e){}if(s){var n=document.createElement('p');n.className='notrack-note';n.setAttribute('role','status');n.textContent=s;document.body.prepend(n);setTimeout(function(){n.remove();},6000);}if(off)return;var b=document.createElement('script');b.defer=true;b.src='https://static.cloudflareinsights.com/beacon.min.js';b.setAttribute('data-cf-beacon','{"token": "c91a8c3feb754f34aed3f08ca909e8ad"}');document.body.appendChild(b);})();</script>
 </body>

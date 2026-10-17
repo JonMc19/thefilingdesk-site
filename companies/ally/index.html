@@ -18,7 +18,7 @@
 <meta name="twitter:card" content="summary">
 <link rel="preload" href="/assets/fonts/plus-jakarta-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/ibm-plex-mono-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/site.css?v=6cec785b">
+<link rel="stylesheet" href="/assets/site.css?v=31a46c51">
 <link rel="alternate" type="application/atom+xml" title="The Filing Desk" href="/feed.xml">
 </head>
 <body class="k-data">
@@ -84,6 +84,8 @@
       <div class="row"><label for="pe-r-n">Discount rate (% a year)</label><input type="number" id="pe-r-n" min="5" max="15" step="0.1" aria-label="Discount rate">
         <input type="range" id="pe-r" min="5" max="15" step="0.1" aria-label="Discount rate, slider">
         <small>The yearly return an investor wants for the risk, as in the cash flow model.</small></div>
+      <div class="dcf-actions"><button type="button" class="dcf-reset" id="pe-link">Copy link to my scenario</button>
+        <span class="share-note" id="pe-link-note" role="status"></span></div>
     </div>
     <div class="dcf-out" aria-live="polite">
       <div class="k">Value per share today at this multiple</div>
@@ -111,11 +113,11 @@
   </div>
 </footer>
 <script>window.COMPANY = {"FY":[2016,2017,2018,2019,2020,2021,2022,2023,2024,2025],"profile":"bank","data":{"revenue":[5437.0,5765.0,5804.0,6394.0,6686.0,8206.0,8428.0,8234.0,8181.0,7914.0],"net_income":[1067.0,929.0,1263.0,1715.0,1085.0,3060.0,1714.0,957.0,668.0,852.0],"eps_diluted":[2.15,2.04,2.95,4.34,2.88,8.22,5.03,2.77,1.8,2.37],"dividends":[108.0,184.0,242.0,273.0,289.0,324.0,384.0,368.0,372.0,379.0],"buybacks":[341.0,753.0,939.0,1039.0,106.0,1994.0,1650.0,33.0,38.0,59.0],"shares_diluted":[482.2,455.3,427.7,395.4,377.1,365.2,318.6,305.1,310.2,313.0],"ocf":[null,null,null,null,null,null,null,null,null,null],"capex":[null,null,null,null,null,null,null,null,null,null]},"metrics":{"revenue_growth":[11.85,6.03,0.68,10.17,4.57,22.73,2.71,-2.3,-0.64,-3.26],"net_margin":[19.62,16.11,21.76,26.82,16.23,37.29,20.34,11.62,8.17,10.77],"roe":[7.98,6.93,9.44,12.39,7.45,19.27,11.46,7.21,4.84,5.8],"rote":[7.83,7.06,9.63,12.74,7.68,21.39,13.72,8.36,5.16,6.19],"efficiency_ratio":[54.06,53.95,56.24,53.63,57.33,50.09,55.61,62.7,63.31,68.06],"net_interest_share":[null,null,null,null,null,null,null,null,null,null],"share_change":[-0.14,-5.56,-6.08,-7.55,-4.63,-3.16,-12.75,-4.24,1.65,0.93],"net_income_growth":[-17.22,-12.93,35.95,35.79,-36.73,182.03,-43.99,-44.17,-30.2,27.54],"eps_growth":[null,-5.12,44.61,47.12,-33.64,185.42,-38.81,-44.93,-35.02,31.67]},"quarterly":{"fy":[2023,2023,2024,2024,2024,2024,2025,2025,2025,2025,2026,2026],"fq":[3,4,1,2,3,4,1,2,3,4,1,2],"period_end":["2023-09-30","2023-12-31","2024-03-31","2024-06-30","2024-09-30","2024-12-31","2025-03-31","2025-06-30","2025-09-30","2025-12-31","2026-03-31","2026-06-30"],"data":{"revenue":[1968.0,2087.0,1998.0,2022.0,2135.0,2026.0,1541.0,2082.0,2168.0,2123.0,2102.0,2286.0],"net_income":[285.0,62.0,143.0,219.0,198.0,108.0,-225.0,352.0,398.0,327.0,319.0,410.0],"eps_diluted":[0.84,0.11,0.37,0.62,0.55,0.26,-0.82,1.04,1.18,0.96,0.93,1.18],"dividends":[90.0,91.0,97.0,91.0,92.0,92.0,100.0,92.0,93.0,94.0,102.0,92.0],"buybacks":[0.0,4.0,29.0,1.0,1.0,7.0,34.0,1.0,1.0,23.0,147.0,148.0],"shares_diluted":[305.7,null,308.4,309.9,311.0,null,309.0,312.4,313.8,null,313.2,311.0],"ocf":[null,null,null,null,null,null,null,null,null,null,null,null],"capex":[null,null,null,null,null,null,null,null,null,null,null,null]},"metrics":{"revenue_growth":[-2.38,-5.18,-4.86,-2.74,8.49,-2.92,-22.87,2.97,1.55,4.79,36.4,9.8],"net_margin":[14.48,2.97,7.16,10.83,9.27,5.33,-14.6,16.91,18.36,15.4,15.18,17.94],"efficiency_ratio":[62.6,67.85,65.47,63.6,57.38,67.13,106.04,60.61,57.2,58.88,58.75,57.7],"net_income_growth":[-4.68,-77.7,-52.17,-29.58,-30.53,74.19,-257.34,60.73,101.01,202.78,null,16.48],"eps_growth":[-4.55,-87.06,-58.43,-33.33,-34.52,136.36,-321.62,67.74,114.55,269.23,null,13.46],"net_interest_share":[null,null,null,null,null,null,null,null,null,null,null,null]},"derived":{"revenue":[0,1,0,0,0,1,0,0,0,1,0,0],"net_income":[0,0,0,0,0,0,0,0,0,1,0,0],"eps_diluted":[0,0,0,0,0,0,0,0,0,1,0,0],"buybacks":[1,1,0,1,1,1,0,1,1,1,0,1],"dividends":[1,1,0,1,1,1,0,1,1,1,0,1]}}};</script>
-<script src="/assets/report.js?v=3390bbe4"></script>
+<script src="/assets/report.js?v=110dc4da"></script>
 <script src="/assets/company.js?v=4afa3990"></script>
 <script src="/assets/compare.js?v=4638bd9b"></script>
 <script>window.PE = {"eps":{"fy":2.37,"ttm":4.25},"eps_notes":{"fy":"Diluted earnings per share in fiscal 2025, from the 10-K.","ttm":"Diluted earnings per share over the four quarters to June 30, 2026, from the 10-Qs and 10-K."},"eps_default":"ttm","multiples":{"peers":15.6,"sector":15.1,"today":8.9},"m_default":15.6,"price":{"close":37.68,"date":"2026-10-16","prev":37.73,"prev_date":"2026-10-15"},"g_default":0.0,"r_default":12,"n_default":1,"presets":{"cautious":{"g":-2.0,"m":12.5,"r":13,"n":1},"base":{"g":0.0,"m":15.6,"r":12,"n":1},"optimistic":{"g":2.0,"m":18.7,"r":11,"n":1}}};</script>
-<script src="/assets/pe.js?v=a90fc9e3"></script>
+<script src="/assets/pe.js?v=15857ab2"></script>
 <script src="/assets/search.js?v=dfad3182"></script>
 <script>(function(){var q=location.search,s=null,off=false;try{if(/[?&]notrack\b/.test(q)){localStorage.setItem('fd-notrack','1');s='This browser will no longer be counted in the visitor statistics. Visit /?track to undo it.';}else if(/[?&]track\b/.test(q)){localStorage.removeItem('fd-notrack');s='This browser is counted in the visitor statistics again.';}off=!!localStorage.getItem('fd-notrack');}catch(e){}if(s){var n=document.createElement('p');n.className='notrack-note';n.setAttribute('role','status');n.textContent=s;document.body.prepend(n);setTimeout(function(){n.remove();},6000);}if(off)return;var b=document.createElement('script');b.defer=true;b.src='https://static.cloudflareinsights.com/beacon.min.js';b.setAttribute('data-cf-beacon','{"token": "c91a8c3feb754f34aed3f08ca909e8ad"}');document.body.appendChild(b);})();</script>
 </body>

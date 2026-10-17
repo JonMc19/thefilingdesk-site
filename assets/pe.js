@@ -70,8 +70,30 @@
     });
   }
 
+  // what the reader changed from the page's own starting state goes in the address, so a link shares the scenario
+  const SHARE = {eps: "pe-eps", m: "pe-m-n", g: "pe-g-n", r: "pe-r-n"};
+  const KEYS = [...Object.keys(SHARE), "n", ...Array.from({length: YEARS}, (_, i) => "y" + (i + 1))];
+  const shared = FD.share.read("pe", KEYS);
+  let defaults = null;
+  const snapshot = () => ({...Object.fromEntries(Object.entries(SHARE).map(([k, id]) => [k, $(id).value])), n: String(years)});
+  function syncAddress() {
+    if (!defaults) return;
+    const now = snapshot(), diff = {};
+    Object.keys(now).forEach(k => { if (now[k] !== defaults[k]) diff[k] = now[k]; });
+    // a year's earnings is shared only if typed over: the others follow from the first year's and the growth rate
+    const g = num("pe-g-n") || 0;
+    let prev = num("pe-eps");
+    for (let i = 1; i <= YEARS; i++) {
+      const box = $("pe-y" + i).value, expected = prev == null ? null : prev * (1 + g / 100);
+      if (expected != null && box === expected.toFixed(2)) prev = expected;
+      else { diff["y" + i] = box; prev = parseFloat(box); if (isNaN(prev)) prev = null; }
+    }
+    FD.share.write("pe", diff);
+  }
+
   function run() {
     markScen();
+    syncAddress();
     const m = num("pe-m-n"), r = num("pe-r-n") ?? 10;
     const eps = years === 0 ? num("pe-eps") : num("pe-y" + years);
     const ok = eps != null && eps > 0 && m != null && m > 0;
@@ -94,4 +116,19 @@
   press("pe", first && F.multiples[first] === F.m_default ? first : null);
   years = F.n_default; press("yr", years);
   run();
+  defaults = snapshot();
+  const share = $("pe-link-note");
+  if (share) $("pe-link").addEventListener("click", () => FD.share.copy(share, "#pe"));
+  const ok = k => shared[k] !== undefined && isFinite(parseFloat(shared[k]));
+  if (KEYS.some(k => shared[k] !== undefined)) {   // a shared scenario: its changed values on top of the defaults
+    if (ok("eps")) { $("pe-eps").value = shared.eps; press("eps", null); }
+    if (ok("g")) setPair("pe-g", shared.g);
+    project();
+    for (let i = 1; i <= YEARS; i++) if (shared["y" + i] !== undefined) { $("pe-y" + i).value = shared["y" + i]; project(i); }
+    if (ok("m")) { setPair("pe-m", shared.m); press("pe", null); }
+    if (ok("r")) setPair("pe-r", shared.r);
+    if (ok("n") && +shared.n >= 0 && +shared.n <= YEARS) { years = Math.round(+shared.n); press("yr", years); }
+    run();
+    if (share) share.textContent = "Showing a shared scenario.";
+  }
 })();

@@ -18,7 +18,7 @@
 <meta name="twitter:card" content="summary">
 <link rel="preload" href="/assets/fonts/plus-jakarta-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/assets/fonts/ibm-plex-mono-latin-500-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="/assets/site.css?v=6cec785b">
+<link rel="stylesheet" href="/assets/site.css?v=31a46c51">
 <link rel="alternate" type="application/atom+xml" title="The Filing Desk" href="/feed.xml">
 </head>
 <body class="k-data">
@@ -84,6 +84,8 @@
       <div class="row"><label for="pe-r-n">Discount rate (% a year)</label><input type="number" id="pe-r-n" min="5" max="15" step="0.1" aria-label="Discount rate">
         <input type="range" id="pe-r" min="5" max="15" step="0.1" aria-label="Discount rate, slider">
         <small>The yearly return an investor wants for the risk, as in the cash flow model.</small></div>
+      <div class="dcf-actions"><button type="button" class="dcf-reset" id="pe-link">Copy link to my scenario</button>
+        <span class="share-note" id="pe-link-note" role="status"></span></div>
     </div>
     <div class="dcf-out" aria-live="polite">
       <div class="k">Value per share today at this multiple</div>
@@ -111,11 +113,11 @@
   </div>
 </footer>
 <script>window.COMPANY = {"FY":[2016,2017,2018,2019,2020,2021,2022,2023,2024,2025],"profile":"bank","data":{"revenue":[5521.1,6525.0,7476.0,8023.0,8168.0,9910.0,11308.0,12992.0,14923.0,15912.0],"net_income":[529.4,636.0,857.0,1034.0,818.0,1403.0,1509.0,1739.0,2068.0,2135.0],"eps_diluted":[2.43,2.89,3.83,4.78,3.88,6.63,6.98,7.97,9.7,10.3],"dividends":[113.4,127.0,151.0,191.0,205.0,218.0,277.0,355.0,383.0,416.0],"buybacks":[162.5,34.0,62.0,778.0,272.0,128.0,0.0,0.0,0.0,0.0],"shares_diluted":[216.8,219.9,223.2,216.0,210.3,211.2,215.3,216.9,212.3,206.6],"ocf":[null,null,null,null,null,null,null,null,null,null],"capex":[null,null,null,null,null,null,null,null,null,null]},"metrics":{"revenue_growth":[3.98,18.18,14.57,7.32,1.81,21.33,14.11,14.89,14.86,6.63],"net_margin":[9.59,9.75,11.46,12.89,10.01,14.16,13.34,13.39,13.86,13.42],"roe":[11.22,12.12,14.34,15.97,11.95,18.27,17.05,17.68,18.9,17.66],"rote":[12.37,13.39,15.85,17.68,13.1,20.22,20.38,22.17,23.0,21.0],"efficiency_ratio":[83.19,83.46,79.76,79.33,84.94,80.41,79.42,71.88,68.2,71.34],"net_interest_share":[9.5,9.93,11.26,12.44,10.06,6.79,10.64,18.28,14.27,13.49],"share_change":[-0.98,1.44,1.5,-3.23,-2.64,0.43,1.94,0.74,-2.12,-2.68],"net_income_growth":[5.42,20.15,34.75,20.65,-20.89,71.52,7.56,15.24,18.92,3.24],"eps_growth":[6.41,18.63,32.79,24.7,-18.83,70.88,5.28,14.18,21.71,6.19]},"quarterly":{"fy":[2023,2024,2024,2024,2024,2025,2025,2025,2025,2026,2026,2026],"fq":[4,1,2,3,4,1,2,3,4,1,2,3],"period_end":["2023-09-30","2023-12-31","2024-03-31","2024-06-30","2024-09-30","2024-12-31","2025-03-31","2025-06-30","2025-09-30","2025-12-31","2026-03-31","2026-06-30"],"data":{"revenue":[3515.0,3520.0,3638.0,3762.0,4003.0,4035.0,3845.0,3842.0,4190.0,4176.0,4262.0,4362.0],"net_income":[434.0,498.0,476.0,492.0,602.0,600.0,495.0,436.0,604.0,563.0,544.0,595.0],"eps_diluted":[2.02,2.32,2.22,2.31,2.85,2.86,2.36,2.12,2.95,2.79,2.72,3.01],"dividends":[89.0,97.0,96.0,95.0,95.0,105.0,106.0,103.0,102.0,112.0,109.0,105.0],"buybacks":[0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0],"shares_diluted":[null,213.8,213.4,212.3,null,209.2,208.7,205.5,null,201.4,199.2,197.2],"ocf":[null,null,null,null,null,null,null,null,null,null,null,null],"capex":[null,null,null,null,null,null,null,null,null,null,null,null]},"metrics":{"revenue_growth":[17.13,16.29,15.24,14.24,13.88,14.63,5.69,2.13,4.67,3.49,10.85,13.53],"net_margin":[12.35,14.15,13.08,13.08,15.04,14.87,12.87,11.35,14.42,13.48,12.76,13.64],"efficiency_ratio":[70.21,67.7,68.97,68.69,67.5,69.1,71.05,73.79,71.5,72.01,73.3,72.86],"net_income_growth":[-1.14,-2.16,11.48,33.33,38.71,20.48,3.99,-11.38,0.33,-6.17,9.9,36.47],"eps_growth":[1.51,0.87,15.03,35.09,41.09,23.28,6.31,-8.23,3.51,-2.45,15.25,41.98],"net_interest_share":[15.85,15.51,14.54,13.9,13.29,13.11,13.55,14.21,13.15,13.55,13.07,12.84]},"derived":{"revenue":[1,0,0,0,1,0,0,0,1,0,0,0],"net_income":[1,0,0,0,1,0,0,0,1,0,0,0],"eps_diluted":[1,0,0,0,1,0,0,0,1,0,0,0],"dividends":[1,0,1,1,1,0,1,1,1,0,1,1]}}};</script>
-<script src="/assets/report.js?v=3390bbe4"></script>
+<script src="/assets/report.js?v=110dc4da"></script>
 <script src="/assets/company.js?v=4afa3990"></script>
 <script src="/assets/compare.js?v=4638bd9b"></script>
 <script>window.PE = {"eps":{"fy":10.3,"ttm":11.47},"eps_notes":{"fy":"Diluted earnings per share in fiscal 2025, from the 10-K.","ttm":"Diluted earnings per share over the four quarters to June 30, 2026, from the 10-Qs and 10-K."},"eps_default":"ttm","multiples":{"peers":14.6,"sector":15.1,"today":13.7},"m_default":14.6,"price":{"close":156.78,"date":"2026-10-16","prev":157.37,"prev_date":"2026-10-15"},"g_default":12.0,"r_default":11,"n_default":1,"presets":{"cautious":{"g":6.0,"m":11.7,"r":12,"n":1},"base":{"g":12.0,"m":14.6,"r":11,"n":1},"optimistic":{"g":18.0,"m":17.5,"r":10,"n":1}}};</script>
-<script src="/assets/pe.js?v=a90fc9e3"></script>
+<script src="/assets/pe.js?v=15857ab2"></script>
 <script src="/assets/search.js?v=dfad3182"></script>
 <script>(function(){var q=location.search,s=null,off=false;try{if(/[?&]notrack\b/.test(q)){localStorage.setItem('fd-notrack','1');s='This browser will no longer be counted in the visitor statistics. Visit /?track to undo it.';}else if(/[?&]track\b/.test(q)){localStorage.removeItem('fd-notrack');s='This browser is counted in the visitor statistics again.';}off=!!localStorage.getItem('fd-notrack');}catch(e){}if(s){var n=document.createElement('p');n.className='notrack-note';n.setAttribute('role','status');n.textContent=s;document.body.prepend(n);setTimeout(function(){n.remove();},6000);}if(off)return;var b=document.createElement('script');b.defer=true;b.src='https://static.cloudflareinsights.com/beacon.min.js';b.setAttribute('data-cf-beacon','{"token": "c91a8c3feb754f34aed3f08ca909e8ad"}');document.body.appendChild(b);})();</script>
 </body>

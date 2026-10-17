@@ -158,5 +158,30 @@
     });
   };
 
+  /* Shareable calculator state. A calculator keeps what the reader changed from its defaults in the page address
+     (?dcf_g1=8&pe_m=30) so that a link reproduces the scenario; each calculator owns the keys with its prefix. */
+  FD.share = {
+    read(prefix, keys) {
+      const p = new URLSearchParams(location.search), out = {};
+      keys.forEach(k => { const v = p.get(prefix + "_" + k); if (v !== null) out[k] = v; });
+      return out;
+    },
+    write(prefix, diff) {
+      try {
+        const p = new URLSearchParams(location.search);
+        [...p.keys()].filter(k => k.startsWith(prefix + "_")).forEach(k => p.delete(k));
+        Object.entries(diff).forEach(([k, v]) => p.set(prefix + "_" + k, v));
+        const q = p.toString();
+        history.replaceState(null, "", location.pathname + (q ? "?" + q : "") + location.hash);
+      } catch (e) { /* the address can't be changed here: the link just won't carry the scenario */ }
+    },
+    copy(note, hash) {
+      const url = location.origin + location.pathname + location.search + hash;
+      const say = msg => { note.textContent = msg; clearTimeout(note._t); note._t = setTimeout(() => { note.textContent = ""; }, 5000); };
+      const fallback = () => { window.prompt("Copy this link", url); };
+      (navigator.clipboard ? navigator.clipboard.writeText(url) : Promise.reject()).then(() => say("Link copied"), fallback);
+    },
+  };
+
   window.FD = FD;
 })();

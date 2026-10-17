@@ -17,6 +17,16 @@
   const usd = v => (v < 0 ? "−" : "") + "$" + Math.abs(v).toLocaleString("en-US", {minimumFractionDigits: 2, maximumFractionDigits: 2});
   const big = v => (v < 0 ? "−" : "") + (Math.abs(v) >= 1000 ? "$" + (Math.abs(v) / 1000).toLocaleString("en-US", {maximumFractionDigits: 1, minimumFractionDigits: 1}) + "B" : "$" + Math.abs(v).toFixed(0) + "M");
   const num = id => { const v = parseFloat($(id).value); return isNaN(v) ? null : v; };
+  // what the reader changed from the page's own starting state goes in the address, so a link shares the scenario
+  const SHARE = {g1: "dcf-g1-n", g2: "dcf-g2-n", gt: "dcf-gt-n", r: "dcf-r-n", fcf: "dcf-fcf", cash: "dcf-cash", sh: "dcf-shares"};
+  const shared = FD.share.read("dcf", Object.keys(SHARE));
+  let defaults = null;
+  const snapshot = () => Object.fromEntries(Object.entries(SHARE).map(([k, id]) => [k, $(id).value]));
+  function syncAddress() {
+    if (!defaults) return;
+    const now = snapshot();
+    FD.share.write("dcf", Object.fromEntries(Object.entries(now).filter(([k, v]) => v !== defaults[k])));
+  }
 
   const sliders = ["g1", "g2", "gt", "r"];
   function setAssumptions(a) {
@@ -98,6 +108,7 @@
     const fcf0 = num("dcf-fcf"), cash = num("dcf-cash") || 0, shares = num("dcf-shares");
     const [g1, g2, gt, r] = sliders.map(k => num("dcf-" + k + "-n"));
     markPreset();
+    syncAddress();
     const warn = $("dcf-warn");
     const problem = fcf0 == null || fcf0 <= 0 ? "Enter a positive starting free cash flow to see a value."
       : !shares || shares <= 0 ? "Enter the number of shares to see a value per share."
@@ -170,6 +181,22 @@
   setAssumptions(EXAMPLE);
   setAllBases();
   run();
+  defaults = snapshot();
+  const share = $("dcf-link-note");
+  if (share) $("dcf-link").addEventListener("click", () => FD.share.copy(share, "#dcf-sec"));
+  const GROUP = {fcf: "fcf", cash: "cash", sh: "shares"};
+  const fromLink = Object.entries(shared).filter(([, v]) => isFinite(parseFloat(v)));
+  if (fromLink.length) {   // a shared scenario: its changed values on top of the defaults
+    fromLink.forEach(([k, v]) => {
+      if (sliders.includes(k)) { $("dcf-" + k).value = v; $("dcf-" + k + "-n").value = v; }
+      else {
+        $(SHARE[k]).value = v;
+        root.querySelectorAll(`.basis[data-for="${GROUP[k]}"] button`).forEach(x => x.setAttribute("aria-pressed", "false"));
+      }
+    });
+    run();
+    if (share) share.textContent = "Showing a shared scenario. “Reset” goes back to the base scenario.";
+  }
   let w = innerWidth, t;
   addEventListener("resize", () => { clearTimeout(t); t = setTimeout(() => { if (innerWidth !== w) { w = innerWidth; run(); } }, 150); });
 })();
