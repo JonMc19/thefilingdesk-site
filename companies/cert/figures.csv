@@ -1,0 +1,59 @@
+"Certara, Inc. (CERT), US$ millions unless stated; fiscal years as labelled by the company; source: SEC EDGAR XBRL (Form 10-K), CIK 0001827090"
+Item,FY2019,FY2020,FY2021,FY2022,FY2023,FY2024,FY2025
+Fiscal year end,2019-12-31,2020-12-31,2021-12-31,2022-12-31,2023-12-31,2024-12-31,2025-12-31
+Revenue,208.5,243.5,286.1,335.6,354.3,385.1,418.8
+Gross profit,128.7,142.8,174.5,203.1,213.3,,
+Research and development,11.6,19.6,20.4,28.2,34.2,37.1,41.0
+Operating income,19.6,-24.4,13.6,32.5,-40.8,-1.7,21.0
+Interest expense,28.0,25.3,16.8,17.8,22.9,21.5,19.7
+Pretax income,-9.2,-50.2,-3.4,18.8,-55.1,-17.2,7.6
+Income tax,-0.2,-0.8,9.9,4.0,0.2,-5.1,9.2
+Net income,-8.9,-49.4,-13.3,14.7,-55.4,-12.1,-1.6
+Diluted EPS,-0.07,-0.37,-0.09,0.09,-0.35,-0.08,-0.01
+Diluted shares,132.4,133.2,149.8,159.4,158.9,160.4,160.4
+Depreciation and amortization,2.6,2.4,2.1,1.7,56.1,68.0,75.2
+Cash from operations,38.0,44.8,60.4,92.5,82.8,80.5,96.3
+Capital expenditure,2.1,0.9,1.1,1.4,1.8,1.6,1.8
+Share buybacks,0.7,1.1,0.0,0.0,0.0,0.0,42.6
+Dividends paid,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Acquisitions,0.0,0.7,261.0,15.3,64.2,91.3,0.0
+Stock-based compensation,1.7,64.5,29.5,30.3,28.3,34.8,33.1
+Cash and short-term investments,29.3,271.4,185.8,236.6,235.0,179.2,189.4
+Total debt,,298.8,294.8,293.0,291.2,295.4,293.1
+Finance lease liabilities,0.0,0.6,0.3,0.0,0.0,0.0,0.0
+debt_and_leases,,299.4,295.1,293.0,291.2,295.4,293.1
+Current assets,,346.6,274.7,342.3,340.2,310.9,315.1
+Current liabilities,,75.3,92.2,103.2,130.0,146.1,153.4
+Inventory,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Total assets,,1269.4,1511.7,1572.9,1563.1,1575.1,1556.6
+Total liabilities,,447.3,469.9,493.3,516.3,516.4,493.8
+Shareholders' equity,492.0,822.1,1041.8,1079.7,1046.8,1058.7,1062.8
+"Property and equipment, net",,3.9,2.9,2.4,2.7,2.2,1.9
+Gross margin (%),61.74,58.62,60.99,60.5,60.2,,
+Operating margin (%),9.41,-10.03,4.75,9.69,-11.51,-0.45,5.02
+EBITDA margin (%),10.65,-9.02,5.49,10.2,4.32,17.21,22.96
+Net margin (%),-4.28,-20.28,-4.64,4.39,-15.62,-3.13,-0.38
+Free cash flow margin (%),17.23,18.05,20.71,27.15,22.85,20.47,22.58
+Return on capital (%),,,1.07,2.23,-2.88,-0.12,0.9
+Return on capital employed (%),,,1.04,2.25,-2.81,-0.12,1.48
+Return on equity (%),,,-1.42,1.39,-5.21,-1.14,-0.15
+Return on assets (%),,,-0.95,0.96,-3.53,-0.77,-0.1
+Revenue growth (%),,16.79,17.48,17.32,5.57,8.7,8.75
+Net income growth (%),,,,,-475.79,,
+Diluted EPS growth (%),,,,,-488.89,,
+Free cash flow growth (%),,22.35,34.81,53.79,-11.12,-2.64,19.94
+Net debt to EBITDA (x),,,6.95,1.65,3.68,1.75,1.08
+Debt to equity (x),,0.36,0.28,0.27,0.28,0.28,0.28
+Interest coverage (x),0.7,-0.97,0.81,1.83,-1.78,-0.08,1.06
+Current ratio (x),,4.6,2.98,3.32,2.62,2.13,2.05
+Quick ratio (x),,4.6,2.98,3.32,2.62,2.13,2.05
+Free cash flow (US$m),35.92,43.95,59.24,91.11,80.98,78.84,94.56
+Capital expenditure to revenue (%),1.01,0.35,0.4,0.43,0.5,0.42,0.42
+Buybacks plus dividends (US$m),0.7,1.08,0.0,0.0,0.0,0.0,42.61
+Shareholder returns to free cash flow (%),1.96,2.46,0.0,0.0,0.0,0.0,45.06
+Stock-based compensation to revenue (%),0.81,26.49,10.3,9.04,7.99,9.03,7.9
+Change in diluted shares (%),,0.63,12.45,6.35,-0.26,0.92,0.0
+Piotroski F-score (score),,,,6.0,5.0,4.0,5.0
+Piotroski tests run (score),,,,9,9,8,8
+Altman Z'' (score),,3.04,3.02,3.31,2.59,2.57,2.76
+Accruals ratio (%),,,-5.3,-5.05,-8.81,-5.9,-6.25

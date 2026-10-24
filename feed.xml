@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>The Filing Desk</title>
+  <subtitle>Company results, read from the SEC filings</subtitle>
+  <link href="https://thefilingdesk.net/"/>
+  <link rel="self" href="https://thefilingdesk.net/feed.xml"/>
+  <id>https://thefilingdesk.net/</id>
+  <updated>2026-10-23T00:00:00Z</updated>
+  <author><name>Jon Mc Gowan</name></author>
+  <entry>
+    <title>Accenture raised buybacks 63% and paid out 99% of its free cash flow</title>
+    <link href="https://thefilingdesk.net/reports/accenture-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/accenture-fy2026/</id>
+    <published>2026-10-23T00:00:00Z</published>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <summary>Revenue grew 6.5% to $74.2 billion and operating margin rose to 15.4%. Accenture spent $11.5 billion on buybacks and dividends, 99% of its free cash flow, and ended the year with $10.1 billion of debt.</summary>
+  </entry>
+  <entry>
+    <title>United Airlines revenue grew in the third quarter, but higher fuel costs cut its margin</title>
+    <link href="https://thefilingdesk.net/reports/united-airlines-q3-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/united-airlines-q3-fy2026/</id>
+    <published>2026-10-23T00:00:00Z</published>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <summary>Revenue grew 17.4% to $17.9 billion and net income rose 8.4% to $1.0 billion. Operating margin fell to 8.1% and operating cash flow dropped to $465 million.</summary>
+  </entry>
+  <entry>
+    <title>Meta revenue rose 26% to $64.6 billion, but a legal charge cut operating income 37%</title>
+    <link href="https://thefilingdesk.net/reports/meta-platforms-q3-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/meta-platforms-q3-fy2026/</id>
+    <published>2026-10-22T00:00:00Z</published>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <summary>Revenue rose 26.1% to $64.6 billion, while operating income fell 36.8% to $13.0 billion after a $9.89 billion legal charge. Capital spending of $33.9 billion left free cash flow negative.</summary>
+  </entry>
+  <entry>
+    <title>Tesla&#x27;s revenue held flat in the third quarter as operating income fell by more than half</title>
+    <link href="https://thefilingdesk.net/reports/tesla-q3-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/tesla-q3-fy2026/</id>
+    <published>2026-10-22T00:00:00Z</published>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <summary>Revenue was $28.0 billion, down 0.2% from a year earlier. Operating income fell 55.8% to $718 million as research spending rose 69.4%, and capital spending more than doubled to $4.7 billion.</summary>
+  </entry>
+  <entry>
+    <title>Netflix revenue rose 11.9% to $12.9 billion in Q3 as operating margin widened</title>
+    <link href="https://thefilingdesk.net/reports/netflix-q3-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/netflix-q3-fy2026/</id>
+    <published>2026-10-21T00:00:00Z</published>
+    <updated>2026-10-21T00:00:00Z</updated>
+    <summary>Revenue grew 11.9% to $12.9 billion and operating margin reached 34.6%, from 28.2% a year earlier. Share buybacks rose to $4.8 billion.</summary>
+  </entry>
+  <entry>
+    <title>General Motors net income rose to $3.3 billion in the third quarter as warranty costs fell</title>
+    <link href="https://thefilingdesk.net/reports/general-motors-q3-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/general-motors-q3-fy2026/</id>
+    <published>2026-10-20T00:00:00Z</published>
+    <updated>2026-10-20T00:00:00Z</updated>
+    <summary>Revenue grew 2.9% to $50.0 billion and net income reached $3.3 billion, up from $1.3 billion a year earlier. The company said lower warranty costs helped, and it bought back $2.5 billion of stock.</summary>
+  </entry>
+  <entry>
+    <title>Netflix cut 1,000 jobs and its content chief in a week. Tonight it has to explain why</title>
+    <link href="https://thefilingdesk.net/weekly/special-2026-10-20-netflix-earnings/"/>
+    <id>https://thefilingdesk.net/weekly/special-2026-10-20-netflix-earnings/</id>
+    <published>2026-10-20T00:00:00Z</published>
+    <updated>2026-10-20T00:00:00Z</updated>
+    <summary>Netflix reports third-quarter results after the bell, days after its biggest layoffs since 2022 and a new head of content. Its own filing shows which costs were growing fastest.</summary>
+  </entry>
+  <entry>
+    <title>A 15% bond yield, a hot inflation report and the Nasdaq&#x27;s worst week since June: AI&#x27;s debt bill arrives</title>
+    <link href="https://thefilingdesk.net/weekly/2026-w42/"/>
+    <id>https://thefilingdesk.net/weekly/2026-w42/</id>
+    <published>2026-10-18T00:00:00Z</published>
+    <updated>2026-10-18T00:00:00Z</updated>
+    <summary>CoreWeave&#x27;s bonds started trading like distressed debt, inflation hit 3.7% and the Nasdaq fell 4.5% in five days. The boom was built on borrowed money. This was the week the price of that money went up.</summary>
+  </entry>
+  <entry>
+    <title>Marsh McLennan&#x27;s revenue rose 8% to $6.9 billion as a legal settlement cut its margin</title>
+    <link href="https://thefilingdesk.net/reports/marsh-mclennan-q3-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/marsh-mclennan-q3-fy2026/</id>
+    <published>2026-10-16T00:00:00Z</published>
+    <updated>2026-10-16T00:00:00Z</updated>
+    <summary>Revenue rose 8.1% to $6.9 billion and diluted EPS rose 11.9% to $1.69. A $144 million charge for the Greensill settlement cut the operating margin to 17.7%.</summary>
+  </entry>
+  <entry>
+    <title>Micron&#x27;s revenue rose 256% to $133.2 billion as memory prices climbed</title>
+    <link href="https://thefilingdesk.net/reports/micron-technology-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/micron-technology-fy2026/</id>
+    <published>2026-10-16T00:00:00Z</published>
+    <updated>2026-10-16T00:00:00Z</updated>
+    <summary>Revenue rose 256.3% to $133.2 billion as memory prices climbed, and operating margin reached 74.6%. Free cash flow was $59.0 billion, up from $1.7 billion.</summary>
+  </entry>
+  <entry>
+    <title>Tesla&#x27;s revenue fell in 2025 as car sales dropped and energy storage grew</title>
+    <link href="https://thefilingdesk.net/reports/tesla-fy2025/"/>
+    <id>https://thefilingdesk.net/reports/tesla-fy2025/</id>
+    <published>2026-10-16T00:00:00Z</published>
+    <updated>2026-10-16T00:00:00Z</updated>
+    <summary>Revenue fell 2.9% to $94.8 billion and operating margin dropped to 4.6%. Net income fell 46.5%, while free cash flow rose 73.7% as capital spending fell.</summary>
+  </entry>
+  <entry>
+    <title>Tesla&#x27;s Roadster flew for a few seconds. Its latest filing shows where the money is going</title>
+    <link href="https://thefilingdesk.net/weekly/2026-w41-tesla-flying-roadster/"/>
+    <id>https://thefilingdesk.net/weekly/2026-w41-tesla-flying-roadster/</id>
+    <published>2026-10-16T00:00:00Z</published>
+    <updated>2026-10-16T00:00:00Z</updated>
+    <summary>Elon Musk said flying cars are real. Tesla&#x27;s latest quarterly report doesn&#x27;t mention the Roadster, but it does show faster spending, a SpaceX gain and a shrinking margin.</summary>
+  </entry>
+  <entry>
+    <title>Domino&#x27;s net income rose 9.2% in the third quarter as U.S. same store sales grew 0.3%</title>
+    <link href="https://thefilingdesk.net/reports/domino-s-q3-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/domino-s-q3-fy2026/</id>
+    <published>2026-10-14T00:00:00Z</published>
+    <updated>2026-10-14T00:00:00Z</updated>
+    <summary>Revenue grew 3.4% to $1.19 billion, mostly from supply chain sales and royalties from new stores. Net income rose 9.2% to $152 million, while U.S. same store sales grew 0.3%.</summary>
+  </entry>
+  <entry>
+    <title>Delta&#x27;s revenue rose 21% to $20.2 billion as net income fell 47% on fuel and investments</title>
+    <link href="https://thefilingdesk.net/reports/delta-air-lines-q3-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/delta-air-lines-q3-fy2026/</id>
+    <published>2026-10-13T00:00:00Z</published>
+    <updated>2026-10-13T00:00:00Z</updated>
+    <summary>Revenue rose 21.1% to $20.2 billion on higher fares and refinery sales. Fuel costs rose $1.8 billion and investments swung to a loss, so net income fell 46.6% to $756 million.</summary>
+  </entry>
+  <entry>
+    <title>Mortgage rates hit 7.40%, a short seller hit Lennar, and Berkshire bought $192.6 million more</title>
+    <link href="https://thefilingdesk.net/weekly/2026-w41/"/>
+    <id>https://thefilingdesk.net/weekly/2026-w41/</id>
+    <published>2026-10-11T00:00:00Z</published>
+    <updated>2026-10-11T00:00:00Z</updated>
+    <summary>A short seller says America&#x27;s second-largest homebuilder leaned on its own spinoff to hit a sales target. Berkshire Hathaway kept buying anyway. What the filings show, and what it means for homebuyers.</summary>
+  </entry>
+  <entry>
+    <title>Costco&#x27;s net income rose 13.9% to $9.2 billion as revenue grew 10.1%</title>
+    <link href="https://thefilingdesk.net/reports/costco-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/costco-fy2026/</id>
+    <published>2026-10-09T00:00:00Z</published>
+    <updated>2026-10-10T00:00:00Z</updated>
+    <summary>Revenue grew 10.1% to $303.2 billion and net income rose 13.9% to $9.2 billion. Free cash flow reached $9.4 billion, and cash net of debt rose to $15.1 billion.</summary>
+  </entry>
+  <entry>
+    <title>A $2 trillion price tag, a model too risky to ship and insiders cashing out: is AI a bubble?</title>
+    <link href="https://thefilingdesk.net/weekly/2026-w40/"/>
+    <id>https://thefilingdesk.net/weekly/2026-w40/</id>
+    <published>2026-10-06T00:00:00Z</published>
+    <updated>2026-10-06T00:00:00Z</updated>
+    <summary>In one week, Anthropic&#x27;s leaked IPO filing showed $518 billion of computing commitments, OpenAI shelved a model it judged unsafe, and Cerebras fell below its IPO price on the day its lockup ended. Here is what the money, and the filings, say.</summary>
+  </entry>
+  <entry>
+    <title>Nvidia revenue rises 65.5% to $215.9 billion as gross margin slips to 71.1%</title>
+    <link href="https://thefilingdesk.net/reports/nvidia-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/nvidia-fy2026/</id>
+    <published>2026-10-05T00:00:00Z</published>
+    <updated>2026-10-05T00:00:00Z</updated>
+    <summary>Revenue grew 65.5% to $215.9 billion, led by Data Center sales of $193.7 billion. Gross margin fell 3.9 points to 71.1%, partly because of a $4.5 billion charge on H20 chips for China.</summary>
+  </entry>
+  <entry>
+    <title>Record profit at Microsoft, as data-center spending cuts free cash flow</title>
+    <link href="https://thefilingdesk.net/reports/microsoft-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/microsoft-fy2026/</id>
+    <published>2026-09-26T00:00:00Z</published>
+    <updated>2026-10-06T00:00:00Z</updated>
+    <summary>Revenue grew 17.8% to $331.8 billion and operating margin hit 46.8%. Capital spending rose 80% to $115.9 billion, so free cash flow fell for a second year.</summary>
+  </entry>
+</feed>

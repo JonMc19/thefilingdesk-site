@@ -1,0 +1,59 @@
+"ESAB Corporation (ESAB), US$ millions unless stated; fiscal years as labelled by the company; source: SEC EDGAR XBRL (Form 10-K), CIK 0001877322"
+Item,FY2020,FY2021,FY2022,FY2023,FY2024,FY2025
+Fiscal year end,2020-12-31,2021-12-31,2022-12-31,2023-12-31,2024-12-31,2025-12-31
+Revenue,1950.1,2428.1,2593.5,2774.8,2740.8,2842.6
+Gross profit,682.5,838.0,885.5,1015.8,1037.5,1048.3
+Research and development,34.8,39.7,36.0,38.8,39.2,44.0
+Operating income,202.1,306.2,329.1,404.2,447.4,412.2
+Interest expense,0.0,0.0,34.7,79.1,62.3,66.6
+Pretax income,205.8,319.1,300.3,319.1,370.4,328.3
+Income tax,46.0,80.4,69.2,95.7,77.3,69.2
+Net income,157.4,235.1,223.7,205.3,264.8,226.8
+Diluted EPS,2.62,3.92,3.69,3.36,4.31,3.67
+Diluted shares,60.0,60.0,60.2,60.7,61.1,61.3
+Depreciation and amortization,76.6,75.9,66.0,75.0,66.8,84.1
+Cash from operations,309.2,250.7,214.4,330.5,355.4,260.6
+Capital expenditure,40.1,35.6,40.2,48.2,51.8,47.3
+Share buybacks,0.0,0.0,0.0,0.0,0.0,0.0
+Dividends paid,0.0,0.0,6.1,13.3,17.0,21.9
+Acquisitions,0.0,4.9,149.0,18.7,153.7,438.3
+Stock-based compensation,6.4,6.3,13.0,16.1,19.8,16.9
+Cash and short-term investments,49.2,41.2,72.0,102.0,249.4,185.9
+Total debt,,0.0,1218.6,1018.1,1075.7,1235.0
+Finance lease liabilities,0.0,0.0,0.0,0.0,0.0,0.0
+debt_and_leases,,0.0,1218.6,1018.1,1075.7,1235.0
+Current assets,,964.1,988.7,997.7,1148.4,1261.9
+Current liabilities,,596.6,601.6,620.1,632.1,664.8
+Inventory,0.0,420.1,416.8,392.9,403.7,481.8
+Total assets,,3461.3,3754.0,3828.6,4034.0,4766.1
+Total liabilities,,959.5,2365.6,2181.0,2225.7,2554.6
+Shareholders' equity,2544.8,2460.7,1350.2,1607.4,1769.0,2166.0
+"Property and equipment, net",,286.3,284.2,294.3,298.3,381.9
+Gross margin (%),35.0,34.51,34.14,36.61,37.85,36.88
+Operating margin (%),10.37,12.61,12.69,14.57,16.33,14.5
+EBITDA margin (%),14.3,15.74,15.23,17.27,18.76,17.46
+Net margin (%),8.07,9.68,8.63,7.4,9.66,7.98
+Free cash flow margin (%),13.8,8.86,6.71,10.17,11.08,7.5
+Return on capital (%),,,10.14,11.1,13.62,11.04
+Return on capital employed (%),,,10.94,12.71,13.54,10.99
+Return on equity (%),,,11.74,13.88,15.69,11.53
+Return on assets (%),,,6.2,5.41,6.74,5.15
+Revenue growth (%),,24.51,6.81,6.99,-1.22,3.71
+Net income growth (%),,49.36,-4.83,-8.25,29.01,-14.38
+Diluted EPS growth (%),,49.62,-5.87,-8.94,28.27,-14.85
+Free cash flow growth (%),,-20.03,-19.07,62.14,7.55,-29.75
+Net debt to EBITDA (x),,-0.11,2.9,1.91,1.61,2.11
+Debt to equity (x),,0.0,0.9,0.63,0.61,0.57
+Interest coverage (x),,,9.49,5.11,7.18,6.19
+Current ratio (x),,1.62,1.64,1.61,1.82,1.9
+Quick ratio (x),,0.91,0.95,0.98,1.18,1.17
+Free cash flow (US$m),269.04,215.15,174.12,282.32,303.62,213.28
+Capital expenditure to revenue (%),2.06,1.47,1.55,1.74,1.89,1.66
+Buybacks plus dividends (US$m),0.0,0.0,6.05,13.34,16.99,21.91
+Shareholder returns to free cash flow (%),0.0,0.0,3.48,4.73,5.6,10.27
+Stock-based compensation to revenue (%),0.33,0.26,0.5,0.58,0.72,0.6
+Change in diluted shares (%),,0.0,0.2,0.84,0.74,0.27
+Piotroski F-score (score),,,,5.0,6.0,4.0
+Piotroski tests run (score),,,,9,9,9
+Altman Z'' (score),,4.03,2.02,2.45,2.92,2.86
+Accruals ratio (%),,,0.26,-3.3,-2.3,-0.77
