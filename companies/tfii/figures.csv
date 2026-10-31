@@ -1,0 +1,59 @@
+"TFI INTERNATIONAL INC. (TFII), US$ millions unless stated; fiscal years as labelled by the company; source: SEC EDGAR XBRL (Form 40-F), CIK 0001588823"
+Item,FY2019,FY2020,FY2021,FY2022,FY2023,FY2024,FY2025
+Fiscal year end,2019-12-31,2020-12-31,2021-12-31,2022-12-31,2023-12-31,2024-12-31,2025-12-31
+Revenue,3903.5,3781.1,7220.4,8812.5,7521.2,8396.8,7884.7
+Gross profit,,,,,,,
+Research and development,,,,,,,
+Operating income,382.9,416.6,979.2,1146.0,757.6,719.0,565.3
+Interest expense,64.4,56.7,-78.1,-82.1,89.5,172.0,162.3
+Pretax income,320.8,362.7,906.2,1065.6,676.8,560.7,405.4
+Income tax,76.5,87.0,151.8,242.4,171.9,138.2,94.8
+Net income,233.7,275.7,754.4,823.2,504.9,422.5,310.6
+Diluted EPS,2.74,3.03,7.91,9.02,5.8,4.96,3.72
+Diluted shares,85.4,90.9,95.3,91.3,87.1,85.2,83.4
+Depreciation and amortization,295.7,299.2,393.0,430.6,442.0,582.1,610.5
+Cash from operations,488.5,610.9,855.4,971.6,1013.8,1062.7,977.8
+Capital expenditure,261.3,142.7,268.7,350.8,361.6,392.8,273.2
+Share buybacks,192.5,38.0,198.2,568.0,288.0,76.6,225.8
+Dividends paid,60.5,67.6,85.4,97.3,121.1,133.9,151.1
+Acquisitions,150.9,327.6,1008.1,158.3,628.7,958.0,201.3
+Stock-based compensation,6.2,7.0,15.4,14.6,13.5,11.1,15.1
+Cash and short-term investments,0.0,4.3,19.3,147.1,335.6,0.0,210.2
+Total debt,1343.3,872.5,1608.1,1315.8,1884.2,2402.9,2578.0
+Finance lease liabilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+debt_and_leases,1343.3,872.5,1608.1,1315.8,1884.2,2402.9,2578.0
+Current assets,526.6,652.8,1162.3,1263.6,1336.0,1037.0,1209.2
+Current liabilities,487.6,654.5,1407.0,966.7,1066.1,1018.6,1170.5
+Inventory,10.7,8.8,24.4,24.2,24.0,18.0,19.5
+Total assets,3508.8,3847.3,5883.7,5505.8,6283.6,7165.8,7509.2
+Total liabilities,2349.5,2058.6,3573.3,3042.8,3692.2,4492.6,4831.6
+Shareholders' equity,1159.3,1788.6,2220.3,2463.1,2591.4,2673.3,2677.6
+"Property and equipment, net",1125.4,1074.4,2455.1,2132.0,2415.5,2891.1,2779.3
+Gross margin (%),,,,,,,
+Operating margin (%),9.81,11.02,13.56,13.0,10.07,8.56,7.17
+EBITDA margin (%),17.38,18.93,19.01,17.89,15.95,15.49,14.91
+Net margin (%),5.99,7.29,10.45,9.34,6.71,5.03,3.94
+Free cash flow margin (%),5.82,12.38,8.13,7.04,8.67,7.98,8.94
+Return on capital (%),,12.28,24.87,23.51,14.55,11.76,8.56
+Return on capital employed (%),,13.41,25.54,25.42,15.53,12.65,9.06
+Return on equity (%),,18.7,37.64,35.16,19.98,16.05,11.61
+Return on assets (%),,7.5,15.51,14.46,8.56,6.28,4.23
+Revenue growth (%),,-3.14,90.96,22.05,-14.65,11.64,-6.1
+Net income growth (%),,17.97,173.66,9.12,-38.67,-16.32,-26.49
+Diluted EPS growth (%),,10.58,161.06,14.03,-35.7,-14.48,-25.0
+Free cash flow growth (%),,106.07,25.32,5.82,5.07,2.69,5.19
+Net debt to EBITDA (x),1.98,1.21,1.16,0.74,1.29,1.85,2.01
+Debt to equity (x),1.16,0.49,0.72,0.53,0.73,0.9,0.96
+Interest coverage (x),5.95,7.35,12.53,13.95,8.47,4.18,3.48
+Current ratio (x),1.08,1.0,0.83,1.31,1.25,1.02,1.03
+Quick ratio (x),1.06,0.98,0.81,1.28,1.23,1.0,1.02
+Free cash flow (US$m),227.18,468.15,586.69,620.82,652.28,669.83,704.57
+Capital expenditure to revenue (%),6.69,3.77,3.72,3.98,4.81,4.68,3.47
+Buybacks plus dividends (US$m),252.93,105.62,283.54,665.3,409.12,210.54,376.91
+Shareholder returns to free cash flow (%),111.34,22.56,48.33,107.17,62.72,31.43,53.49
+Stock-based compensation to revenue (%),0.16,0.19,0.21,0.17,0.18,0.13,0.19
+Change in diluted shares (%),,6.53,4.84,-4.28,-4.61,-2.08,-2.15
+Piotroski F-score (score),,,5.0,6.0,4.0,4.0,6.0
+Piotroski tests run (score),,,8,8,8,8,8
+Altman Z'' (score),1.91,2.32,2.24,3.53,2.68,2.15,1.89
+Accruals ratio (%),,-9.11,-2.07,-2.61,-8.63,-9.52,-9.09

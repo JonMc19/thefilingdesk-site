@@ -1,0 +1,59 @@
+"N-able, Inc. (NABL), US$ millions unless stated; fiscal years as labelled by the company; source: SEC EDGAR XBRL (Form 10-K), CIK 0001834488"
+Item,FY2019,FY2020,FY2021,FY2022,FY2023,FY2024,FY2025
+Fiscal year end,2019-12-31,2020-12-31,2021-12-31,2022-12-31,2023-12-31,2024-12-31,2025-12-31
+Revenue,263.5,302.9,346.5,371.8,422.2,465.6,508.8
+Gross profit,206.2,239.7,294.0,313.2,353.9,384.7,391.5
+Research and development,37.2,42.7,54.0,63.5,78.2,90.7,100.7
+Operating income,36.6,33.8,33.3,47.4,70.4,81.9,33.9
+Interest expense,52.7,26.6,20.4,15.6,28.4,28.7,25.0
+Pretax income,3.2,4.9,11.6,30.4,44.7,54.1,-0.2
+Income tax,5.7,12.0,11.5,13.7,20.9,23.3,18.6
+Net income,-2.5,-7.2,0.1,16.7,23.8,30.7,-18.8
+Diluted EPS,-0.02,-0.05,0,0.09,0.13,0.16,-0.1
+Diluted shares,158.1,158.1,168.7,181.3,186.0,188.4,187.8
+Depreciation and amortization,54.1,56.4,33.8,24.4,21.7,25.9,44.4
+Cash from operations,25.5,85.7,45.3,71.4,90.1,79.4,93.2
+Capital expenditure,5.8,11.9,30.7,12.8,13.8,17.6,18.1
+Share buybacks,0.0,0.0,0.0,0.0,0.0,0.0,30.0
+Dividends paid,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Acquisitions,14.8,0.0,0.0,9.2,0.0,98.7,0.0
+Stock-based compensation,8.7,21.1,29.4,36.5,43.6,45.4,46.6
+Cash and short-term investments,39.3,99.8,66.7,98.8,153.0,85.2,111.8
+Total debt,,0.0,338.9,337.0,335.0,333.1,393.9
+Finance lease liabilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+debt_and_leases,,0.0,338.9,337.0,335.0,333.1,393.9
+Current assets,,135.7,121.0,154.2,224.8,183.7,216.1
+Current liabilities,,54.8,60.9,61.8,81.7,150.0,184.2
+Inventory,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Total assets,,1079.7,1055.7,1078.9,1162.8,1339.1,1409.7
+Total liabilities,,448.5,437.3,436.8,451.4,579.5,607.7
+Shareholders' equity,563.7,631.2,618.4,642.2,711.9,759.6,802.0
+"Property and equipment, net",,19.6,38.7,37.4,36.8,36.6,38.4
+Gross margin (%),78.25,79.14,84.87,84.23,83.83,82.63,76.94
+Operating margin (%),13.89,11.15,9.62,12.75,16.67,17.59,6.66
+EBITDA margin (%),34.44,29.79,19.37,19.32,21.8,23.16,15.38
+Net margin (%),-0.95,-2.36,0.03,4.49,5.64,6.6,-3.7
+Free cash flow margin (%),7.49,24.35,4.24,15.76,18.08,13.29,14.75
+Return on capital (%),,,2.34,2.94,4.22,4.9,2.56
+Return on capital employed (%),,,3.3,4.71,6.71,7.21,2.81
+Return on equity (%),,,0.02,2.65,3.52,4.18,-2.41
+Return on assets (%),,,0.01,1.57,2.13,2.46,-1.37
+Revenue growth (%),,14.93,14.39,7.31,13.56,10.28,9.3
+Net income growth (%),,,,14684.96,42.56,29.06,-161.21
+Diluted EPS growth (%),,,,,44.44,23.08,-162.5
+Free cash flow growth (%),,273.45,-80.1,299.12,30.27,-18.93,21.33
+Net debt to EBITDA (x),,-1.11,4.06,3.32,1.98,2.3,3.6
+Debt to equity (x),,0.0,0.55,0.52,0.47,0.44,0.49
+Interest coverage (x),0.69,1.27,1.63,3.04,2.47,2.85,1.36
+Current ratio (x),,2.48,1.99,2.49,2.75,1.22,1.17
+Quick ratio (x),,2.48,1.99,2.49,2.75,1.22,1.17
+Free cash flow (US$m),19.75,73.75,14.68,58.58,76.31,61.87,75.06
+Capital expenditure to revenue (%),2.2,3.94,8.85,3.45,3.26,3.77,3.56
+Buybacks plus dividends (US$m),0.0,0.0,0.0,0.0,0.0,0.0,30.04
+Shareholder returns to free cash flow (%),0.0,0.0,0.0,0.0,0.0,0.0,40.02
+Stock-based compensation to revenue (%),3.29,6.95,8.49,9.83,10.32,9.74,9.16
+Change in diluted shares (%),,0.0,6.67,7.49,2.58,1.32,-0.32
+Piotroski F-score (score),,,,7.0,7.0,6.0,3.0
+Piotroski tests run (score),,,,9,9,9,9
+Altman Z'' (score),,2.18,2.07,2.45,2.98,2.13,1.82
+Accruals ratio (%),,,-4.24,-5.13,-5.91,-3.89,-8.15

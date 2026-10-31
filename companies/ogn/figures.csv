@@ -1,0 +1,59 @@
+"Organon & Co. (OGN), US$ millions unless stated; fiscal years as labelled by the company; source: SEC EDGAR XBRL (Form 10-K), CIK 0001821825"
+Item,FY2019,FY2020,FY2021,FY2022,FY2023,FY2024,FY2025
+Fiscal year end,2019-12-31,2020-12-31,2021-12-31,2022-12-31,2023-12-31,2024-12-31,2025-12-31
+Revenue,7777.0,6532.0,6304.0,6174.0,6263.0,6403.0,6216.0
+Gross profit,5503.0,4413.0,3922.0,3880.0,3748.0,3715.0,3313.0
+Research and development,220.0,210.0,443.0,471.0,528.0,469.0,366.0
+Operating income,,,,,,,
+Interest expense,0.0,0.0,258.0,422.0,527.0,520.0,504.0
+Pretax income,3696.0,2752.0,1529.0,1122.0,673.0,807.0,425.0
+Income tax,390.0,496.0,178.0,205.0,-350.0,-57.0,238.0
+Net income,3218.0,2160.0,1351.0,917.0,1023.0,864.0,187.0
+Diluted EPS,12.69,8.52,5.31,3.59,3.99,3.33,0.72
+Diluted shares,253.5,253.5,254.2,255.2,256.3,259.2,260.8
+Depreciation and amortization,333.0,142.0,195.0,212.0,236.0,277.0,361.0
+Cash from operations,3020.0,2284.0,2160.0,858.0,799.0,939.0,700.0
+Capital expenditure,92.0,255.0,192.0,196.0,251.0,175.0,162.0
+Share buybacks,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dividends paid,0.0,0.0,145.0,290.0,294.0,297.0,88.0
+Acquisitions,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Stock-based compensation,41.0,40.0,59.0,75.0,101.0,105.0,77.0
+Cash and short-term investments,0.0,12.0,737.0,706.0,693.0,675.0,574.0
+Total debt,,0.0,9134.0,8913.0,8760.0,8880.0,8644.0
+Finance lease liabilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+debt_and_leases,,0.0,9134.0,8913.0,8760.0,8880.0,8644.0
+Current assets,,3567.0,3760.0,3931.0,4508.0,4348.0,4352.0
+Current liabilities,,2673.0,2597.0,2512.0,2918.0,2718.0,2390.0
+Inventory,0.0,913.0,915.0,1003.0,1315.0,1321.0,1406.0
+Total assets,,10109.0,10681.0,10955.0,12058.0,13101.0,12867.0
+Total liabilities,,4623.0,12189.0,11847.0,12128.0,12629.0,12115.0
+Shareholders' equity,7035.0,5486.0,-1508.0,-892.0,-70.0,472.0,752.0
+"Property and equipment, net",,984.0,973.0,1018.0,1183.0,1168.0,1303.0
+Gross margin (%),70.76,67.56,62.21,62.84,59.84,58.02,53.3
+Operating margin (%),,,,,,,
+EBITDA margin (%),51.81,44.3,31.44,28.44,22.93,25.05,20.75
+Net margin (%),41.38,33.07,21.43,14.85,16.33,13.49,3.01
+Free cash flow margin (%),37.65,31.06,31.22,10.72,8.75,11.93,8.66
+Return on capital (%),,,25.54,17.77,15.67,15.92,5.31
+Return on capital employed (%),,,23.03,18.68,13.65,13.59,8.91
+Return on equity (%),,,67.92,,,,
+Return on assets (%),,,13.0,8.48,8.89,6.87,1.44
+Revenue growth (%),,-16.01,-3.49,-2.06,1.44,2.24,-2.92
+Net income growth (%),,-32.88,-37.45,-32.12,11.56,-15.54,-78.36
+Diluted EPS growth (%),,-32.86,-37.68,-32.39,11.14,-16.54,-78.38
+Free cash flow growth (%),,-30.7,-3.01,-66.36,-17.22,39.42,-29.58
+Net debt to EBITDA (x),,-0.0,4.24,4.67,5.62,5.12,6.26
+Debt to equity (x),,0.0,,,,,11.49
+Interest coverage (x),,,6.93,3.66,2.28,2.55,1.84
+Current ratio (x),,1.33,1.45,1.56,1.54,1.6,1.82
+Quick ratio (x),,0.99,1.1,1.17,1.09,1.11,1.23
+Free cash flow (US$m),2928.0,2029.0,1968.0,662.0,548.0,764.0,538.0
+Capital expenditure to revenue (%),1.18,3.9,3.05,3.17,4.01,2.73,2.61
+Buybacks plus dividends (US$m),0.0,0.0,145.0,290.0,294.0,297.0,88.0
+Shareholder returns to free cash flow (%),0.0,0.0,7.37,43.81,53.65,38.87,16.36
+Stock-based compensation to revenue (%),0.53,0.61,0.94,1.21,1.61,1.64,1.24
+Change in diluted shares (%),,0.0,0.27,0.38,0.43,1.12,0.62
+Piotroski F-score (score),,,,5.0,4.0,5.0,5.0
+Piotroski tests run (score),,,,9,9,9,9
+Altman Z'' (score),,3.66,1.4,1.62,1.65,1.79,1.83
+Accruals ratio (%),,,-7.78,0.55,1.95,-0.6,-3.95

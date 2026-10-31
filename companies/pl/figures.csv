@@ -1,0 +1,59 @@
+"Planet Labs PBC (PL), US$ millions unless stated; fiscal years as labelled by the company; source: SEC EDGAR XBRL (Form 10-K), CIK 0001836833"
+Item,FY2020,FY2021,FY2022,FY2023,FY2024,FY2025,FY2026
+Fiscal year end,2020-01-31,2021-01-31,2022-01-31,2023-01-31,2024-01-31,2025-01-31,2026-01-31
+Revenue,95.7,113.2,131.2,191.3,220.7,244.4,307.7
+Gross profit,-6.7,25.8,48.2,94.0,112.9,139.7,172.5
+Research and development,37.9,43.8,66.7,110.9,116.3,101.0,106.7
+Operating income,-106.5,-87.4,-128.1,-175.7,-169.7,-116.1,-95.1
+Interest expense,6.9,9.4,8.8,0.0,0.0,0.8,3.4
+Pretax income,-123.6,-126.0,-135.0,-161.1,-139.7,-120.7,-242.2
+Income tax,0.1,1.1,2.1,0.8,0.8,2.5,4.7
+Net income,-123.7,-127.1,-137.1,-162.0,-140.5,-123.2,-246.9
+Diluted EPS,-2.89,-2.87,-1.72,-0.61,-0.5,-0.42,-0.8
+Diluted shares,42.9,44.2,79.6,267.1,279.6,292.1,307.8
+Depreciation and amortization,77.6,62.2,45.0,43.3,47.6,45.6,41.8
+Cash from operations,-33.7,-4.0,-42.2,-73.9,-50.7,-14.4,134.4
+Capital expenditure,16.7,26.1,10.3,10.4,38.0,44.3,76.7
+Share buybacks,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dividends paid,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Acquisitions,2.5,0.0,9.6,3.8,7.5,1.1,5.4
+Stock-based compensation,5.1,14.0,42.0,75.5,57.1,48.5,55.0
+Cash and short-term investments,27.7,71.2,490.8,408.8,298.9,222.1,640.1
+Total debt,,93.0,0.0,0.0,0.0,0.0,446.9
+Finance lease liabilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+debt_and_leases,,93.0,0.0,0.0,0.0,0.0,446.9
+Current assets,,125.4,551.5,475.7,370.2,302.2,775.4
+Current liabilities,,108.8,132.0,122.3,136.6,142.1,469.5
+Inventory,0.0,0.0,0.0,0.0,0.0,0.0,6.1
+Total assets,,399.3,821.4,752.7,702.0,633.8,1145.7
+Total liabilities,,291.8,173.2,176.6,184.0,192.5,957.3
+Shareholders' equity,217.6,107.5,648.2,576.1,518.0,441.3,188.4
+"Property and equipment, net",,159.9,133.3,108.1,113.4,121.7,150.6
+Gross margin (%),-6.95,22.78,36.75,49.15,51.18,57.18,56.05
+Operating margin (%),-111.2,-77.27,-97.59,-91.85,-76.91,-47.52,-30.9
+EBITDA margin (%),-30.12,-22.29,-63.26,-69.2,-55.33,-28.85,-17.3
+Net margin (%),-129.22,-112.31,-104.51,-84.69,-63.67,-50.42,-80.22
+Free cash flow margin (%),-52.59,-26.62,-40.03,-44.12,-40.19,-24.01,18.73
+Return on capital (%),,,-70.55,-85.45,-69.4,-41.86,-70.05
+Return on capital employed (%),,,-26.14,-26.62,-28.39,-21.97,-16.28
+Return on equity (%),,,-36.29,-26.46,-25.68,-25.68,-78.4
+Return on assets (%),,,-22.47,-20.58,-19.32,-18.45,-27.75
+Revenue growth (%),,18.21,15.94,45.76,15.39,10.72,25.94
+Net income growth (%),,,,,,,
+Diluted EPS growth (%),,,,,,,
+Free cash flow growth (%),,,,,,,
+Net debt to EBITDA (x),,,,,,,
+Debt to equity (x),,0.86,0.0,0.0,0.0,0.0,2.37
+Interest coverage (x),-15.33,-9.26,-14.6,,,-139.57,-27.67
+Current ratio (x),,1.15,4.18,3.89,2.71,2.13,1.65
+Quick ratio (x),,1.15,4.18,3.89,2.71,2.13,1.64
+Free cash flow (US$m),-50.35,-30.12,-52.52,-84.37,-88.7,-58.67,57.65
+Capital expenditure to revenue (%),17.41,23.06,7.86,5.46,17.21,18.13,24.93
+Buybacks plus dividends (US$m),0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Shareholder returns to free cash flow (%),,,,,,,0.0
+Stock-based compensation to revenue (%),5.3,12.38,31.98,39.5,25.89,19.84,17.87
+Change in diluted shares (%),,3.15,80.06,235.54,4.66,4.48,5.37
+Piotroski F-score (score),,,,3.0,4.0,4.0,3.0
+Piotroski tests run (score),,,,9,9,9,9
+Altman Z'' (score),,-6.04,3.15,0.87,-1.5,-3.35,-2.72
+Accruals ratio (%),,,-15.55,-11.18,-12.35,-16.29,-42.85

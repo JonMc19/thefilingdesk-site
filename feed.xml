@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>The Filing Desk</title>
+  <subtitle>Company results, read from the SEC filings</subtitle>
+  <link href="https://thefilingdesk.net/"/>
+  <link rel="self" href="https://thefilingdesk.net/feed.xml"/>
+  <id>https://thefilingdesk.net/</id>
+  <updated>2026-10-30T00:00:00Z</updated>
+  <author><name>Jon Mc Gowan</name></author>
+  <entry>
+    <title>Netflix&#x27;s operating margin rises to 29.5% as revenue grows 15.9% to $45.2 billion</title>
+    <link href="https://thefilingdesk.net/reports/netflix-fy2025/"/>
+    <id>https://thefilingdesk.net/reports/netflix-fy2025/</id>
+    <published>2026-10-30T00:00:00Z</published>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <summary>Revenue grew 15.9% to $45.2 billion and operating margin widened to 29.5%. Free cash flow rose 36.7% to $9.5 billion, and buybacks took 96% of it.</summary>
+  </entry>
+  <entry>
+    <title>Reddit revenue rose 53% to $895 million in Q3 as operating margin widened to 29.3%</title>
+    <link href="https://thefilingdesk.net/reports/reddit-q3-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/reddit-q3-fy2026/</id>
+    <published>2026-10-30T00:00:00Z</published>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <summary>Revenue grew 53.0% to $895 million and operating margin reached 29.3%. Net income rose 73.6% to $283 million and free cash flow nearly doubled to $363 million.</summary>
+  </entry>
+  <entry>
+    <title>Sandisk&#x27;s sales rose 378% to $11 billion in a quarter. Its shares fell 13.5% anyway</title>
+    <link href="https://thefilingdesk.net/weekly/special-2026-10-30-sandisk-earnings/"/>
+    <id>https://thefilingdesk.net/weekly/special-2026-10-30-sandisk-earnings/</id>
+    <published>2026-10-30T00:00:00Z</published>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <summary>A record quarter, an outlook above forecasts and an eight-for-one stock split. On the first trading day after the results, the shares fell 13.5%. Here is what the filings show and what the market focused on.</summary>
+  </entry>
+  <entry>
+    <title>Reddit&#x27;s sales rose 53%, but Google is sending it fewer visitors, and its shares fell 29.2%</title>
+    <link href="https://thefilingdesk.net/weekly/special-2026-10-30-reddit-earnings/"/>
+    <id>https://thefilingdesk.net/weekly/special-2026-10-30-reddit-earnings/</id>
+    <published>2026-10-30T00:00:00Z</published>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <summary>Reddit had one of its best quarters. Then its chief executive said search traffic was dropping by more than 1 million referrals a week, and the shares fell 29.2% on Friday.</summary>
+  </entry>
+  <entry>
+    <title>Intel&#x27;s shares fell 28.6% after it warned a memory shortage will keep shrinking PC sales</title>
+    <link href="https://thefilingdesk.net/weekly/special-2026-10-30-intel-earnings/"/>
+    <id>https://thefilingdesk.net/weekly/special-2026-10-30-intel-earnings/</id>
+    <published>2026-10-30T00:00:00Z</published>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <summary>Intel beat its own forecast for the quarter. Then it said a memory shortage would keep PC sales falling into 2027, and on Friday its shares fell 28.6%.</summary>
+  </entry>
+  <entry>
+    <title>AMD&#x27;s shares fell 10.88% after Intel&#x27;s PC warning. What AMD&#x27;s own filings show before it reports</title>
+    <link href="https://thefilingdesk.net/weekly/special-2026-10-30-amd-shares/"/>
+    <id>https://thefilingdesk.net/weekly/special-2026-10-30-amd-shares/</id>
+    <published>2026-10-30T00:00:00Z</published>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <summary>Intel said it sees the PC slowdown lasting at least through the first half of next year, and AMD&#x27;s shares fell 10.88% on Friday, news reports said. AMD reports on November 3; its last 10-Q shows how much of its business rides on PCs.</summary>
+  </entry>
+  <entry>
+    <title>Amazon spent $77.3 billion on AI in a quarter, and its free cash flow is $42.4 billion in the red</title>
+    <link href="https://thefilingdesk.net/weekly/special-2026-10-30-amazon-earnings/"/>
+    <id>https://thefilingdesk.net/weekly/special-2026-10-30-amazon-earnings/</id>
+    <published>2026-10-30T00:00:00Z</published>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <summary>AWS grew 39% and Amazon says it will grow faster still. But the cash its business makes no longer covers what it builds, so it is borrowing to pay.</summary>
+  </entry>
+  <entry>
+    <title>Alphabet revenue rose 25% to $127.6 billion while net income fell 24%</title>
+    <link href="https://thefilingdesk.net/reports/alphabet-q3-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/alphabet-q3-fy2026/</id>
+    <published>2026-10-29T00:00:00Z</published>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <summary>Revenue rose 24.7% to $127.6 billion and operating income rose 29.9%, but net income fell 24.3% after an investment loss. Capital spending of $51.4 billion left free cash flow negative.</summary>
+  </entry>
+  <entry>
+    <title>Microsoft revenue rose 19% to $92.3 billion as capital spending doubled to $39.4 billion</title>
+    <link href="https://thefilingdesk.net/reports/microsoft-q1-fy2027/"/>
+    <id>https://thefilingdesk.net/reports/microsoft-q1-fy2027/</id>
+    <published>2026-10-29T00:00:00Z</published>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <summary>Revenue grew 18.8% to $92.3 billion and net income 32.0%, helped by a swing in OpenAI results. Capital spending more than doubled to $39.4 billion, so free cash flow fell 27.4% to $18.6 billion.</summary>
+  </entry>
+  <entry>
+    <title>ServiceNow revenue rose 20.5%; net income fell 45% in its first full quarter with Armis</title>
+    <link href="https://thefilingdesk.net/reports/servicenow-q3-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/servicenow-q3-fy2026/</id>
+    <published>2026-10-29T00:00:00Z</published>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <summary>Revenue grew 20.5% to $4.1 billion, but net income fell 44.8% to $277 million as amortization from its acquisitions and interest on new debt rose. Debt was $7.5 billion at September 30, against $1.5 billion a year earlier.</summary>
+  </entry>
+  <entry>
+    <title>Alphabet spent $51.4 billion on AI infrastructure in a quarter, and sold shares and bonds to pay</title>
+    <link href="https://thefilingdesk.net/weekly/special-2026-10-29-alphabet-earnings/"/>
+    <id>https://thefilingdesk.net/weekly/special-2026-10-29-alphabet-earnings/</id>
+    <published>2026-10-29T00:00:00Z</published>
+    <updated>2026-10-29T00:00:00Z</updated>
+    <summary>Google Cloud more than doubled its revenue. But Alphabet now spends more than its business brings in, and it is raising money from investors rather than buying back their shares.</summary>
+  </entry>
+  <entry>
+    <title>PayPal revenue rose 2% to $8.6 billion in the third quarter as net income fell 14%</title>
+    <link href="https://thefilingdesk.net/reports/paypal-q3-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/paypal-q3-fy2026/</id>
+    <published>2026-10-28T00:00:00Z</published>
+    <updated>2026-10-28T00:00:00Z</updated>
+    <summary>Revenue grew 2.0% to $8.6 billion, but operating income fell 7.8% and net income fell 14.0%. Free cash flow was $1.4 billion, and buybacks cut the diluted share count by 10.6%.</summary>
+  </entry>
+  <entry>
+    <title>Boeing revenue rose 3.9% to $24.2 billion in the third quarter, with an operating profit</title>
+    <link href="https://thefilingdesk.net/reports/boeing-q3-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/boeing-q3-fy2026/</id>
+    <published>2026-10-27T00:00:00Z</published>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <summary>Revenue rose 3.9% to $24.2 billion and Boeing made an operating profit of $354 million, against a loss of $4.8 billion a year earlier. Free cash flow was $464 million.</summary>
+  </entry>
+  <entry>
+    <title>SoFi earned a record $241 million. The loan-loss number its critics watch fell too</title>
+    <link href="https://thefilingdesk.net/weekly/special-2026-10-27-sofi-earnings/"/>
+    <id>https://thefilingdesk.net/weekly/special-2026-10-27-sofi-earnings/</id>
+    <published>2026-10-27T00:00:00Z</published>
+    <updated>2026-10-27T00:00:00Z</updated>
+    <summary>Seven months after a short seller said SoFi&#x27;s loans look safer than they are, its third quarter set records, and both of its loss measures came down. The hardest question is still open.</summary>
+  </entry>
+  <entry>
+    <title>IBM revenue rose 4.7% to $17.1 billion in the third quarter; net income rose 25.6%</title>
+    <link href="https://thefilingdesk.net/reports/ibm-q3-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/ibm-q3-fy2026/</id>
+    <published>2026-10-26T00:00:00Z</published>
+    <updated>2026-10-26T00:00:00Z</updated>
+    <summary>Revenue rose 4.7% to $17.1 billion and net income rose 25.6% to $2.2 billion, helped by a lower tax charge. Free cash flow was $3.7 billion, up 30.6%.</summary>
+  </entry>
+  <entry>
+    <title>Meta&#x27;s AI bill: cash flowing out, a new stock with no vote, and the Nasdaq&#x27;s worst day since June</title>
+    <link href="https://thefilingdesk.net/weekly/2026-w43/"/>
+    <id>https://thefilingdesk.net/weekly/2026-w43/</id>
+    <published>2026-10-25T00:00:00Z</published>
+    <updated>2026-10-25T00:00:00Z</updated>
+    <summary>Meta spent more on data centers than its business brought in, then created a class of shares that can raise money without costing Mark Zuckerberg control. Tesla went the other way. Investors didn&#x27;t like either.</summary>
+  </entry>
+  <entry>
+    <title>Accenture raised buybacks 63% and paid out 99% of its free cash flow</title>
+    <link href="https://thefilingdesk.net/reports/accenture-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/accenture-fy2026/</id>
+    <published>2026-10-23T00:00:00Z</published>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <summary>Revenue grew 6.5% to $74.2 billion and operating margin rose to 15.4%. Accenture spent $11.5 billion on buybacks and dividends, 99% of its free cash flow, and ended the year with $10.1 billion of debt.</summary>
+  </entry>
+  <entry>
+    <title>United Airlines revenue grew in the third quarter, but higher fuel costs cut its margin</title>
+    <link href="https://thefilingdesk.net/reports/united-airlines-q3-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/united-airlines-q3-fy2026/</id>
+    <published>2026-10-23T00:00:00Z</published>
+    <updated>2026-10-23T00:00:00Z</updated>
+    <summary>Revenue grew 17.4% to $17.9 billion and net income rose 8.4% to $1.0 billion. Operating margin fell to 8.1% and operating cash flow dropped to $465 million.</summary>
+  </entry>
+  <entry>
+    <title>Meta revenue rose 26% to $64.6 billion, but a legal charge cut operating income 37%</title>
+    <link href="https://thefilingdesk.net/reports/meta-platforms-q3-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/meta-platforms-q3-fy2026/</id>
+    <published>2026-10-22T00:00:00Z</published>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <summary>Revenue rose 26.1% to $64.6 billion, while operating income fell 36.8% to $13.0 billion after a $9.89 billion legal charge. Capital spending of $33.9 billion left free cash flow negative.</summary>
+  </entry>
+  <entry>
+    <title>Tesla&#x27;s revenue held flat in the third quarter as operating income fell by more than half</title>
+    <link href="https://thefilingdesk.net/reports/tesla-q3-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/tesla-q3-fy2026/</id>
+    <published>2026-10-22T00:00:00Z</published>
+    <updated>2026-10-22T00:00:00Z</updated>
+    <summary>Revenue was $28.0 billion, down 0.2% from a year earlier. Operating income fell 55.8% to $718 million as research spending rose 69.4%, and capital spending more than doubled to $4.7 billion.</summary>
+  </entry>
+</feed>

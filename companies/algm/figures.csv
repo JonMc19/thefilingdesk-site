@@ -1,0 +1,59 @@
+"ALLEGRO MICROSYSTEMS, INC. (ALGM), US$ millions unless stated; fiscal years as labelled by the company; source: SEC EDGAR XBRL (Form 10-K), CIK 0000866291"
+Item,FY2020,FY2021,FY2022,FY2023,FY2024,FY2025,FY2026
+Fiscal year end,2020-03-27,2021-03-26,2022-03-25,2023-03-31,2024-03-29,2025-03-28,2026-03-27
+Revenue,650.1,591.2,768.7,973.7,1049.4,725.0,890.1
+Gross profit,261.3,278.9,407.5,546.1,574.5,321.5,412.0
+Research and development,102.1,108.6,121.9,150.8,176.6,179.6,205.8
+Operating income,52.8,12.2,136.7,203.3,196.2,-19.8,18.5
+Interest expense,2.4,3.8,2.5,2.3,10.8,30.4,22.1
+Pretax income,53.3,-1.5,140.7,211.3,194.8,-85.7,-14.9
+Income tax,16.2,-19.6,21.2,23.9,41.9,-12.9,-0.2
+Net income,37.0,18.0,119.4,187.4,152.7,-73.0,-14.9
+Diluted EPS,3.7,0.1,0.62,0.97,0.78,-0.39,-0.08
+Diluted shares,10.0,176.4,191.8,193.7,194.7,187.7,185.0
+Depreciation and amortization,64.0,48.3,48.5,50.8,71.4,64.5,67.6
+Cash from operations,81.4,120.6,156.1,193.2,181.7,61.9,163.1
+Capital expenditure,45.6,40.7,69.9,79.8,124.8,40.0,38.2
+Share buybacks,0.0,0.0,0.0,0.0,0.0,853.9,0.0
+Dividends paid,0.0,400.0,0.0,0.0,0.0,0.0,0.0
+Acquisitions,0.0,11.6,14.5,19.9,408.1,0.3,0.0
+Stock-based compensation,1.4,49.9,33.5,61.8,42.5,41.9,47.9
+Cash and short-term investments,214.5,197.2,282.4,351.6,212.1,121.3,168.8
+Total debt,43.0,25.0,25.0,25.0,245.1,338.9,280.9
+Finance lease liabilities,0.0,0.0,0.0,0.0,8.4,7.2,6.4
+debt_and_leases,43.0,25.0,25.0,25.0,253.5,346.1,287.3
+Current assets,448.2,430.6,511.7,665.8,572.2,483.0,503.6
+Current liabilities,150.1,116.7,104.2,165.3,117.9,112.3,145.9
+Inventory,127.2,87.5,86.2,151.3,162.3,183.9,181.8
+Total assets,817.8,747.7,892.6,1181.2,1530.6,1421.0,1416.2
+Total liabilities,183.7,160.8,157.3,214.3,398.9,489.9,459.7
+Shareholders' equity,633.2,585.8,734.2,965.6,1130.4,929.6,954.7
+"Property and equipment, net",332.3,192.4,210.0,263.1,321.2,302.9,308.3
+Gross margin (%),40.19,47.18,53.01,56.09,54.75,44.35,46.28
+Operating margin (%),8.13,2.06,17.78,20.88,18.7,-2.73,2.08
+EBITDA margin (%),17.98,10.23,24.09,26.1,25.5,6.17,9.67
+Net margin (%),5.69,3.04,15.53,19.24,14.55,-10.07,-1.67
+Free cash flow margin (%),5.51,13.51,11.21,11.65,5.43,3.03,14.03
+Return on capital (%),,2.19,26.01,32.26,16.99,-1.34,1.31
+Return on capital employed (%),,1.87,19.25,22.54,16.16,-1.46,1.43
+Return on equity (%),,2.95,18.09,22.04,14.57,-7.09,-1.58
+Return on assets (%),,2.29,14.56,18.07,11.26,-4.95,-1.05
+Revenue growth (%),,-9.06,30.02,26.67,7.78,-30.91,22.77
+Net income growth (%),,-51.44,565.11,56.91,-18.5,-147.81,
+Diluted EPS growth (%),,-97.3,520.0,56.45,-19.59,-150.0,
+Free cash flow growth (%),,123.15,7.87,31.61,-49.8,-61.44,468.78
+Net debt to EBITDA (x),-1.47,-2.85,-1.39,-1.29,0.15,5.03,1.38
+Debt to equity (x),0.07,0.04,0.03,0.03,0.22,0.37,0.3
+Interest coverage (x),21.58,3.18,54.68,87.03,18.23,-0.65,0.84
+Current ratio (x),2.99,3.69,4.91,4.03,4.85,4.3,3.45
+Quick ratio (x),2.14,2.94,4.08,3.11,3.48,2.66,2.21
+Free cash flow (US$m),35.8,79.9,86.19,113.43,56.94,21.96,124.89
+Capital expenditure to revenue (%),7.02,6.88,9.1,8.19,11.89,5.51,4.29
+Buybacks plus dividends (US$m),0.0,400.0,0.0,0.0,0.0,853.92,0.0
+Shareholder returns to free cash flow (%),0.0,500.64,0.0,0.0,0.0,3888.88,0.0
+Stock-based compensation to revenue (%),0.22,8.44,4.36,6.35,4.05,5.77,5.38
+Change in diluted shares (%),,1664.17,8.73,0.98,0.51,-3.58,-1.42
+Piotroski F-score (score),,,8.0,7.0,4.0,3.0,7.0
+Piotroski tests run (score),,,9,9,9,9,9
+Altman Z'' (score),7.22,6.71,9.38,9.53,6.77,3.49,3.77
+Accruals ratio (%),,-13.11,-4.48,-0.56,-2.14,-9.14,-12.55
