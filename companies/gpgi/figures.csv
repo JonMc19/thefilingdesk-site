@@ -1,0 +1,60 @@
+"GPGI, Inc. (GPGI), US$ millions unless stated; fiscal years as labelled by the company; source: SEC EDGAR XBRL (Form 10-K), CIK 0001823144"
+Item,FY2019,FY2020,FY2021,FY2022,FY2023,FY2024,FY2025
+Fiscal year end,2019-12-31,2020-12-31,2021-12-31,2022-12-31,2023-12-31,2024-12-31,2025-12-31
+Revenue,243.3,260.6,267.9,378.5,390.6,420.6,59.8
+Gross profit,127.9,132.6,144.8,219.6,209.1,219.2,28.7
+Research and development,,,2.7,6.7,6.8,7.4,1.3
+Operating income,86.9,84.0,81.4,114.9,119.1,107.6,-13.7
+Interest expense,5.5,6.1,11.9,21.4,27.5,20.2,1.7
+Pretax income,81.5,77.8,82.6,136.2,117.1,-81.0,-225.8
+Income tax,0.0,0.0,-0.9,4.4,4.6,2.2,39.0
+Net income,81.5,77.8,3.2,18.7,19.2,-53.7,-136.0
+Diluted EPS,,,0.12,1.13,0.96,-1.22,-1.23
+Diluted shares,,,94.6,32.6,35.3,44.0,110.5
+Depreciation and amortization,8.6,9.9,10.4,8.6,8.4,9.2,1.6
+Cash from operations,81.2,87.1,77.8,92.8,104.3,129.6,-22.9
+Capital expenditure,9.6,7.5,4.7,9.1,10.9,7.4,0.0
+Share buybacks,0.0,0.0,0.0,0.0,0.0,0.0,12.2
+Dividends paid,0.0,0.0,0.0,0.0,0.0,8.9,0.0
+Acquisitions,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Stock-based compensation,1.7,1.8,6.1,11.5,17.6,21.2,4.5
+Cash and short-term investments,26.7,13.4,21.9,13.6,41.2,77.5,114.6
+Total debt,,211.9,360.0,343.6,336.5,195.6,
+Finance lease liabilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+debt_and_leases,,211.9,360.0,343.6,336.5,195.6,
+Current assets,,53.5,78.3,97.1,139.4,173.9,120.1
+Current liabilities,,41.6,60.5,47.4,41.0,76.3,19.0
+Inventory,0.0,30.2,25.8,42.4,52.5,44.8,0.0
+Total assets,,81.4,131.4,162.9,201.0,473.9,517.3
+Total liabilities,,273.9,539.0,454.9,406.8,617.4,274.1
+Shareholders' equity,-55.5,-192.6,-1016.0,-892.2,-802.4,-143.4,243.1
+"Property and equipment, net",,27.9,22.2,22.7,25.2,23.4,0.0
+Gross margin (%),52.56,50.9,54.06,58.03,53.52,52.13,48.05
+Operating margin (%),35.73,32.22,30.39,30.36,30.49,25.59,-22.95
+EBITDA margin (%),39.27,36.02,34.28,32.62,32.63,27.77,-20.24
+Net margin (%),33.49,29.86,1.18,4.93,4.93,-12.77,-227.34
+Free cash flow margin (%),29.41,30.53,27.26,22.12,23.9,29.04,-38.25
+Return on capital (%),,,,,,,
+Return on capital employed (%),,,147.27,123.26,86.4,38.6,-3.07
+Return on equity (%),,,,,,,-272.84
+Return on assets (%),,,2.97,12.68,10.57,-15.92,-27.44
+Revenue growth (%),,7.11,2.83,41.25,3.21,7.67,-85.78
+Net income growth (%),,-4.49,-95.95,491.53,3.12,-379.22,
+Diluted EPS growth (%),,,,841.67,-15.04,-227.08,
+Free cash flow growth (%),,11.21,-8.2,14.65,11.51,30.82,-118.73
+Net debt to EBITDA (x),,2.11,3.68,2.67,2.32,1.01,
+Debt to equity (x),,,,,,,
+Interest coverage (x),15.94,13.67,6.83,5.37,4.33,5.33,-8.13
+Current ratio (x),,1.29,1.29,2.05,3.4,2.28,6.33
+Quick ratio (x),,0.56,0.87,1.16,2.12,1.69,6.33
+Free cash flow (US$m),71.54,79.56,73.03,83.73,93.37,122.14,-22.88
+Capital expenditure to revenue (%),3.96,2.88,1.77,2.39,2.8,1.76,0.0
+Buybacks plus dividends (US$m),0.0,0.0,0.0,0.0,0.0,8.92,12.25
+Shareholder returns to free cash flow (%),0.0,0.0,0.0,0.0,0.0,7.3,
+Stock-based compensation to revenue (%),0.69,0.71,2.28,3.03,4.5,5.05,7.47
+Change in diluted shares (%),,,,-65.58,8.47,24.64,151.11
+Piotroski F-score (score),,,,8.0,5.0,3.0,
+Piotroski tests run (score),,,,9,9,9,
+Altman Z'' (score),,-0.81,-22.45,-13.82,-8.61,-0.86,-0.81
+Accruals ratio (%),,,-70.17,-50.37,-46.75,-54.31,-22.83
+Rule of 40 (%),,37.64,30.08,63.37,27.11,36.71,-124.02

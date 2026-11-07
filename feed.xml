@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>The Filing Desk</title>
+  <subtitle>Company results, read from the SEC filings</subtitle>
+  <link href="https://thefilingdesk.net/"/>
+  <link rel="self" href="https://thefilingdesk.net/feed.xml"/>
+  <id>https://thefilingdesk.net/</id>
+  <updated>2026-11-06T00:00:00Z</updated>
+  <author><name>Jon Mc Gowan</name></author>
+  <entry>
+    <title>Apple&#x27;s revenue rose 15.1% to $478.8 billion as iPhone sales grew 21%</title>
+    <link href="https://thefilingdesk.net/reports/apple-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/apple-fy2026/</id>
+    <published>2026-11-06T00:00:00Z</published>
+    <updated>2026-11-06T00:00:00Z</updated>
+    <summary>Revenue grew 15.1% to $478.8 billion, its fastest growth since fiscal 2021, as iPhone sales rose 21%. Capital spending fell, and free cash flow rose 37.8% to $136.1 billion.</summary>
+  </entry>
+  <entry>
+    <title>McDonald&#x27;s operating income rose 7% to $3.6 billion in the third quarter on 1% more revenue</title>
+    <link href="https://thefilingdesk.net/reports/mcdonald-s-q3-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/mcdonald-s-q3-fy2026/</id>
+    <published>2026-11-06T00:00:00Z</published>
+    <updated>2026-11-06T00:00:00Z</updated>
+    <summary>Revenue rose 1.1% to $7.2 billion and operating margin widened 2.8 points to 50.2%. Free cash flow fell 11.2% to $2.1 billion.</summary>
+  </entry>
+  <entry>
+    <title>BlackRock revenue rose 19% to $7.8 billion in the third quarter as net inflows hit $205 billion</title>
+    <link href="https://thefilingdesk.net/reports/blackrock-q3-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/blackrock-q3-fy2026/</id>
+    <published>2026-11-05T00:00:00Z</published>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <summary>Revenue rose 19.1% to $7.8 billion and net income rose 25.4% to $1.7 billion. Operating margin held at 30.0%, and free cash flow nearly doubled to $2.6 billion.</summary>
+  </entry>
+  <entry>
+    <title>Celsius set a revenue record, but its namesake brand shrank 6% and Alani Nu passed it in US stores</title>
+    <link href="https://thefilingdesk.net/weekly/special-2026-11-05-celsius-earnings/"/>
+    <id>https://thefilingdesk.net/weekly/special-2026-11-05-celsius-earnings/</id>
+    <published>2026-11-05T00:00:00Z</published>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <summary>Revenue rose 16.8% to $847.2 million and beat forecasts. But retail sales of the Celsius brand fell 7.0%, gross margin fell to 46.8%, and the company named new brand bosses the same morning.</summary>
+  </entry>
+  <entry>
+    <title>AppLovin beat its own forecast by about $100 million as its ad models picked up again</title>
+    <link href="https://thefilingdesk.net/weekly/special-2026-11-05-applovin-earnings/"/>
+    <id>https://thefilingdesk.net/weekly/special-2026-11-05-applovin-earnings/</id>
+    <published>2026-11-05T00:00:00Z</published>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <summary>Revenue rose 55% to $2.18 billion, and the company forecast more growth than analysts expected. The shares jumped sharply on Thursday, news reports said, after a year in which they had lost more than half their value.</summary>
+  </entry>
+  <entry>
+    <title>AppLovin reports after the close today, with its shares down about two-thirds this year. What to watch</title>
+    <link href="https://thefilingdesk.net/weekly/special-2026-11-04-what-to-expect-applovin/"/>
+    <id>https://thefilingdesk.net/weekly/special-2026-11-04-what-to-expect-applovin/</id>
+    <published>2026-11-04T00:00:00Z</published>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <summary>The S&amp;P 500&#x27;s worst stock of 2026 is still growing fast. August&#x27;s revenue miss, a slip in its AI models and fears about AI have done the damage. Options prices imply a big move either way.</summary>
+  </entry>
+  <entry>
+    <title>Uber&#x27;s ride bookings rose 18% but ride revenue fell 2%: a change in Britain explains much of it</title>
+    <link href="https://thefilingdesk.net/weekly/special-2026-11-04-uber-earnings/"/>
+    <id>https://thefilingdesk.net/weekly/special-2026-11-04-uber-earnings/</id>
+    <published>2026-11-04T00:00:00Z</published>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <summary>Delivery and freight carried a quarter in which bookings grew 20%. An accounting change in the UK explains much of the drop in ride revenue, but Uber&#x27;s CEO says drivers abroad are also harder to find.</summary>
+  </entry>
+  <entry>
+    <title>Palantir revenue rose 95.9% to $2.3 billion in Q3 as operating margin widened</title>
+    <link href="https://thefilingdesk.net/reports/palantir-q3-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/palantir-q3-fy2026/</id>
+    <published>2026-11-03T00:00:00Z</published>
+    <updated>2026-11-03T00:00:00Z</updated>
+    <summary>Revenue grew 95.9% to $2.3 billion and operating margin reached 46.9%, from 33.3% a year earlier. Net income rose 137.0% to $1.1 billion.</summary>
+  </entry>
+  <entry>
+    <title>AMD reports today with its shares 29 percent below their record. Here&#x27;s what Wall Street expects</title>
+    <link href="https://thefilingdesk.net/weekly/special-2026-11-03-what-to-expect-amd/"/>
+    <id>https://thefilingdesk.net/weekly/special-2026-11-03-what-to-expect-amd/</id>
+    <published>2026-11-03T00:00:00Z</published>
+    <updated>2026-11-03T00:00:00Z</updated>
+    <summary>Analysts expect AMD&#x27;s biggest quarter yet. But the shares have fallen 7.52 percent and 10.88 percent in two days, chip stocks are in a rout, and options prices imply a big move either way.</summary>
+  </entry>
+  <entry>
+    <title>Shopify&#x27;s revenue rose 32%, but the sales it handled for merchants came in just under estimates</title>
+    <link href="https://thefilingdesk.net/weekly/special-2026-11-03-shopify-earnings/"/>
+    <id>https://thefilingdesk.net/weekly/special-2026-11-03-shopify-earnings/</id>
+    <published>2026-11-03T00:00:00Z</published>
+    <updated>2026-11-03T00:00:00Z</updated>
+    <summary>Profit and cash flow climbed too. But merchants&#x27; total sales and Shopify&#x27;s subscription revenue fell short of forecasts, and the shares fell 8.74% on Tuesday.</summary>
+  </entry>
+  <entry>
+    <title>Palantir&#x27;s sales rose 96% and US companies now pay it more than Washington, but new deals grew just 6%</title>
+    <link href="https://thefilingdesk.net/weekly/special-2026-11-03-palantir-earnings/"/>
+    <id>https://thefilingdesk.net/weekly/special-2026-11-03-palantir-earnings/</id>
+    <published>2026-11-03T00:00:00Z</published>
+    <updated>2026-11-03T00:00:00Z</updated>
+    <summary>For the first time, American businesses brought Palantir more revenue than the US government. The value of the contracts it signed barely grew, and its finance chief points to shorter deals.</summary>
+  </entry>
+  <entry>
+    <title>Apple&#x27;s sales rose 12% in John Ternus&#x27;s first report, but memory costs are squeezing its margins</title>
+    <link href="https://thefilingdesk.net/weekly/special-2026-11-03-apple-earnings/"/>
+    <id>https://thefilingdesk.net/weekly/special-2026-11-03-apple-earnings/</id>
+    <published>2026-11-03T00:00:00Z</published>
+    <updated>2026-11-03T00:00:00Z</updated>
+    <summary>A record September quarter capped Apple&#x27;s best year ever. Then its new chief executive called memory prices &quot;unprecedented,&quot; and Apple forecast a gross margin of 45% to 46% for the holidays.</summary>
+  </entry>
+  <entry>
+    <title>Amazon&#x27;s operating margin reached a high in the third quarter as capital spending more than doubled</title>
+    <link href="https://thefilingdesk.net/reports/amazon-q3-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/amazon-q3-fy2026/</id>
+    <published>2026-11-02T00:00:00Z</published>
+    <updated>2026-11-02T00:00:00Z</updated>
+    <summary>Sales rose 12.1% to $201.9 billion and operating margin reached 13.9%. Capital spending rose to $77.3 billion, so free cash flow was an outflow of $34.8 billion.</summary>
+  </entry>
+  <entry>
+    <title>Anthropic promised Google $114.5 billion and Amazon $110.0 billion. Then it filed to go public</title>
+    <link href="https://thefilingdesk.net/weekly/2026-w44/"/>
+    <id>https://thefilingdesk.net/weekly/2026-w44/</id>
+    <published>2026-11-01T00:00:00Z</published>
+    <updated>2026-11-01T00:00:00Z</updated>
+    <summary>The AI lab&#x27;s IPO filing landed in the week the Nasdaq ended its worst month since March 2025 and Alphabet&#x27;s shares fell 12.6%. It shows how much of Big Tech&#x27;s AI spending comes back around.</summary>
+  </entry>
+  <entry>
+    <title>Netflix&#x27;s operating margin rises to 29.5% as revenue grows 15.9% to $45.2 billion</title>
+    <link href="https://thefilingdesk.net/reports/netflix-fy2025/"/>
+    <id>https://thefilingdesk.net/reports/netflix-fy2025/</id>
+    <published>2026-10-30T00:00:00Z</published>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <summary>Revenue grew 15.9% to $45.2 billion and operating margin widened to 29.5%. Free cash flow rose 36.7% to $9.5 billion, and buybacks took 96% of it.</summary>
+  </entry>
+  <entry>
+    <title>Reddit revenue rose 53% to $895 million in Q3 as operating margin widened to 29.3%</title>
+    <link href="https://thefilingdesk.net/reports/reddit-q3-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/reddit-q3-fy2026/</id>
+    <published>2026-10-30T00:00:00Z</published>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <summary>Revenue grew 53.0% to $895 million and operating margin reached 29.3%. Net income rose 73.6% to $283 million and free cash flow nearly doubled to $363 million.</summary>
+  </entry>
+  <entry>
+    <title>Sandisk&#x27;s sales rose 378% to $11 billion in a quarter. Its shares fell 13.5% anyway</title>
+    <link href="https://thefilingdesk.net/weekly/special-2026-10-30-sandisk-earnings/"/>
+    <id>https://thefilingdesk.net/weekly/special-2026-10-30-sandisk-earnings/</id>
+    <published>2026-10-30T00:00:00Z</published>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <summary>A record quarter, an outlook above forecasts and an eight-for-one stock split. On the first trading day after the results, the shares fell 13.5%. Here is what the filings show and what the market focused on.</summary>
+  </entry>
+  <entry>
+    <title>Reddit&#x27;s sales rose 53%, but Google is sending it fewer visitors, and its shares fell 29.2%</title>
+    <link href="https://thefilingdesk.net/weekly/special-2026-10-30-reddit-earnings/"/>
+    <id>https://thefilingdesk.net/weekly/special-2026-10-30-reddit-earnings/</id>
+    <published>2026-10-30T00:00:00Z</published>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <summary>Reddit had one of its best quarters. Then its chief executive said search traffic was dropping by more than 1 million referrals a week, and the shares fell 29.2% on Friday.</summary>
+  </entry>
+  <entry>
+    <title>Intel&#x27;s shares fell 28.6% after it warned a memory shortage will keep shrinking PC sales</title>
+    <link href="https://thefilingdesk.net/weekly/special-2026-10-30-intel-earnings/"/>
+    <id>https://thefilingdesk.net/weekly/special-2026-10-30-intel-earnings/</id>
+    <published>2026-10-30T00:00:00Z</published>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <summary>Intel beat its own forecast for the quarter. Then it said a memory shortage would keep PC sales falling into 2027, and on Friday its shares fell 28.6%.</summary>
+  </entry>
+  <entry>
+    <title>AMD&#x27;s shares fell 10.88% after Intel&#x27;s PC warning. What AMD&#x27;s own filings show before it reports</title>
+    <link href="https://thefilingdesk.net/weekly/special-2026-10-30-amd-shares/"/>
+    <id>https://thefilingdesk.net/weekly/special-2026-10-30-amd-shares/</id>
+    <published>2026-10-30T00:00:00Z</published>
+    <updated>2026-10-30T00:00:00Z</updated>
+    <summary>Intel said it sees the PC slowdown lasting at least through the first half of next year, and AMD&#x27;s shares fell 10.88% on Friday, news reports said. AMD reports on November 3; its last 10-Q shows how much of its business rides on PCs.</summary>
+  </entry>
+</feed>
