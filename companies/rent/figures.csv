@@ -1,0 +1,60 @@
+"Rent the Runway, Inc. (RENT), US$ millions unless stated; fiscal years as labelled by the company; source: SEC EDGAR XBRL (Form 10-K), CIK 0001468327"
+Item,FY2019,FY2020,FY2021,FY2022,FY2023,FY2024,FY2025
+Fiscal year end,2020-01-31,2021-01-31,2022-01-31,2023-01-31,2024-01-31,2025-01-31,2026-01-31
+Revenue,256.9,157.5,203.3,296.4,298.2,306.2,329.8
+Gross profit,138.8,104.5,141.4,204.2,212.2,223.4,241.3
+Research and development,,,,,,,
+Operating income,-130.0,-130.5,-125.9,-103.6,-80.0,-47.5,-57.5
+Interest expense,1.5,3.7,10.2,19.8,9.6,0.0,0.0
+Pretax income,-154.1,-171.1,-212.1,-138.9,-113.0,-69.6,22.7
+Income tax,-0.2,0.0,-0.3,-0.2,0.2,0.3,0.1
+Net income,-153.9,-171.1,-211.8,-138.7,-113.2,-69.9,22.6
+Diluted EPS,-280.8,-307.2,-170.3,-43.17,-31.52,-17.62,1.88
+Diluted shares,0.5,0.6,1.2,3.2,3.6,4.0,12.0
+Depreciation and amortization,21.6,24.1,19.5,16.4,14.7,12.5,9.9
+Cash from operations,-37.6,-42.8,-42.3,-47.7,-15.7,12.9,3.5
+Capital expenditure,117.7,54.9,30.8,62.1,77.9,49.2,75.9
+Share buybacks,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Dividends paid,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Acquisitions,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Stock-based compensation,6.8,8.2,26.6,25.4,26.2,9.7,4.2
+Cash and short-term investments,31.4,95.3,247.6,154.5,84.0,77.4,50.4
+Total debt,,356.0,264.3,272.5,307.9,335.1,157.0
+Finance lease liabilities,0.0,0.0,0.7,1.1,1.0,0.6,0.8
+debt_and_leases,,356.0,265.0,273.6,308.9,335.7,157.8
+Current assets,,103.4,264.7,172.1,102.2,93.9,66.7
+Current liabilities,,40.6,68.8,60.0,48.1,47.4,63.2
+Inventory,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Total assets,,320.7,447.5,336.2,278.5,240.0,221.0
+Total liabilities,,459.3,376.4,371.5,400.8,422.5,257.1
+Shareholders' equity,-364.3,-526.7,71.1,-35.3,-122.3,-182.5,-36.1
+"Property and equipment, net",,64.7,57.2,44.7,35.7,28.3,24.0
+Gross margin (%),54.03,66.35,69.55,68.89,71.16,72.96,73.17
+Operating margin (%),-50.6,-82.86,-61.93,-34.95,-26.83,-15.51,-17.43
+EBITDA margin (%),-42.2,-67.56,-52.34,-29.42,-21.9,-11.43,-14.43
+Net margin (%),-59.91,-108.63,-104.18,-46.79,-37.96,-22.83,6.85
+Free cash flow margin (%),-60.45,-62.03,-35.96,-37.04,-31.39,-11.85,-21.95
+Return on capital (%),,,,-95.0,-67.81,-42.07,-77.83
+Return on capital employed (%),,,-38.22,-31.64,-31.58,-22.46,-32.82
+Return on equity (%),,,,,,,
+Return on assets (%),,,-55.14,-35.4,-36.83,-26.96,9.8
+Revenue growth (%),,-38.69,29.08,45.79,0.61,2.68,7.71
+Net income growth (%),,,,,,,
+Diluted EPS growth (%),,,,,,,
+Free cash flow growth (%),,,,,,,
+Net debt to EBITDA (x),,,,,,,
+Debt to equity (x),,,3.73,,,,
+Interest coverage (x),-86.67,-35.27,-12.34,-5.23,-8.33,,
+Current ratio (x),,2.55,3.85,2.87,2.12,1.98,1.06
+Quick ratio (x),,2.55,3.85,2.87,2.12,1.98,1.06
+Free cash flow (US$m),-155.3,-97.7,-73.1,-109.8,-93.6,-36.3,-72.4
+Capital expenditure to revenue (%),45.82,34.86,15.15,20.95,26.12,16.07,23.01
+Buybacks plus dividends (US$m),0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Shareholder returns to free cash flow (%),,,,,,,
+Stock-based compensation to revenue (%),2.65,5.21,13.08,8.57,8.79,3.17,1.27
+Change in diluted shares (%),,1.59,123.31,158.32,11.79,10.48,202.36
+Piotroski F-score (score),,,,3.0,3.0,5.0,6.0
+Piotroski tests run (score),,,,9,9,9,9
+Altman Z'' (score),,-8.65,-4.66,-9.1,-13.3,-15.77,-18.02
+Accruals ratio (%),,,-44.13,-23.22,-31.72,-31.94,8.29
+Rule of 40 (%),,-100.72,-6.88,8.75,-30.78,-9.17,-14.25

@@ -1,0 +1,60 @@
+"Latham Group, Inc. (SWIM), US$ millions unless stated; fiscal years as labelled by the company; source: SEC EDGAR XBRL (Form 10-K), CIK 0001833197"
+Item,FY2019,FY2020,FY2021,FY2022,FY2023,FY2024,FY2025
+Fiscal year end,2019-12-31,2020-12-31,2021-12-31,2022-12-31,2023-12-31,2024-12-31,2025-12-31
+Revenue,318.0,403.4,630.5,695.7,566.5,508.5,545.9
+Gross profit,98.2,142.8,204.2,216.5,152.9,153.7,182.1
+Research and development,,,,,,,
+Operating income,25.1,39.9,-36.2,30.0,16.1,18.3,30.6
+Interest expense,22.6,18.3,24.4,15.8,30.9,24.8,25.8
+Pretax income,2.8,22.8,-53.5,13.7,-10.1,-8.7,13.5
+Income tax,-4.7,6.8,8.8,19.4,-7.7,9.1,2.4
+Net income,7.5,16.0,-62.3,-5.7,-2.4,-17.9,11.1
+Diluted EPS,0.08,0.16,-0.56,-0.05,-0.02,-0.15,0.09
+Diluted shares,95.4,102.6,110.6,113.2,112.9,115.4,119.8
+Depreciation and amortization,21.7,25.4,32.2,38.2,40.8,44.4,51.4
+Cash from operations,35.7,63.2,33.7,32.3,116.4,61.3,63.4
+Capital expenditure,8.2,16.3,25.0,39.7,33.2,20.1,25.4
+Share buybacks,0.2,0.6,281.6,280.7,0.0,0.0,0.0
+Dividends paid,0.0,6.6,110.0,0.0,0.0,0.0,0.0
+Acquisitions,20.2,74.7,90.5,5.4,0.0,64.5,4.9
+Stock-based compensation,0.8,1.8,128.8,50.6,18.8,7.4,9.2
+Cash and short-term investments,56.7,59.3,44.0,32.6,102.8,56.4,71.0
+Total debt,,,280.4,312.9,301.2,281.5,279.8
+Finance lease liabilities,0.0,0.0,0.0,0.3,4.0,3.5,2.9
+debt_and_leases,,,280.4,313.2,305.2,285.0,282.8
+Current assets,,167.3,229.1,255.0,238.6,178.3,219.0
+Current liabilities,,93.9,115.2,86.9,86.2,71.0,79.1
+Inventory,0.0,64.8,109.6,165.2,97.1,77.1,74.9
+Total assets,,646.7,794.5,869.7,835.0,794.2,823.2
+Total liabilities,,365.1,440.8,486.9,435.8,407.0,417.4
+Shareholders' equity,193.8,281.6,353.6,382.8,399.2,387.2,405.9
+"Property and equipment, net",,47.4,63.5,98.2,113.0,112.8,118.8
+Gross margin (%),30.87,35.39,32.38,31.11,27.0,30.23,33.35
+Operating margin (%),7.9,9.89,-5.74,4.31,2.85,3.59,5.6
+EBITDA margin (%),14.71,16.18,-0.63,9.8,10.04,12.33,15.01
+Net margin (%),2.35,3.96,-9.89,-0.82,-0.42,-3.51,2.04
+Free cash flow margin (%),8.65,11.63,1.38,-1.06,14.68,8.1,6.97
+Return on capital (%),,,,2.39,2.01,2.37,4.09
+Return on capital employed (%),,,-5.87,4.1,2.11,2.48,4.17
+Return on equity (%),,,-19.63,-1.55,-0.61,-4.54,2.81
+Return on assets (%),,,-8.65,-0.68,-0.28,-2.19,1.38
+Revenue growth (%),,26.86,56.29,10.35,-18.58,-10.23,7.35
+Net income growth (%),,114.34,-490.09,,,,
+Diluted EPS growth (%),,100.0,-450.0,,,,
+Free cash flow growth (%),,70.59,-81.42,-184.62,,-50.48,-7.64
+Net debt to EBITDA (x),,,,4.11,3.56,3.64,2.58
+Debt to equity (x),,,0.79,0.82,0.76,0.74,0.7
+Interest coverage (x),1.11,2.19,-1.48,1.91,0.52,0.74,1.19
+Current ratio (x),,1.78,1.99,2.94,2.77,2.51,2.77
+Quick ratio (x),,1.09,1.04,1.03,1.64,1.43,1.82
+Free cash flow (US$m),27.49,46.9,8.71,-7.38,83.18,41.19,38.05
+Capital expenditure to revenue (%),2.57,4.03,3.96,5.7,5.86,3.96,4.65
+Buybacks plus dividends (US$m),0.2,7.21,391.67,280.7,0.0,0.0,0.0
+Shareholder returns to free cash flow (%),0.73,15.37,4494.22,,0.0,0.0,0.0
+Stock-based compensation to revenue (%),0.25,0.45,20.43,7.28,3.32,1.45,1.69
+Change in diluted shares (%),,7.55,7.84,2.35,-0.31,2.25,3.8
+Piotroski F-score (score),,,,5.0,5.0,4.0,7.0
+Piotroski tests run (score),,,,9,9,9,9
+Altman Z'' (score),,2.04,1.28,2.12,2.07,1.73,2.13
+Accruals ratio (%),,,-13.33,-4.57,-13.93,-9.72,-6.47
+Rule of 40 (%),,38.49,57.67,9.29,-3.89,-2.13,14.32

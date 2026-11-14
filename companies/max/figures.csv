@@ -1,0 +1,60 @@
+"MediaAlpha, Inc. (MAX), US$ millions unless stated; fiscal years as labelled by the company; source: SEC EDGAR XBRL (Form 10-K), CIK 0001818383"
+Item,FY2018,FY2019,FY2020,FY2021,FY2022,FY2023,FY2024,FY2025
+Fiscal year end,2018-12-31,2019-12-31,2020-12-31,2021-12-31,2022-12-31,2023-12-31,2024-12-31,2025-12-31
+Revenue,296.9,408.0,584.8,645.3,459.1,388.1,864.7,1113.6
+Gross profit,49.2,65.1,85.4,101.5,70.1,66.7,143.6,167.5
+Research and development,10.3,7.0,12.4,15.2,21.1,18.5,19.8,21.4
+Operating income,19.3,24.8,19.5,2.1,-35.4,-39.9,42.7,22.1
+Interest expense,1.2,7.0,7.9,7.8,9.2,15.3,14.4,11.2
+Pretax income,18.1,17.8,9.3,-9.5,30.5,-57.0,23.5,-111.1
+Income tax,,0.0,-1.3,-1.0,102.9,-0.5,1.4,-137.8
+Net income,18.1,17.8,-4.4,-5.3,-57.7,-40.4,16.6,25.6
+Diluted EPS,,,-0.14,-0.19,-1.37,-0.89,0.31,0.39
+Diluted shares,,,32.1,61.3,41.9,45.6,53.0,66.8
+Depreciation and amortization,0.2,0.3,0.3,3.4,6.1,7.3,6.7,3.3
+Cash from operations,22.6,22.1,51.4,28.6,28.3,20.2,45.9,65.6
+Capital expenditure,0.6,0.1,0.3,0.7,0.1,0.1,0.3,0.3
+Share buybacks,0.0,0.0,0.0,0.0,5.0,0.0,0.0,47.3
+Dividends paid,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Acquisitions,0.0,0.0,0.0,0.0,49.7,0.0,0.0,0.0
+Stock-based compensation,0.8,2.3,24.7,45.7,58.5,53.3,34.1,30.3
+Cash and short-term investments,5.7,10.0,23.6,50.6,14.5,17.3,43.3,46.9
+Total debt,,97.5,182.7,186.8,183.1,174.3,162.4,153.4
+Finance lease liabilities,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+debt_and_leases,,97.5,182.7,186.8,183.1,174.3,162.4,153.4
+Current assets,,67.5,127.8,137.1,80.4,74.6,189.9,174.4
+Current liabilities,,47.9,107.5,84.2,76.9,79.7,133.0,147.6
+Inventory,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Total assets,,105.4,210.3,289.8,170.1,153.9,262.4,383.8
+Total liabilities,,144.9,315.5,351.4,256.2,248.3,308.7,413.0
+Shareholders' equity,40.5,-113.6,-33.8,-4.3,-16.0,-10.3,2.4,4.2
+"Property and equipment, net",,0.8,0.8,,,,,
+Gross margin (%),16.58,15.95,14.6,15.73,15.26,17.19,16.6,15.05
+Operating margin (%),6.51,6.09,3.34,0.33,-7.71,-10.29,4.94,1.99
+EBITDA margin (%),6.57,6.16,3.39,0.85,-6.37,-8.41,5.71,2.28
+Net margin (%),6.1,4.37,-0.75,-0.82,-12.56,-10.41,1.92,2.3
+Free cash flow margin (%),7.42,5.39,8.74,4.33,6.14,5.19,5.28,5.86
+Return on capital (%),,,,2.64,-22.53,-43.49,59.33,23.26
+Return on capital employed (%),,,24.36,1.39,-23.69,-47.7,41.95,12.1
+Return on equity (%),,,,,,,,
+Return on assets (%),,,-2.77,-2.11,-25.08,-24.95,7.99,7.93
+Revenue growth (%),,37.42,43.34,10.34,-28.86,-15.45,122.78,28.78
+Net income growth (%),,-1.68,-124.5,,,,,54.09
+Diluted EPS growth (%),,,,,,,,25.81
+Free cash flow growth (%),,-0.1,132.37,-45.28,0.73,-28.46,126.3,43.05
+Net debt to EBITDA (x),,3.48,8.02,24.76,,,2.41,4.2
+Debt to equity (x),,,,,,,,
+Interest coverage (x),16.18,3.54,2.46,0.27,-3.83,-2.61,2.98,1.97
+Current ratio (x),,1.41,1.19,1.63,1.05,0.94,1.43,1.18
+Quick ratio (x),,1.41,1.19,1.63,1.05,0.94,1.43,1.18
+Free cash flow (US$m),22.02,22.0,51.11,27.97,28.18,20.16,45.62,65.26
+Capital expenditure to revenue (%),0.21,0.04,0.05,0.1,0.02,0.02,0.03,0.03
+Buybacks plus dividends (US$m),0.0,0.0,0.0,0.0,5.01,0.0,0.0,47.27
+Shareholder returns to free cash flow (%),0.0,0.0,0.0,0.0,17.77,0.0,0.0,72.43
+Stock-based compensation to revenue (%),0.28,0.57,4.23,7.08,12.74,13.74,3.94,2.72
+Change in diluted shares (%),,,,90.63,-31.53,8.65,16.39,25.91
+Piotroski F-score (score),,,,6.0,3.0,4.0,7.0,4.0
+Piotroski tests run (score),,,,9,9,9,9,9
+Altman Z'' (score),,-3.99,-5.58,-3.71,-10.86,-13.43,-3.92,-3.31
+Accruals ratio (%),,,-35.33,-13.55,-37.37,-37.44,-14.05,-12.37
+Rule of 40 (%),,42.81,52.08,14.67,-22.72,-10.26,128.05,34.64

@@ -1,0 +1,60 @@
+"Playboy, Inc. (PLBY), US$ millions unless stated; fiscal years as labelled by the company; source: SEC EDGAR XBRL (Form 10-K), CIK 0001803914"
+Item,FY2020,FY2021,FY2022,FY2023,FY2024,FY2025
+Fiscal year end,2020-12-31,2021-12-31,2022-12-31,2023-12-31,2024-12-31,2025-12-31
+Revenue,147.7,246.6,185.5,142.9,116.1,120.9
+Gross profit,73.3,129.8,102.6,88.2,74.4,85.9
+Research and development,,,,,,
+Operating income,13.6,-68.9,-296.1,-190.4,-50.8,-8.0
+Interest expense,13.5,13.3,17.7,23.3,23.7,8.2
+Pretax income,1.8,-80.5,-306.4,-200.2,-76.2,-13.9
+Income tax,7.1,-2.8,-55.7,-13.8,3.1,-1.2
+Net income,-5.3,-77.7,-277.7,-180.4,-79.4,-12.7
+Diluted EPS,-0.24,-2.04,-5.86,-2.53,-1.04,-0.13
+Diluted shares,22.2,38.1,47.4,71.3,76.0,100.3
+Depreciation and amortization,2.3,7.3,12.7,7.2,7.0,3.0
+Cash from operations,0.8,-36.7,-59.4,-43.3,-19.1,0.0
+Capital expenditure,0.9,17.5,7.4,3.5,2.3,1.0
+Share buybacks,0.0,0.0,0.0,1.0,0.0,0.0
+Dividends paid,0.0,0.0,0.0,0.0,0.0,0.0
+Acquisitions,0.0,255.5,0.0,0.0,0.0,0.0
+Stock-based compensation,3.0,58.4,20.5,9.6,7.3,4.7
+Cash and short-term investments,13.4,69.2,31.8,28.1,30.9,37.8
+Total debt,164.9,228.8,193.2,190.4,176.6,174.2
+Finance lease liabilities,0.0,0.0,0.0,0.0,0.0,0.0
+debt_and_leases,164.9,228.8,193.2,190.4,176.6,174.2
+Current assets,47.2,138.9,120.7,69.7,57.5,65.5
+Current liabilities,54.0,117.8,92.9,58.9,55.8,63.8
+Inventory,11.8,39.9,20.6,13.0,8.9,12.9
+Total assets,412.1,935.4,554.6,334.3,284.7,292.4
+Total liabilities,329.3,513.1,399.5,288.6,268.8,274.2
+Shareholders' equity,83.0,422.5,155.3,45.9,-7.7,18.4
+"Property and equipment, net",5.2,26.4,13.8,13.5,4.9,4.2
+Gross margin (%),49.63,52.65,55.29,61.68,64.02,70.99
+Operating margin (%),9.22,-27.92,-159.59,-133.17,-43.77,-6.64
+EBITDA margin (%),10.75,-24.97,-152.74,-128.14,-37.74,-4.13
+Net margin (%),-3.57,-31.5,-149.68,-126.21,-68.37,-10.48
+Free cash flow margin (%),-0.05,-22.0,-36.04,-32.77,-18.43,-0.83
+Return on capital (%),,-14.73,-52.06,-57.31,-23.21,-4.33
+Return on capital employed (%),,-11.71,-46.29,-51.66,-20.17,-3.51
+Return on equity (%),,-30.73,-96.13,-179.39,-416.11,
+Return on assets (%),,-11.53,-37.28,-40.6,-25.66,-4.39
+Revenue growth (%),,66.99,-24.76,-22.95,-18.76,4.13
+Net income growth (%),,,,,,
+Diluted EPS growth (%),,,,,,
+Free cash flow growth (%),,,,,,
+Net debt to EBITDA (x),9.55,,,,,
+Debt to equity (x),1.99,0.54,1.24,4.15,,9.48
+Interest coverage (x),1.01,-5.17,-16.71,-8.17,-2.15,-0.98
+Current ratio (x),0.87,1.18,1.3,1.18,1.03,1.03
+Quick ratio (x),0.66,0.84,1.08,0.96,0.87,0.82
+Free cash flow (US$m),-0.07,-54.25,-66.86,-46.84,-21.4,-1.01
+Capital expenditure to revenue (%),0.6,7.1,4.0,2.48,1.95,0.85
+Buybacks plus dividends (US$m),0.0,0.0,0.0,1.0,0.0,0.0
+Shareholder returns to free cash flow (%),,,,,,
+Stock-based compensation to revenue (%),2.02,23.7,11.07,6.71,6.3,3.9
+Change in diluted shares (%),,71.65,24.44,50.4,6.63,31.84
+Piotroski F-score (score),,,4.0,3.0,4.0,5.0
+Piotroski tests run (score),,,9,9,9,9
+Altman Z'' (score),-0.49,-0.02,-5.4,-9.44,-9.13,-7.96
+Accruals ratio (%),,-6.08,-29.3,-30.86,-19.47,-4.4
+Rule of 40 (%),,44.99,-60.79,-55.72,-37.19,3.3

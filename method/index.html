@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How we check every figure | The Filing Desk</title>
+<meta name="description" content="How The Filing Desk checks every figure against SEC filings before it is published, and what happens when a figure can&#x27;t be checked.">
+<link rel="canonical" href="https://thefilingdesk.net/method/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta name="color-scheme" content="light dark">
+<meta name="google-site-verification" content="WHJkGddMUSNiTsVDjDC8w9Yb_SrfJP3h5uKOD-LeO4g">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5600282011181052" crossorigin="anonymous"></script>
+<meta property="og:site_name" content="The Filing Desk">
+<meta property="og:title" content="How we check every figure | The Filing Desk">
+<meta property="og:description" content="How The Filing Desk checks every figure against SEC filings before it is published, and what happens when a figure can&#x27;t be checked.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://thefilingdesk.net/method/">
+<meta name="twitter:card" content="summary">
+<link rel="preload" href="/assets/fonts/plus-jakarta-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/newsreader-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/noto-serif-display-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/site.css?v=9cfd1a16">
+<link rel="alternate" type="application/atom+xml" title="The Filing Desk" href="/feed.xml">
+</head>
+<body class="k-text">
+<header class="topbar">
+  <div class="wrap topbar-in">
+    <a class="brand" href="/"><span class="mark" aria-hidden="true">FD</span><span class="brand-name">The Filing Desk</span></a>
+    <form class="search search-pill" role="search" action="/companies/" data-search><label class="vh" for="q-head">Search companies</label><input id="q-head" name="q" type="search" placeholder="Search companies" autocomplete="off" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="q-head-list"><ul id="q-head-list" class="search-list" role="listbox" hidden></ul></form>
+    <nav class="mast-nav" aria-label="Main"><a href="/stories/">Stories</a><a href="/companies/">Companies</a><a href="/projections/">Projections</a><a href="/screener/">Screener</a><a href="/insiders/">Insiders</a><a href="/about/" aria-current="page">About</a></nav>
+  </div>
+</header>
+<main>
+<div class="wrap plain">
+  <h1>How we check every figure</h1>
+  <p class="lede">The Filing Desk makes one promise: every figure on the site can be traced to a filing or another named source, and code has checked it before it is published. When a figure can't be checked, we leave it blank and say why. We never estimate one.</p>
+
+  <h2>Company pages</h2>
+  <ul>
+    <li>Figures come from the structured XBRL data that companies file with their 10-K and 10-Q reports, read from <a href="https://www.sec.gov/search-filings" rel="noopener">SEC EDGAR</a>. Each figure on a page maps to a named item in that data. Nobody types figures in.</li>
+    <li>When a company doesn't report an item, or reports it in a way that can't be compared with other years, the cell stays blank with a note, instead of an estimate.</li>
+    <li>Every page names its latest filing and its accession number, and offers all its figures as a CSV download.</li>
+    <li>Pages are refreshed within hours of a new 10-Q or 10-K, and every company is checked against the SEC's data each Monday. Before a change to how figures are calculated goes live, we rebuild every company page with the old method and the new one and review every difference.</li>
+  </ul>
+
+  <h2>Reports on company results</h2>
+  <ul>
+    <li>A report's figures come from a data file built from the company's SEC filing by our own code. Before publishing, we rebuild that file from the SEC's data, and it must match exactly.</li>
+    <li>Every dollar amount, percentage and ratio in a report is tagged with the calculation behind it. The check redoes each calculation and the result must match the figure shown, to the last digit. A word like "rose" or "fell" next to a figure must match its direction.</li>
+    <li>A figure the data can't produce must come with a quotation from an SEC document that contains it. The check fetches the document from sec.gov, and the quotation must appear in it word for word.</li>
+    <li>The headline and summary may only use figures already checked in the report.</li>
+  </ul>
+
+  <h2>Stories</h2>
+  <ul>
+    <li>Figures are checked the same way: recalculated from the companies' SEC data, our closing share prices or the story's saved sources.</li>
+    <li>Every quotation must appear in a saved source. Quotations from SEC documents must be found on sec.gov. Some news sites block automated checks; a source we couldn't read can't be the only support for any figure or quotation.</li>
+    <li>Links go only to this site, the story's sources and .gov sites.</li>
+  </ul>
+
+  <h2>"What the company does" and "What the company says to expect"</h2>
+  <ul>
+    <li>"What the company does" is summarized from the company's latest annual report. Every figure in it is tied to a quotation from that report, and each quotation must appear in the report on sec.gov. It is written in our words, without the company's own marketing language.</li>
+    <li>"What the company says to expect" quotes the company's latest earnings release word for word. The check confirms on sec.gov that it is the latest release and that every quotation is in it. It disappears 150 days after the release, so an old outlook never stays up.</li>
+  </ul>
+
+  <h2>No investment advice, also checked</h2>
+  <p>Reports, stories and company descriptions are scanned for recommendation and valuation language, such as price targets, ratings, "undervalued" or "you should buy". Anything that fails isn't published. Other people's views, such as analysts' expectations, appear only when we say whose view it is. See <a href="/about/">About</a> for what we do and don't publish.</p>
+
+  <h2>If a check fails</h2>
+  <p>Nothing is published until every check passes. A failed check stops the page, and it stays unpublished until the problem is fixed. The checks fail closed: when one can't confirm something, the page isn't published.</p>
+
+  <h2>Corrections</h2>
+  <p>Checks catch mismatches between our pages and their sources, not mistakes in the sources themselves. If you find a figure that doesn't match the filing, write to <a href="mailto:thefilingdesk.net@gmail.com">thefilingdesk.net@gmail.com</a>. We correct confirmed errors on the page, with a note saying what changed.</p>
+  <p class="byline">The Filing Desk is edited by Jon Mc Gowan.</p>
+</div>
+</main>
+<footer class="site-foot">
+  <div class="wrap">
+    <div><b>The Filing Desk</b> · Company results, read from the SEC filings, by Jon Mc Gowan.</div>
+    <div>Figures come from filings with the US Securities and Exchange Commission and from company releases. Information only, not investment advice. <a href="/about/">About</a> · <a href="/method/">How we check every figure</a> · <a href="/privacy/">Privacy</a> · <a href="https://x.com/TheFilingDesk" rel="noopener me">Follow us on X</a> · <a href="/feed.xml">RSS feed</a></div>
+  </div>
+</footer>
+<script src="/assets/search.js?v=ec2ece71"></script>
+<script>(function(){var q=location.search,s=null,off=false;try{if(/[?&]notrack\b/.test(q)){localStorage.setItem('fd-notrack','1');s='This browser will no longer be counted in the visitor statistics. Visit /?track to undo it.';}else if(/[?&]track\b/.test(q)){localStorage.removeItem('fd-notrack');s='This browser is counted in the visitor statistics again.';}off=!!localStorage.getItem('fd-notrack');}catch(e){}if(s){var n=document.createElement('p');n.className='notrack-note';n.setAttribute('role','status');n.textContent=s;document.body.prepend(n);setTimeout(function(){n.remove();},6000);}if(off)return;var b=document.createElement('script');b.defer=true;b.src='https://static.cloudflareinsights.com/beacon.min.js';b.setAttribute('data-cf-beacon','{"token": "c91a8c3feb754f34aed3f08ca909e8ad", "spa": false}');document.body.appendChild(b);})();</script>
+</body>
+</html>

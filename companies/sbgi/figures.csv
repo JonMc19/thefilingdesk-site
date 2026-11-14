@@ -1,0 +1,60 @@
+"Sinclair, Inc. (SBGI), US$ millions unless stated; fiscal years as labelled by the company; source: SEC EDGAR XBRL (Form 10-K), CIK 0001971213"
+Item,FY2021,FY2022,FY2023,FY2024,FY2025
+Fiscal year end,2021-12-31,2022-12-31,2023-12-31,2024-12-31,2025-12-31
+Revenue,6134.0,3928.0,3134.0,3548.0,3169.0
+Gross profit,,,,,
+Research and development,,,,,
+Operating income,95.0,3980.0,-331.0,551.0,173.0
+Interest expense,618.0,296.0,305.0,304.0,395.0
+Pretax income,-499.0,3614.0,-637.0,395.0,-153.0
+Income tax,-173.0,913.0,-358.0,76.0,-54.0
+Net income,-414.0,2652.0,-291.0,310.0,-112.0
+Diluted EPS,-5.51,37.54,-4.46,4.69,-1.61
+Diluted shares,75.0,70.7,65.1,66.1,69.1
+Depreciation and amortization,591.0,321.0,271.0,250.0,249.0
+Cash from operations,327.0,799.0,235.0,98.0,189.0
+Capital expenditure,80.0,105.0,92.0,84.0,74.0
+Share buybacks,61.0,120.0,153.0,0.0,0.0
+Dividends paid,60.0,70.0,65.0,66.0,69.0
+Acquisitions,10.0,0.0,0.0,0.0,29.0
+Stock-based compensation,60.0,50.0,45.0,51.0,51.0
+Cash and short-term investments,819.0,884.0,662.0,697.0,866.0
+Total debt,,4321.0,4148.0,4087.0,4350.0
+Finance lease liabilities,0.0,32.0,27.0,42.0,33.0
+debt_and_leases,,4321.0,4175.0,4129.0,4383.0
+Current assets,,1683.0,1475.0,1485.0,1700.0
+Current liabilities,,608.0,1103.0,605.0,703.0
+Inventory,0.0,0.0,0.0,0.0,0.0
+Total assets,,6704.0,6085.0,5885.0,5949.0
+Total liabilities,,5829.0,5864.0,5369.0,5579.0
+Shareholders' equity,-1706.0,748.0,285.0,583.0,443.0
+"Property and equipment, net",,728.0,715.0,705.0,655.0
+Gross margin (%),,,,,
+Operating margin (%),1.55,101.32,-10.56,15.53,5.46
+EBITDA margin (%),11.18,109.5,-1.91,22.58,13.32
+Net margin (%),-6.75,67.52,-9.29,8.74,-3.53
+Free cash flow margin (%),4.03,17.67,4.56,0.39,3.63
+Return on capital (%),,,-6.66,11.59,3.49
+Return on capital employed (%),,,-5.98,10.74,3.29
+Return on equity (%),,,-56.34,71.43,-21.83
+Return on assets (%),,,-4.55,5.18,-1.89
+Revenue growth (%),,-35.96,-20.21,13.21,-10.68
+Net income growth (%),,,-110.97,,-136.13
+Diluted EPS growth (%),,,-111.88,,-134.33
+Free cash flow growth (%),,180.97,-79.39,-90.21,721.43
+Net debt to EBITDA (x),,0.8,,4.28,8.33
+Debt to equity (x),,5.78,,7.08,9.89
+Interest coverage (x),0.15,13.45,-1.09,1.81,0.44
+Current ratio (x),,2.77,1.34,2.45,2.42
+Quick ratio (x),,2.77,1.34,2.45,2.42
+Free cash flow (US$m),247.0,694.0,143.0,14.0,115.0
+Capital expenditure to revenue (%),1.3,2.67,2.94,2.37,2.34
+Buybacks plus dividends (US$m),121.0,190.0,218.0,66.0,69.0
+Shareholder returns to free cash flow (%),48.99,27.38,152.45,471.43,60.0
+Stock-based compensation to revenue (%),0.98,1.27,1.44,1.44,1.61
+Change in diluted shares (%),,-5.85,-7.83,1.49,4.57
+Piotroski F-score (score),,,,5.0,2.0
+Piotroski tests run (score),,,,8,8
+Altman Z'' (score),,5.22,-0.05,1.72,1.27
+Accruals ratio (%),,,-8.23,3.54,-5.09
+Rule of 40 (%),,-18.3,-15.65,13.6,-7.05

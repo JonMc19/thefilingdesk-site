@@ -1,0 +1,60 @@
+"Keel Infrastructure Corp. (KEEL), US$ millions unless stated; fiscal years as labelled by the company; source: SEC EDGAR XBRL (Form 10-K), CIK 0001812477"
+Item,FY2020,FY2021,FY2022,FY2023,FY2024,FY2025
+Fiscal year end,2020-12-31,2021-12-31,2022-12-31,2023-12-31,2024-12-31,2025-12-31
+Revenue,34.7,169.5,142.4,120.4,133.3,229.3
+Gross profit,2.9,111.1,10.5,-23.7,-15.9,-18.9
+Research and development,,,,,,
+Operating income,-6.7,63.6,-284.0,-50.0,-28.0,-149.6
+Interest expense,9.4,0.0,0.1,0.2,0.4,8.6
+Pretax income,-16.1,42.6,-193.1,-40.1,-7.0,-208.4
+Income tax,0.2,20.5,-17.4,-0.2,0.3,0.1
+Net income,0.2,20.5,-175.6,-55.5,-28.4,-284.5
+Diluted EPS,-0.19,0.13,-0.85,-0.21,-0.07,-0.52
+Diluted shares,84.9,169.4,207.8,262.2,414.7,551.7
+Depreciation and amortization,11.5,24.5,72.4,84.8,149.7,122.6
+Cash from operations,7.2,-43.3,-122.4,-106.9,-141.7,-226.6
+Capital expenditure,,,153.1,48.4,286.9,100.3
+Share buybacks,0.0,0.0,0.0,0.0,0.0,0.0
+Dividends paid,0.0,0.0,0.0,0.0,0.0,0.0
+Acquisitions,0.0,23.0,0.0,0.0,0.0,48.1
+Stock-based compensation,2.2,22.6,21.8,10.9,12.7,15.0
+Cash and short-term investments,5.9,125.6,30.9,84.0,59.5,631.0
+Total debt,17.3,5.9,8.2,4.0,1.6,669.5
+Finance lease liabilities,0.0,0.0,0.0,0.0,2.4,2.2
+debt_and_leases,17.3,5.9,8.2,4.0,4.0,671.7
+Current assets,9.2,287.1,69.1,130.0,213.7,826.5
+Current liabilities,28.5,101.2,67.4,69.2,28.2,148.1
+Inventory,0.0,0.0,0.0,0.7,1.1,8.7
+Total assets,51.7,542.6,343.1,378.7,663.1,1296.3
+Total liabilities,36.3,120.0,87.7,84.0,52.0,736.0
+Shareholders' equity,15.4,359.0,246.5,325.4,611.1,560.4
+"Property and equipment, net",35.8,136.8,219.4,186.0,237.3,358.3
+Gross margin (%),8.28,65.56,7.38,-19.72,-11.94,-8.25
+Operating margin (%),-19.4,37.55,-199.41,-41.53,-21.02,-65.25
+EBITDA margin (%),13.7,51.99,-148.57,28.89,91.33,-11.76
+Net margin (%),0.5,12.1,-123.32,-46.11,-21.28,-124.11
+Free cash flow margin (%),,,-193.47,-129.01,-321.61,-142.58
+Return on capital (%),,24.82,-95.07,-17.65,-5.77,-20.49
+Return on capital employed (%),,27.39,-79.21,-17.09,-5.93,-16.78
+Return on equity (%),,10.95,-58.01,-19.41,-6.06,-48.58
+Return on assets (%),,6.9,-39.66,-15.38,-5.45,-29.04
+Revenue growth (%),,388.4,-15.97,-15.47,10.69,72.03
+Net income growth (%),,11822.67,-956.51,,,
+Diluted EPS growth (%),,,-753.85,,,
+Free cash flow growth (%),,,,,,
+Net debt to EBITDA (x),2.4,-1.36,,-2.3,-0.46,
+Debt to equity (x),1.12,0.02,0.03,0.01,0.01,1.2
+Interest coverage (x),-0.72,3349.47,-3054.0,-233.63,-78.25,-17.35
+Current ratio (x),0.32,2.84,1.02,1.88,7.59,5.58
+Quick ratio (x),0.32,2.84,1.02,1.87,7.55,5.52
+Free cash flow (US$m),,,-275.56,-155.32,-428.63,-326.89
+Capital expenditure to revenue (%),,,107.52,40.23,215.29,43.75
+Buybacks plus dividends (US$m),0.0,0.0,0.0,0.0,0.0,0.0
+Shareholder returns to free cash flow (%),,,,,,
+Stock-based compensation to revenue (%),6.34,13.33,15.3,9.07,9.51,6.54
+Change in diluted shares (%),,99.48,22.66,26.21,58.13,33.04
+Piotroski F-score (score),,,2.0,4.0,5.0,2.0
+Piotroski tests run (score),,,9,9,9,9
+Altman Z'' (score),-4.27,6.18,-4.35,1.27,12.22,1.92
+Accruals ratio (%),,21.48,-12.02,14.24,21.76,-5.91
+Rule of 40 (%),,,-209.44,-144.47,-310.92,-70.54

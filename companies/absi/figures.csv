@@ -1,0 +1,60 @@
+"ABSCI CORP (ABSI), US$ millions unless stated; fiscal years as labelled by the company; source: SEC EDGAR XBRL (Form 10-K), CIK 0001672688"
+Item,FY2020,FY2021,FY2022,FY2023,FY2024,FY2025
+Fiscal year end,2020-12-31,2021-12-31,2022-12-31,2023-12-31,2024-12-31,2025-12-31
+Revenue,4.8,4.8,5.7,5.7,4.5,2.8
+Gross profit,,,,,,
+Research and development,11.4,44.6,58.9,48.1,63.9,81.4
+Operating income,-13.3,-75.2,-106.8,-115.5,-108.9,-120.3
+Interest expense,0.6,3.4,1.0,1.0,0.6,0.2
+Pretax income,-14.4,-109.9,-105.4,-110.5,-103.0,-115.1
+Income tax,0.0,-8.9,-0.5,0.1,0.1,0.1
+Net income,-14.4,-101.0,-104.9,-110.6,-103.1,-115.2
+Diluted EPS,-3.19,-2.08,-1.15,-1.2,-0.94,-0.84
+Diluted shares,15.5,49.7,90.8,92.0,110.2,136.8
+Depreciation and amortization,1.1,6.7,13.0,14.0,13.4,11.7
+Cash from operations,-11.0,-60.6,-81.3,-64.6,-72.4,-92.9
+Capital expenditure,2.2,38.0,16.2,0.9,0.4,1.1
+Share buybacks,0.0,0.0,0.0,0.0,0.0,0.0
+Dividends paid,0.0,0.0,0.0,0.0,0.0,0.0
+Acquisitions,0.0,28.1,8.0,0.0,0.0,0.0
+Stock-based compensation,0.4,10.6,12.5,11.4,19.5,18.3
+Cash and short-term investments,69.9,252.6,60.0,72.4,112.4,144.3
+Total debt,5.0,3.5,10.9,7.9,4.0,0.9
+Finance lease liabilities,4.2,6.0,3.0,0.7,0.1,0.0
+debt_and_leases,9.3,9.5,14.0,8.6,4.1,0.9
+Current assets,73.2,273.1,186.9,120.6,133.8,149.6
+Current liabilities,10.1,33.9,30.3,29.6,28.7,22.8
+Inventory,0.0,0.0,0.0,0.0,0.0,0.0
+Total assets,88.6,426.2,321.0,217.3,213.6,216.3
+Total liabilities,21.6,60.1,46.6,41.1,34.5,26.8
+Shareholders' equity,-89.4,366.1,274.4,176.2,179.1,189.4
+"Property and equipment, net",8.9,52.1,52.7,41.3,29.2,20.9
+Gross margin (%),,,,,,
+Operating margin (%),-278.26,-1573.36,-1857.49,-2020.2,-2401.59,-4297.04
+EBITDA margin (%),-254.6,-1434.21,-1630.64,-1775.38,-2106.29,-3877.68
+Net margin (%),-300.27,-2111.25,-1825.37,-1933.65,-2274.06,-4113.68
+Free cash flow margin (%),-275.13,-2062.84,-1696.78,-1145.44,-1605.78,-3358.29
+Return on capital (%),,,-47.98,-53.54,-93.9,-162.75
+Return on capital employed (%),,-31.96,-31.26,-48.28,-58.43,-63.58
+Return on equity (%),,-72.98,-32.76,-49.08,-58.04,-62.5
+Return on assets (%),,-39.23,-28.08,-41.08,-47.86,-53.59
+Revenue growth (%),,0.04,20.18,-0.5,-20.71,-38.24
+Net income growth (%),,,,,,
+Diluted EPS growth (%),,,,,,
+Free cash flow growth (%),,,,,,
+Net debt to EBITDA (x),,,,,,
+Debt to equity (x),,0.03,0.05,0.05,0.02,0.0
+Interest coverage (x),-20.98,-21.92,-109.83,-114.37,-192.72,-575.68
+Current ratio (x),7.25,8.07,6.17,4.08,4.67,6.57
+Quick ratio (x),7.25,8.07,6.17,4.08,4.67,6.57
+Free cash flow (US$m),-13.15,-98.64,-97.51,-65.5,-72.81,-94.03
+Capital expenditure to revenue (%),45.63,795.63,281.45,15.04,8.91,39.54
+Buybacks plus dividends (US$m),0.0,0.0,0.0,0.0,0.0,0.0
+Shareholder returns to free cash flow (%),,,,,,
+Stock-based compensation to revenue (%),8.79,221.83,218.2,199.65,429.03,654.32
+Change in diluted shares (%),,220.65,82.84,1.3,19.79,24.07
+Piotroski F-score (score),,,2.0,2.0,4.0,3.0
+Piotroski tests run (score),,,8,8,8,8
+Altman Z'' (score),-4.0,7.43,4.14,-2.42,-2.52,-1.9
+Accruals ratio (%),,-15.68,-6.31,-17.06,-14.25,-10.35
+Rule of 40 (%),,-2062.8,-1676.6,-1145.94,-1626.49,-3396.53

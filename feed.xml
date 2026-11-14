@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>The Filing Desk</title>
+  <subtitle>Company results, read from the SEC filings</subtitle>
+  <link href="https://thefilingdesk.net/"/>
+  <link rel="self" href="https://thefilingdesk.net/feed.xml"/>
+  <id>https://thefilingdesk.net/</id>
+  <updated>2026-11-13T00:00:00Z</updated>
+  <author><name>Jon Mc Gowan</name></author>
+  <entry>
+    <title>Starbucks&#x27; net income rose 36.2% to $2.5 billion, helped by the sale of its China stores</title>
+    <link href="https://thefilingdesk.net/reports/starbucks-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/starbucks-fy2026/</id>
+    <published>2026-11-13T00:00:00Z</published>
+    <updated>2026-11-13T00:00:00Z</updated>
+    <summary>Revenue grew 2.0% to $37.9 billion and operating margin rose to 9.7%, as Starbucks sold control of its China stores. Capital spending fell 45.2%, so free cash flow rose 52.5% to $3.7 billion.</summary>
+  </entry>
+  <entry>
+    <title>Keurig Dr Pepper sales rose 71% to $7.3 billion in the third quarter as JDE Peet&#x27;s joined</title>
+    <link href="https://thefilingdesk.net/reports/keurig-dr-pepper-q3-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/keurig-dr-pepper-q3-fy2026/</id>
+    <published>2026-11-12T00:00:00Z</published>
+    <updated>2026-11-12T00:00:00Z</updated>
+    <summary>Net sales rose 70.6% to $7.3 billion after the JDE Peet&#x27;s acquisition, and net income attributable to KDP rose 33.2% to $882 million. Operating margin fell to 18.2% and free cash flow rose to $884 million.</summary>
+  </entry>
+  <entry>
+    <title>A second affair report puts Jensen Huang&#x27;s job in doubt as Nvidia&#x27;s board weighs his future</title>
+    <link href="https://thefilingdesk.net/weekly/special-2026-11-12-nvidia-huang-board/"/>
+    <id>https://thefilingdesk.net/weekly/special-2026-11-12-nvidia-huang-board/</id>
+    <published>2026-11-12T00:00:00Z</published>
+    <updated>2026-11-12T00:00:00Z</updated>
+    <summary>Days after Huang admitted an affair, The New York Times reported another, with an Nvidia executive who reports to him. The board met late Wednesday to decide whether he stays, and by Thursday morning it had announced nothing.</summary>
+  </entry>
+  <entry>
+    <title>Nebius&#x27;s revenue jumped 571% to $980.8 million, but it now sees 2026 at the low end and will spend more</title>
+    <link href="https://thefilingdesk.net/weekly/special-2026-11-12-nebius-results/"/>
+    <id>https://thefilingdesk.net/weekly/special-2026-11-12-nebius-results/</id>
+    <published>2026-11-12T00:00:00Z</published>
+    <updated>2026-11-12T00:00:00Z</updated>
+    <summary>The AI cloud company beat forecasts, helped by one-off revenue. Delays push some growth into 2027, and its spending plans rose far above what analysts expected. The shares fell before the open.</summary>
+  </entry>
+  <entry>
+    <title>Nebius shares jumped 15.44% on Wednesday. Its results come before Thursday&#x27;s open: what to watch</title>
+    <link href="https://thefilingdesk.net/weekly/special-2026-11-12-nebius-earnings/"/>
+    <id>https://thefilingdesk.net/weekly/special-2026-11-12-nebius-earnings/</id>
+    <published>2026-11-12T00:00:00Z</published>
+    <updated>2026-11-12T00:00:00Z</updated>
+    <summary>The AI cloud company reports before the market opens, after its best day in three months. It has promised a big year-end jump in revenue; analysts expect a quarter short of that pace.</summary>
+  </entry>
+  <entry>
+    <title>Lucid&#x27;s third-quarter revenue rose 4% to $350 million as its net loss narrowed</title>
+    <link href="https://thefilingdesk.net/reports/lucid-group-q3-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/lucid-group-q3-fy2026/</id>
+    <published>2026-11-11T00:00:00Z</published>
+    <updated>2026-11-11T00:00:00Z</updated>
+    <summary>Revenue rose 3.9% to $350 million and the net loss narrowed to $831 million from $978 million. Free cash outflow was $1.04 billion, down 29.5% from the second quarter.</summary>
+  </entry>
+  <entry>
+    <title>Take-Two revenue fell 15.6% to $1.50 billion in the September quarter</title>
+    <link href="https://thefilingdesk.net/reports/take-two-interactive-q2-fy2027/"/>
+    <id>https://thefilingdesk.net/reports/take-two-interactive-q2-fy2027/</id>
+    <published>2026-11-10T00:00:00Z</published>
+    <updated>2026-11-10T00:00:00Z</updated>
+    <summary>Revenue fell 15.6% to $1.50 billion and the net loss narrowed to $54 million. Free cash flow was negative $143 million, after capital spending of $138 million.</summary>
+  </entry>
+  <entry>
+    <title>Berkshire Hathaway revenue rose 11% to $105.6 billion as net income fell 28%</title>
+    <link href="https://thefilingdesk.net/reports/berkshire-hathaway-q3-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/berkshire-hathaway-q3-fy2026/</id>
+    <published>2026-11-09T00:00:00Z</published>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>Revenue rose 11.2% to $105.6 billion, while net income fell 28.2% to $22.1 billion. Berkshire bought back $9.3 billion of its shares in the quarter, after none a year earlier.</summary>
+  </entry>
+  <entry>
+    <title>Jensen Huang admits an affair as Nvidia&#x27;s board opens a spy inquiry. What its filings say is at stake</title>
+    <link href="https://thefilingdesk.net/weekly/special-2026-11-09-nvidia-huang-investigation/"/>
+    <id>https://thefilingdesk.net/weekly/special-2026-11-09-nvidia-huang-investigation/</id>
+    <published>2026-11-09T00:00:00Z</published>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>Nvidia&#x27;s chief told staff he was unfaithful to his wife, and the board is investigating reports that he was the target of Chinese intelligence. Nvidia&#x27;s own 10-K says it is highly dependent on its longstanding executive team.</summary>
+  </entry>
+  <entry>
+    <title>The AI boom was on the ballot 41 times and won once. Then $2 trillion left tech stocks</title>
+    <link href="https://thefilingdesk.net/weekly/2026-w45/"/>
+    <id>https://thefilingdesk.net/weekly/2026-w45/</id>
+    <published>2026-11-09T00:00:00Z</published>
+    <updated>2026-11-09T00:00:00Z</updated>
+    <summary>Voters rejected data centers almost everywhere they could on Tuesday. By Thursday the Nasdaq had its worst day since April 2025, while the companies building AI kept reporting strong demand.</summary>
+  </entry>
+  <entry>
+    <title>Apple&#x27;s revenue rose 15.1% to $478.8 billion as iPhone sales grew 21%</title>
+    <link href="https://thefilingdesk.net/reports/apple-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/apple-fy2026/</id>
+    <published>2026-11-06T00:00:00Z</published>
+    <updated>2026-11-06T00:00:00Z</updated>
+    <summary>Revenue grew 15.1% to $478.8 billion, its fastest growth since fiscal 2021, as iPhone sales rose 21%. Capital spending fell, and free cash flow rose 37.8% to $136.1 billion.</summary>
+  </entry>
+  <entry>
+    <title>McDonald&#x27;s operating income rose 7% to $3.6 billion in the third quarter on 1% more revenue</title>
+    <link href="https://thefilingdesk.net/reports/mcdonald-s-q3-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/mcdonald-s-q3-fy2026/</id>
+    <published>2026-11-06T00:00:00Z</published>
+    <updated>2026-11-06T00:00:00Z</updated>
+    <summary>Revenue rose 1.1% to $7.2 billion and operating margin widened 2.8 points to 50.2%. Free cash flow fell 11.2% to $2.1 billion.</summary>
+  </entry>
+  <entry>
+    <title>BlackRock revenue rose 19% to $7.8 billion in the third quarter as net inflows hit $205 billion</title>
+    <link href="https://thefilingdesk.net/reports/blackrock-q3-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/blackrock-q3-fy2026/</id>
+    <published>2026-11-05T00:00:00Z</published>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <summary>Revenue rose 19.1% to $7.8 billion and net income rose 25.4% to $1.7 billion. Operating margin held at 30.0%, and free cash flow nearly doubled to $2.6 billion.</summary>
+  </entry>
+  <entry>
+    <title>Celsius set a revenue record, but its namesake brand shrank 6% and Alani Nu passed it in US stores</title>
+    <link href="https://thefilingdesk.net/weekly/special-2026-11-05-celsius-earnings/"/>
+    <id>https://thefilingdesk.net/weekly/special-2026-11-05-celsius-earnings/</id>
+    <published>2026-11-05T00:00:00Z</published>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <summary>Revenue rose 16.8% to $847.2 million and beat forecasts. But retail sales of the Celsius brand fell 7.0%, gross margin fell to 46.8%, and the company named new brand bosses the same morning.</summary>
+  </entry>
+  <entry>
+    <title>AppLovin beat its own forecast by about $100 million as its ad models picked up again</title>
+    <link href="https://thefilingdesk.net/weekly/special-2026-11-05-applovin-earnings/"/>
+    <id>https://thefilingdesk.net/weekly/special-2026-11-05-applovin-earnings/</id>
+    <published>2026-11-05T00:00:00Z</published>
+    <updated>2026-11-05T00:00:00Z</updated>
+    <summary>Revenue rose 55% to $2.18 billion, and the company forecast more growth than analysts expected. The shares jumped sharply on Thursday, news reports said, after a year in which they had lost more than half their value.</summary>
+  </entry>
+  <entry>
+    <title>AppLovin reports after the close today, with its shares down about two-thirds this year. What to watch</title>
+    <link href="https://thefilingdesk.net/weekly/special-2026-11-04-what-to-expect-applovin/"/>
+    <id>https://thefilingdesk.net/weekly/special-2026-11-04-what-to-expect-applovin/</id>
+    <published>2026-11-04T00:00:00Z</published>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <summary>The S&amp;P 500&#x27;s worst stock of 2026 is still growing fast. August&#x27;s revenue miss, a slip in its AI models and fears about AI have done the damage. Options prices imply a big move either way.</summary>
+  </entry>
+  <entry>
+    <title>Uber&#x27;s ride bookings rose 18% but ride revenue fell 2%: a change in Britain explains much of it</title>
+    <link href="https://thefilingdesk.net/weekly/special-2026-11-04-uber-earnings/"/>
+    <id>https://thefilingdesk.net/weekly/special-2026-11-04-uber-earnings/</id>
+    <published>2026-11-04T00:00:00Z</published>
+    <updated>2026-11-04T00:00:00Z</updated>
+    <summary>Delivery and freight carried a quarter in which bookings grew 20%. An accounting change in the UK explains much of the drop in ride revenue, but Uber&#x27;s CEO says drivers abroad are also harder to find.</summary>
+  </entry>
+  <entry>
+    <title>Palantir revenue rose 95.9% to $2.3 billion in Q3 as operating margin widened</title>
+    <link href="https://thefilingdesk.net/reports/palantir-q3-fy2026/"/>
+    <id>https://thefilingdesk.net/reports/palantir-q3-fy2026/</id>
+    <published>2026-11-03T00:00:00Z</published>
+    <updated>2026-11-03T00:00:00Z</updated>
+    <summary>Revenue grew 95.9% to $2.3 billion and operating margin reached 46.9%, from 33.3% a year earlier. Net income rose 137.0% to $1.1 billion.</summary>
+  </entry>
+  <entry>
+    <title>AMD reports today with its shares 29 percent below their record. Here&#x27;s what Wall Street expects</title>
+    <link href="https://thefilingdesk.net/weekly/special-2026-11-03-what-to-expect-amd/"/>
+    <id>https://thefilingdesk.net/weekly/special-2026-11-03-what-to-expect-amd/</id>
+    <published>2026-11-03T00:00:00Z</published>
+    <updated>2026-11-03T00:00:00Z</updated>
+    <summary>Analysts expect AMD&#x27;s biggest quarter yet. But the shares have fallen 7.52 percent and 10.88 percent in two days, chip stocks are in a rout, and options prices imply a big move either way.</summary>
+  </entry>
+  <entry>
+    <title>Shopify&#x27;s revenue rose 32%, but the sales it handled for merchants came in just under estimates</title>
+    <link href="https://thefilingdesk.net/weekly/special-2026-11-03-shopify-earnings/"/>
+    <id>https://thefilingdesk.net/weekly/special-2026-11-03-shopify-earnings/</id>
+    <published>2026-11-03T00:00:00Z</published>
+    <updated>2026-11-03T00:00:00Z</updated>
+    <summary>Profit and cash flow climbed too. But merchants&#x27; total sales and Shopify&#x27;s subscription revenue fell short of forecasts, and the shares fell 8.74% on Tuesday.</summary>
+  </entry>
+</feed>
